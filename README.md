@@ -1,10 +1,19 @@
-- 👋 Hi, I’m @RajaMuhammadAwais
-- 👀 I’m interested in cyber security 
-- 🌱 I’m currently learning python 
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me through Instagram 
+# 👋 Hi there! I'm **@RajaMuhammadAwais**
 
-<!---
-RajaMuhammadAwais/RajaMuhammadAwais is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🚀 Aspiring **DevOps Engineer** | 🛡️ **Cybersecurity Enthusiast** | 🐧 **Linux Administrator** | 🐍 **Python Learner**
+
+---
+
+## 🔍 What I'm exploring:
+- 🔐 Penetration testing & ethical hacking (because security matters)
+- 🧪 Python scripting for automation and tool building
+- ☁️ DevOps tools: Docker, GitHub Actions, Jenkins, and more
+- 🖥️ Linux system administration, bash scripting, and server hardening
+
+---
+
+## 🤝 Looking to collaborate on:
+- Infrastructure automation and CI/CD pipelines
+- Python-based tools for security or admin tasks
+- Linux system optimization, hardening, and scripting
+- Anything cool in DevOps or InfoSec 🔧
