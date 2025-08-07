@@ -1,10 +1,8 @@
-# 👋 Hi there! I'm **@RajaMuhammadAwais**
-
 # 👨‍💻 Raja Muhammad Awais Turk
 
 **DevOps Engineer | Red Team Enthusiast**  
-🔧 Python • Bash • AWS • Linux • Cloud Security • Infrastructure Automation  
-💣 Offensive Security | Ethical Hacking | Red Teaming | Pentesting
+🔧 Python • Bash • AWS • Linux • ELK • Grafana • Cloud Security • Infrastructure Automation  
+💣 Ethical Hacking | Red Teaming | Cyber Defense
 
 ---
 
@@ -22,7 +20,12 @@
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
+### 📊 Monitoring & Visualization
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/-ELK-005571?style=for-the-badge&logo=elastic&logoColor=white)
+
 ### ⚙️ DevOps & CI/CD
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
@@ -45,5 +48,4 @@
 
 ---
 
-> 💡 Always learning, always hacking — striving to bridge the gap between DevOps & offensive security.
-
+> 💡 Always learning, always hacking — striving to bridge the gap between DevOps, Observability & Offensive Security.
