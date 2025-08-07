@@ -1,8 +1,15 @@
 # 👨‍💻 Raja Muhammad Awais Turk
 
 **DevOps Engineer | Red Team Enthusiast**  
-🔧 Python • Bash • AWS • Linux • ELK • Grafana • Cloud Security • Infrastructure Automation  
-💣 Ethical Hacking | Red Teaming | Cyber Defense
+🔧 Python • Bash • AWS • Linux • Cloud Security • Infrastructure Automation  
+💣 Offensive Security | Ethical Hacking | Red Teaming | Pentesting  
+![Visitor Badge](https://komarev.com/ghpvc/?username=RajaMuhammadAwais&style=flat-square&color=blue)
+
+---
+
+## 🔴🛡️ Red Team x DevOps Fusion
+
+> 💡 Always learning, always hacking — striving to bridge the gap between DevOps & Offensive Security.
 
 ---
 
@@ -20,14 +27,17 @@
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
 
-### 📊 Monitoring & Visualization
-![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![ELK Stack](https://img.shields.io/badge/-ELK-005571?style=for-the-badge&logo=elastic&logoColor=white)
-
-### ⚙️ DevOps & CI/CD
+### ⚙️ DevOps, CI/CD & Version Control
+![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### 📊 Monitoring & Logging
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Logstash](https://img.shields.io/badge/-Logstash-000000?style=for-the-badge&logo=logstash&logoColor=white)
+![Kibana](https://img.shields.io/badge/-Kibana-E8478B?style=for-the-badge&logo=kibana&logoColor=white)
 
 ---
 
@@ -41,11 +51,14 @@
 
 ---
 
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&hide_title=true&include_all_commits=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=tokyonight)
+
+---
+
 ## 🌐 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://pk.linkedin.com/in/raja-muhammad-awais-turk-3b500a199)  
 [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RajaMuhammadAwais)
-
----
-
-> 💡 Always learning, always hacking — striving to bridge the gap between DevOps, Observability & Offensive Security.
