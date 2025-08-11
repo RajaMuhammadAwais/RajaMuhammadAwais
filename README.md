@@ -2,7 +2,7 @@
 
 **DevOps Engineer | Red Team Enthusiast**  
 🔧 Python • Bash • AWS • Linux • Cloud Security • Infrastructure Automation  
-💣 Offensive Security | Ethical Hacking | Red Teaming | Pentesting  
+💣 Offensive Security | Machine Learning | Red Teaming | Pentesting  
 ![Visitor Badge](https://komarev.com/ghpvc/?username=RajaMuhammadAwais&style=flat-square&color=blue)
 
 ---
