@@ -12,6 +12,43 @@
 > 💡 Always learning, always hacking — striving to bridge the gap between DevOps & Offensive Security.
 
 ---
+<h1 align="center"> 👋, I'm Raja Muhammad Awais</h1>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RajaMuhammadAwais&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/RajaMuhammadAwais?label=Followers&style=for-the-badge" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/RajaMuhammadAwais?affiliations=OWNER&style=for-the-badge" alt="Total Stars" />
+</p>
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
+</p>
+
+---
+
+### 🏆 Top Languages
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=radical" alt="Top Languages" />
+</p>
+
+---
+
+### 🔥 Contribution Streak
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=RajaMuhammadAwais&theme=radical&hide_border=true" alt="GitHub Streak" />
+</p>
+
+---
+
+### 📈 Contribution Activity
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
+</p>
+
+
 
 ## 🧰 Tech Stack & Tools
 
