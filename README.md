@@ -1,9 +1,13 @@
 # 👨‍💻 Raja Muhammad Awais Turk
 
-**DevOps Engineer | Red Team Enthusiast**  
-🔧 Python • Bash • AWS • Linux • Cloud Security • Infrastructure Automation  
-💣 Offensive Security | Machine Learning | Red Teaming | Pentesting  
+**DevOps Engineer | Cloud & Infrastructure Automation | AWS | Kubernetes | CI/CD**
+
+🔧 **Core Skills:** Python • Bash • AWS • Kubernetes • Docker • Terraform • Ansible • CI/CD Pipelines  
+☁️ **Focus Areas:** Cloud Infrastructure • Automation • Monitoring • Security Best Practices  
+📌 **Interests:** Red Teaming • Offensive Security • ML for Network Traffic Analysis  
+
 ![Visitor Badge](https://komarev.com/ghpvc/?username=RajaMuhammadAwais&style=flat-square&color=blue)
+
 
 ---
 
