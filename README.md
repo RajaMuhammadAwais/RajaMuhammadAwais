@@ -8,6 +8,10 @@
 
 ![Visitor Badge](https://komarev.com/ghpvc/?username=RajaMuhammadAwais&style=flat-square&color=blue)
 
+### Open Source Contributions
+- **SR-IOV CNI (k8snetworkplumbingwg/sriov-cni)**
+  - Configured Dependabot for automated dependency updates  
+  - Example PRs created via Dependabot: [#335](https://github.com/k8snetworkplumbingwg/sriov-cni/pull/335), [#343](https://github.com/k8snetworkplumbingwg/sriov-cni/pull/343)
 
 ---
 
