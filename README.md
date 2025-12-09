@@ -1,6 +1,6 @@
 # 👨‍💻 Raja Muhammad Awais Turk
 
-**DevOps Engineer | Cloud & Infrastructure Automation | AWS | Kubernetes | CI/CD**
+**DevOps Engineer | Cloud & Infrastructure Automation | AWS | Kubernetes | CI/CD | AI ML** |
 
 🔧 **Core Skills:** Python • Bash • AWS • Kubernetes • Docker • Terraform • Ansible • CI/CD Pipelines  
 ☁️ **Focus Areas:** Cloud Infrastructure • Automation • Monitoring • Security Best Practices  
