@@ -90,7 +90,7 @@
 
   <!-- BOOT SEQUENCE -->
   <g id="bootSequence" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="15" fill="#64748b" letter-spacing="1">
-    <animate attributeName="opacity" values="1;1;0" begin="0s;0s" dur="8s;8s" fill="freeze" keyTimes="0;0.85;1" />
+    <animate attributeName="opacity" values="1;1;0;0" begin="0s" dur="10s" fill="freeze" keyTimes="0;0.6;0.8;1" />
     <g transform="translate(700, 300)">
       <text x="0" y="-180" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a" letter-spacing="4" filter="url(#glow)"><tspan>██████╗  █████╗  ██╗ █████╗</tspan><animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze" /></text>
       <text x="0" y="-150" text-anchor="middle" font-size="28" font-weight="900" fill="#0f172a" letter-spacing="4"><tspan>██╔══██╗██╔══██╗██║██╔══██╗</tspan><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.3s" fill="freeze" /></text>
@@ -117,7 +117,7 @@
 
   <!-- DESKTOP -->
   <g id="desktop">
-    <animate attributeName="opacity" values="0;0;1" begin="0s;0s" dur="8s;8s" fill="freeze" keyTimes="0;0.85;1" />
+    <animate attributeName="opacity" values="0;0;1;1" begin="0s" dur="10s" fill="freeze" keyTimes="0;0.8;1;1" />
 
     <!-- Top Bar -->
     <rect x="0" y="0" width="1400" height="42" fill="url(#topbar)" />

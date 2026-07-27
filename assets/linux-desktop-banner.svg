@@ -239,7 +239,7 @@
   <!-- BOOT SEQUENCE                                                 -->
   <!-- ============================================================ -->
   <g id="bootSequence" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="15" fill="#8b949e" letter-spacing="1">
-    <animate attributeName="opacity" values="1;1;0" begin="0s;0s" dur="8s;8s" fill="freeze" keyTimes="0;0.85;1" />
+    <animate attributeName="opacity" values="1;1;0;0" begin="0s" dur="10s" fill="freeze" keyTimes="0;0.6;0.8;1" />
 
     <!-- Centered ASCII Branding -->
     <g transform="translate(700, 300)">
@@ -299,7 +299,7 @@
   <!-- DESKTOP (Appears after boot)                                  -->
   <!-- ============================================================ -->
   <g id="desktop">
-    <animate attributeName="opacity" values="0;0;1" begin="0s;0s" dur="8s;8s" fill="freeze" keyTimes="0;0.85;1" />
+    <animate attributeName="opacity" values="0;0;1;1" begin="0s" dur="10s" fill="freeze" keyTimes="0;0.8;1;1" />
 
     <!-- ============================================================ -->
     <!-- TOP STATUS BAR                                               -->
