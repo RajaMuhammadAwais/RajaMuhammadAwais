@@ -302,7 +302,7 @@
       <g transform="translate(280, 6)">
         <rect x="0" y="0" width="160" height="22" rx="4" fill="#1a1a2e" stroke="#7C3AED" stroke-width="0.8" />
         <circle cx="14" cy="11" r="3" fill="#00ff41" class="pulse-dot" />
-        <text x="22" y="15" font-size="10" fill="#e6edf3">root@kali: ~ — Terminal</text>
+        <text x="22" y="15" font-size="10" fill="#e6edf3">rajamuhammadawais@kali: ~ — Terminal</text>
       </g>
       <g transform="translate(448, 6)">
         <rect x="0" y="0" width="120" height="22" rx="4" fill="#2d2d4d" stroke="#3d3d5d" stroke-width="0.6" />
@@ -348,7 +348,7 @@
       <!-- Session / Power -->
       <g transform="translate(1330, 6)">
         <rect x="0" y="0" width="60" height="22" rx="4" fill="#7C3AED" opacity="0.6" />
-        <text x="14" y="15" font-size="8" fill="#fff">root</text>
+        <text x="14" y="15" font-size="8" fill="#fff">rajamuhammadawais</text>
         <circle cx="46" cy="11" r="3" fill="#00ff41" class="pulse-dot" />
       </g>
     </g>
@@ -407,13 +407,13 @@
       <!-- Terminal Title -->
       <text x="470" y="72" text-anchor="middle" font-size="11" fill="#8b949e">
         <tspan fill="#00ff41" filter="url(#softGlow)">●</tspan>
-        root@kali: ~ — Terminal (zsh)
+        rajamuhammadawais@kali: ~ — Terminal (zsh)
       </text>
 
       <!-- Terminal Tab Bar -->
       <g transform="translate(180, 56)">
         <rect x="0" y="0" width="140" height="24" rx="5" fill="#2d2d5d" />
-        <text x="12" y="16" font-size="10" fill="#e6edf3">🔒 root@kali: ~</text>
+        <text x="12" y="16" font-size="10" fill="#e6edf3">🔒 rajamuhammadawais@kali: ~</text>
         <rect x="0" y="22" width="140" height="2" fill="#7C3AED" />
       </g>
       <g transform="translate(324, 56)">
@@ -576,51 +576,80 @@
           <text y="440" font-size="11" fill="#00ff41">╚═══════════════════════════════════════════════════╝</text>
         </g>
 
-        <!-- HACKING COMMANDS & OUTPUT -->
+        <!-- HACKING COMMANDS & OUTPUT — Step-by-Step Networking Commands -->
         <g opacity="0">
           <animate attributeName="opacity" values="0;1" dur="0.5s" begin="17.5s" fill="freeze" />
 
-          <!-- Command 1: whoami -->
-          <text y="468" font-size="11" fill="#00ff41">
-            <tspan fill="#00ff41" font-weight="700">┌──(root㉿kali)</tspan>
+          <!-- [1] whoami → Identity Check -->
+          <text y="458" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(rajamuhammadawais㉿kali)</tspan>
             <tspan fill="#7C3AED">-[~]</tspan>
           </text>
-          <text y="484" font-size="11" fill="#00ff41">
-            <tspan fill="#00ff41" font-weight="700">└─</tspan>
-            <tspan fill="#7C3AED">#</tspan>
-            <tspan fill="#e6edf3"> whoami &amp;&amp; id</tspan>
+          <text y="470" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan><tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> whoami</tspan>
           </text>
-          <text y="500" font-size="10" fill="#00ff41">root</text>
-          <text y="516" font-size="10" fill="#8b949e">uid=0(root) gid=0(root) groups=0(root)</text>
+          <text y="482" font-size="10" fill="#00ff41" filter="url(#terminalGlow)">rajamuhammadawais</text>
 
-          <!-- Command 2: ip a -->
-          <text y="544" font-size="11" fill="#00ff41">
-            <tspan fill="#00ff41" font-weight="700">┌──(root㉿kali)</tspan>
+          <!-- [2] id → User Privileges -->
+          <text y="494" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(rajamuhammadawais㉿kali)</tspan>
             <tspan fill="#7C3AED">-[~]</tspan>
           </text>
-          <text y="560" font-size="11" fill="#00ff41">
-            <tspan fill="#00ff41" font-weight="700">└─</tspan>
-            <tspan fill="#7C3AED">#</tspan>
-            <tspan fill="#e6edf3"> ip a | grep -E "inet |state"</tspan>
+          <text y="506" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan><tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> id</tspan>
           </text>
-          <text y="578" font-size="10" fill="#22d3a0">eth0: UP state UP</text>
-          <text y="594" font-size="10" fill="#8b949e">    inet 192.168.1.100/24 brd 192.168.1.255</text>
-          <text y="610" font-size="10" fill="#22d3a0">tun0: UP state UP (VPN)</text>
-          <text y="626" font-size="10" fill="#8b949e">    inet 10.8.0.2/24 scope global tun0</text>
+          <text y="518" font-size="10" fill="#8b949e">uid=1000(rajamuhammadawais) gid=1000(rajamuhammadawais) groups=27(sudo),4(adm)</text>
+
+          <!-- [3] ifconfig → Network Interfaces -->
+          <text y="530" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(rajamuhammadawais㉿kali)</tspan>
+            <tspan fill="#7C3AED">-[~]</tspan>
+          </text>
+          <text y="542" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan><tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> ifconfig | grep -E "inet |ether"</tspan>
+          </text>
+          <text y="554" font-size="10" fill="#22d3a0">eth0: inet 192.168.1.100  netmask 255.255.255.0  ether 00:1a:2b:3c:4d:5e</text>
+
+          <!-- [4] ip -br addr → IP Addresses -->
+          <text y="566" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(rajamuhammadawais㉿kali)</tspan>
+            <tspan fill="#7C3AED">-[~]</tspan>
+          </text>
+          <text y="578" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan><tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> ip -br addr show</tspan>
+          </text>
+          <text y="590" font-size="10" fill="#22d3a0">eth0  UP  192.168.1.100/24  2001:db8::100/64</text>
+          <text y="602" font-size="10" fill="#8b949e">tun0  UP  10.8.0.2/24</text>
+
+          <!-- [5] route -n → Routing Table -->
+          <text y="614" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(rajamuhammadawais㉿kali)</tspan>
+            <tspan fill="#7C3AED">-[~]</tspan>
+          </text>
+          <text y="626" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan><tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> route -n</tspan>
+          </text>
+          <text y="638" font-size="10" fill="#4a5568">Dest         Gateway      Genmask      Iface</text>
+          <text y="650" font-size="10" fill="#22d3a0">0.0.0.0      192.168.1.1  0.0.0.0      eth0</text>
+          <text y="662" font-size="10" fill="#8b949e">192.168.1.0  0.0.0.0      255.255.255.0 eth0</text>
+
+          <!-- [6] ping → Connectivity Test -->
+          <text y="674" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(rajamuhammadawais㉿kali)</tspan>
+            <tspan fill="#7C3AED">-[~]</tspan>
+          </text>
+          <text y="686" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan><tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> ping -c 2 google.com</tspan>
+          </text>
+          <text y="698" font-size="10" fill="#22d3a0">✓ 64 bytes: icmp_seq=1 ttl=118 time=12.4ms</text>
+          <text y="710" font-size="10" fill="#00ff41">✓ 2 xmt, 2 rcvd, 0% loss — Network OK <tspan class="cursor">█</tspan></text>
         </g>
-
-        <!-- Final Blinking Cursor -->
-        <text y="650" font-size="11" fill="#00ff41" opacity="0">
-          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="19s" repeatCount="indefinite" />
-          <tspan fill="#00ff41" font-weight="700">┌──(root㉿kali)</tspan>
-          <tspan fill="#7C3AED">-[~]</tspan>
-        </text>
-        <text y="666" font-size="11" fill="#00ff41" opacity="0">
-          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="19.5s" repeatCount="indefinite" />
-          <tspan fill="#00ff41" font-weight="700">└─</tspan>
-          <tspan fill="#7C3AED">#</tspan>
-          <tspan fill="#e6edf3" class="cursor"> █</tspan>
-        </text>
       </g>
     </g>
 
@@ -743,7 +772,7 @@
       </g>
 
       <text x="1105" y="484" text-anchor="middle" font-size="11" fill="#8b949e">
-        <tspan fill="#f97316">📁</tspan> File Manager — /root/projects
+        <tspan fill="#f97316">📁</tspan> File Manager — /home/rajamuhammadawais/projects
       </text>
 
       <!-- Toolbar -->
@@ -759,7 +788,7 @@
         </g>
         <g transform="translate(76, 6)">
           <rect x="0" y="0" width="250" height="18" rx="4" fill="#0d0d1a" stroke="#2d2d5d" stroke-width="0.6" />
-          <text x="10" y="14" font-size="9" fill="#4a5568">/root/projects/enterprise-platform/</text>
+          <text x="10" y="14" font-size="9" fill="#4a5568">/home/rajamuhammadawais/projects/enterprise-platform/</text>
         </g>
         <g transform="translate(334, 6)">
           <rect x="0" y="0" width="28" height="18" rx="3" fill="#2d2d5d" />
@@ -904,7 +933,7 @@
       <g transform="translate(1260, 870)">
         <rect x="0" y="0" width="120" height="24" rx="4" fill="#1a1a2e" opacity="0.8" stroke="#2d2d5e" stroke-width="0.6" />
         <text x="60" y="16" text-anchor="middle" font-size="9" fill="#4a5568">
-          <tspan fill="#7C3AED">KALI</tspan> • root@kali
+          <tspan fill="#7C3AED">KALI</tspan> • rajamuhammadawais@kali
         </text>
       </g>
     </g>
