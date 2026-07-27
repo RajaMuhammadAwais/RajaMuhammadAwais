@@ -84,7 +84,7 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
 ![Logstash Data Pipeline](https://img.shields.io/badge/Logstash_Data_Processing-000000?style=for-the-badge&logo=logstash&logoColor=white&label=Pipeline)
 ![Kibana Visualization](https://img.shields.io/badge/Kibana_Data_Visualization-E8478B?style=for-the-badge&logo=kibana&logoColor=white&label=Visualization)
 
-### 🛡️ Network Analyzer & Penetration Testing Tools
+### 🛡️ Network Analyzer
 ![DPDK Data Plane Development Kit](https://img.shields.io/badge/DPDK_Kernel_Bypass-0095D5?style=for-the-badge&logo=intel&logoColor=white&label=Performance)
 ![nDPI Deep Packet Inspection](https://img.shields.io/badge/nDPI_Deep_Packet_Inspection-00E676?style=for-the-badge&logo=probot&logoColor=white&label=DPI)
 ![Wireshark Protocol Analyzer](https://img.shields.io/badge/Wireshark_Network_Protocol_Analyzer-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&label=Analysis)
