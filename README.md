@@ -260,6 +260,12 @@ I am actively open to collaboration on **open-source DevOps tools, AI/ML infrast
   <a href="https://github.com/RajaMuhammadAwais/RajaMuhammadAwais">
     <img src="https://img.shields.io/badge/View_Full_Portfolio-000000?style=for-the-badge&logo=github&logoColor=white" alt="Raja Muhammad Awais Portfolio — DevOps Engineer, AI Engineer, Cyber Security Researcher" />
   </a>
+  <a href="mailto:muhammadawaisturk1@gmail.com">
+    <img src="https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Raja Muhammad Awais at muhammadawaisturk1@gmail.com" />
+  </a>
+  <a href="https://en.wikipedia.org/wiki/Pakistan">
+    <img src="https://img.shields.io/badge/Location-Pakistan-006600?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Raja Muhammad Awais is based in Pakistan — DevOps Engineer, AI Engineer, Cyber Security Researcher" />
+  </a>
 </p>
 
 ---
