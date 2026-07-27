@@ -198,7 +198,7 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=RajaMuhammadAwais&theme=tokyonight&hide_border=true" alt="Raja Muhammad Awais GitHub Contribution Streak — Daily Commits and Consistency" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=tokyonight&hide_border=true" alt="Raja Muhammad Awais GitHub Contribution Streak — Daily Commits and Consistency" width="48%" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=tokyonight&hide_border=true&area=true" alt="Raja Muhammad Awais GitHub Contribution Activity Graph — Open Source Contributions Over Time" width="98%" />
 </p>
 
