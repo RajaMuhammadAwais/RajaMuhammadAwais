@@ -20,19 +20,19 @@ jobs:
 
       - name: Generate GitHub Stats Card
         run: |
-          curl -s "https://gh-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&include_all_commits=true" \
+          curl --fail -s "https://gh-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&include_all_commits=true" \
             -o stats/github-stats.svg
           echo "GitHub Stats Card generated: $(wc -c < stats/github-stats.svg) bytes"
 
       - name: Generate Top Languages Card
         run: |
-          curl -s "https://gh-readme-stats.vercel.app/api/top-langs?username=RajaMuhammadAwais&layout=compact&theme=tokyonight&hide_border=true" \
+          curl --fail -s "https://gh-readme-stats.vercel.app/api/top-langs?username=RajaMuhammadAwais&layout=compact&theme=tokyonight&hide_border=true" \
             -o stats/top-langs.svg
           echo "Top Languages Card generated: $(wc -c < stats/top-langs.svg) bytes"
 
       - name: Generate Contribution Streak Card
         run: |
-          curl -s "https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=tokyonight&hide_border=true" \
+          curl --fail -s "https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=tokyonight&hide_border=true" \
             -o stats/streak-stats.svg
           echo "Streak Card generated: $(wc -c < stats/streak-stats.svg) bytes"
 
