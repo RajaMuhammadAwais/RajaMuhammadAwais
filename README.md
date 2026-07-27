@@ -1,26 +1,48 @@
-# 👨‍💻 Raja Muhammad Awais Turk
+# Raja Muhammad Awais
 
-**DevOps Engineer | Cloud & Infrastructure Automation | AWS | Kubernetes | CI/CD | AI ML** |
+<p align="center">
+  <img src="assets/terminal-banner.svg" alt="Animated terminal banner for Raja Muhammad Awais" width="100%" />
+</p>
 
-🔧 **Core Skills:** Python • Bash • AWS • Kubernetes • Docker • Terraform • Ansible • CI/CD Pipelines  
-☁️ **Focus Areas:** Cloud Infrastructure • Automation • Monitoring • Security Best Practices  
-📌 **Interests:** Red Teaming • Offensive Security • ML for Network Traffic Analysis  
+<p align="center">
+  <strong>DevOps Engineer • AI Engineer • Cyber Security Researcher • Cloud & Kubernetes • RAG Systems • Linux Engineer</strong>
+</p>
 
-![Visitor Badge](https://komarev.com/ghpvc/?username=RajaMuhammadAwais&style=flat-square&color=blue)
+<p align="center">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible" />
+</p>
 
-### Open Source Contributions
-- **SR-IOV CNI (k8snetworkplumbingwg/sriov-cni)**
-  - Configured Dependabot for automated dependency updates  
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=RajaMuhammadAwais&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/RajaMuhammadAwais?label=Followers&style=for-the-badge" alt="Followers" />
+</p>
+
+## Featured Assets
+
+- Dark animated banner: [assets/terminal-banner.svg](assets/terminal-banner.svg)
+- Light mode banner: [assets/terminal-banner-light.svg](assets/terminal-banner-light.svg)
+- Optimized GitHub-friendly banner: [assets/terminal-banner-optimized.svg](assets/terminal-banner-optimized.svg)
+
+---
+
+## Open Source Contributions
+- SR-IOV CNI (k8snetworkplumbingwg/sriov-cni)
+  - Configured Dependabot for automated dependency updates
   - Example PRs created via Dependabot: [#335](https://github.com/k8snetworkplumbingwg/sriov-cni/pull/335), [#343](https://github.com/k8snetworkplumbingwg/sriov-cni/pull/343)
 
 ---
 
-## 🔴🛡️ Red Team x DevOps Fusion
+## Red Team x DevOps Fusion
 
-> 💡 Always learning, always hacking — striving to bridge the gap between DevOps & Offensive Security.
+> Always learning, always hacking — bridging the gap between DevOps, AI, and offensive security.
 
 ---
-<h1 align="center"> 👋, I'm Raja Muhammad Awais</h1>
+<h1 align="center">I'm Raja Muhammad Awais</h1>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=RajaMuhammadAwais&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
