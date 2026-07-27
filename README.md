@@ -88,7 +88,6 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
 ![DPDK Data Plane Development Kit](https://img.shields.io/badge/DPDK_Kernel_Bypass-0095D5?style=for-the-badge&logo=intel&logoColor=white&label=Performance)
 ![nDPI Deep Packet Inspection](https://img.shields.io/badge/nDPI_Deep_Packet_Inspection-00E676?style=for-the-badge&logo=probot&logoColor=white&label=DPI)
 ![Wireshark Protocol Analyzer](https://img.shields.io/badge/Wireshark_Network_Protocol_Analyzer-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&label=Analysis)
-![Penetration Testing Suite](https://img.shields.io/badge/Penetration_Testing_Suite-000000?style=for-the-badge&logo=kalilinux&logoColor=white&label=Security)
 
 ### 🤖 Artificial Intelligence & Data Engineering
 ![LangChain AI Framework](https://img.shields.io/badge/LangChain_AI_Application_Framework-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&label=AI)
