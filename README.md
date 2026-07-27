@@ -1,8 +1,10 @@
 # Raja Muhammad Awais
 
 <p align="center">
-  <img src="assets/terminal-banner.svg" alt="Animated terminal banner for Raja Muhammad Awais" width="100%" />
+  <img src="assets/linux-desktop-banner.svg" alt="Animated Linux Desktop for Raja Muhammad Awais — DevOps, AI, Cyber Security" width="100%" />
 </p>
+
+<!-- ☀️ Light mode variant: <img src="assets/linux-desktop-banner-light.svg" alt="Light theme Linux Desktop for Raja Muhammad Awais" width="100%" /> -->
 
 <p align="center">
   <strong>DevOps Engineer • AI Engineer • Cyber Security Researcher • Cloud & Kubernetes • RAG Systems • Linux Engineer</strong>
@@ -24,9 +26,9 @@
 
 ## Featured Assets
 
-- Dark animated banner: [assets/terminal-banner.svg](assets/terminal-banner.svg)
-- Light mode banner: [assets/terminal-banner-light.svg](assets/terminal-banner-light.svg)
-- Optimized GitHub-friendly banner: [assets/terminal-banner-optimized.svg](assets/terminal-banner-optimized.svg)
+- 🖥️ **Linux Desktop Banner (Dark):** [assets/linux-desktop-banner.svg](assets/linux-desktop-banner.svg) — Full Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, security center & cloud dashboard.
+- ☀️ **Linux Desktop Banner (Light):** [assets/linux-desktop-banner-light.svg](assets/linux-desktop-banner-light.svg) — Light mode variant of the Linux desktop experience.
+- 📟 Legacy terminal banners: [assets/terminal-banner.svg](assets/terminal-banner.svg), [assets/terminal-banner-light.svg](assets/terminal-banner-light.svg), [assets/terminal-banner-optimized.svg](assets/terminal-banner-optimized.svg)
 
 ---
 
