@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Raja Muhammad Awais' GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 19, Total Commits  : 749, Total PRs: 133, Total Issues: 2, Contributed to (last year): 6</desc>
+        <title id="titleId">Raja Muhammad Awais&#39; GitHub Stats, Rank: B</title>
+        <desc id="descId">Total Stars Earned: 19, Total Commits  : 752, Total PRs: 133, Total Issues: 2, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 149.23604931269261;
+        stroke-dashoffset: 149.1842752325574;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Raja Muhammad Awais' GitHub Stats</text>
+      >Raja Muhammad Awais&#39; GitHub Stats</text>
     </g>
       </g>
     
@@ -177,7 +177,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >749</text>
+      >752</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
