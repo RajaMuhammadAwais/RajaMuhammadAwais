@@ -1,11 +1,9 @@
 # Raja Muhammad Awais
 
 <!-- ===================== HERO BANNER ===================== -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/kali-hacker-desktop.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
+<p align="center">
   <img src="assets/kali-hacker-desktop.svg" alt="Raja Muhammad Awais — Kali Linux Hacker Desktop — Animated Boot, Anonymous Hacker ASCII Art, Interactive Terminal with Networking Commands, System Monitor & File Manager" style="width:100%;max-width:1400px;height:auto;display:block;margin:0 auto;border-radius:12px;" />
-</picture>
+</p>
 
 <p align="center">
   <strong>DevOps Engineer • AI Engineer • Cyber Security Researcher • Cloud & Kubernetes • RAG Systems • Linux Engineer</strong>
@@ -27,103 +25,65 @@
 
 ---
 
-## 🎬 Animated Desktop Banners
+## 🎬 Animated Banner Showcase
 
-### 🐉 Kali Linux Hacker Desktop (Primary — Dark Theme)
+### 🐉 Kali Linux Hacker Desktop
 
-> Full Kali Linux 2024.2 desktop simulation with boot sequence, Anonymous hacker ASCII art, interactive terminal showing `rajamuhammadawais`, step-by-step networking commands (whoami → id → ifconfig → ip a → route -n → ping → nmap → ss), system monitor with live CPU/memory/network graphs, Thunar file manager, and application dock.
+> Full Kali Linux 2024.2 desktop simulation — animated boot, Anonymous hacker ASCII art with glowing eyes, step-by-step networking commands (`whoami` → `rajamuhammadawais`, `id`, `ifconfig`, `ip a`, `route -n`, `ping`, `nmap`), system monitor with live CPU/Memory/Network graphs, Thunar file manager, and application dock.
 
-```md
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/kali-hacker-desktop.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/kali-hacker-desktop.svg" />
-  <img src="assets/kali-hacker-desktop.svg" alt="Kali Linux Hacker Desktop" width="100%" />
-</picture>
-```
-
-<p align="center">
-  <img src="assets/kali-hacker-desktop.svg" alt="Kali Linux Hacker Desktop Preview" style="width:100%;max-width:1200px;height:auto;border-radius:8px;border:1px solid #30363d;" />
-</p>
-
----
-
-### 🖥️ Linux Desktop Banner (Dark — Ubuntu Theme)
-
-> Dark-themed Ubuntu-style Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, security center, and cloud dashboard. Features Anonymous hacker ASCII art, `rajamuhammadawais` identity, and step-by-step networking commands.
-
-```md
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-desktop-banner.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner.svg" />
-  <img src="assets/linux-desktop-banner.svg" alt="Linux Desktop Dark" width="100%" />
-</picture>
-```
-
-<p align="center">
-  <img src="assets/linux-desktop-banner.svg" alt="Linux Desktop Dark Preview" style="width:100%;max-width:1200px;height:auto;border-radius:8px;border:1px solid #30363d;" />
-</p>
-
----
-
-### ☀️ Linux Desktop Banner (Light — Ubuntu Theme)
-
-> Light-themed Ubuntu-style Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, and more. Fully animated with hacker ASCII art, `rajamuhammadawais` identity, and networking commands — perfect for light mode GitHub profiles.
-
-```md
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-desktop-banner-light.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
-  <img src="assets/linux-desktop-banner-light.svg" alt="Linux Desktop Light" width="100%" />
-</picture>
-```
-
-<p align="center">
-  <img src="assets/linux-desktop-banner-light.svg" alt="Linux Desktop Light Preview" style="width:100%;max-width:1200px;height:auto;border-radius:8px;border:1px solid #d0d7de;" />
-</p>
-
----
-
-## 🎯 Quick Start — Use Any Banner in Your Profile
-
-### Option 1: Hero Banner (Auto Dark/Light Mode)
-
-Paste at the top of your `README.md`:
-
-```md
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/kali-hacker-desktop.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
-  <img src="assets/kali-hacker-desktop.svg" alt="Raja Muhammad Awais" width="100%" />
-</picture>
-```
-
-### Option 2: Kali Linux Hacker Theme (Always Dark)
+To use in your profile:
 
 ```md
 <img src="assets/kali-hacker-desktop.svg" alt="Kali Linux Hacker Desktop" width="100%" />
 ```
 
-### Option 3: Linux Desktop Dark Theme
+---
+
+### 🖥️ Linux Desktop — Dark & Light Combined
+
+> Ubuntu-style desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, and DevOps tools. Both themes feature Anonymous hacker ASCII art, `rajamuhammadawais` identity, and networking commands — side by side for comparison.
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="assets/linux-desktop-banner.svg" alt="Linux Desktop Dark Theme" style="width:100%;max-width:680px;height:auto;border-radius:8px;" />
+      <br />
+      <strong>🌙 Dark Theme</strong>
+    </td>
+    <td width="50%" align="center">
+      <img src="assets/linux-desktop-banner-light.svg" alt="Linux Desktop Light Theme" style="width:100%;max-width:680px;height:auto;border-radius:8px;" />
+      <br />
+      <strong>☀️ Light Theme</strong>
+    </td>
+  </tr>
+</table>
+
+To use in your profile:
 
 ```md
+<!-- Dark Theme -->
 <img src="assets/linux-desktop-banner.svg" alt="Linux Desktop Dark" width="100%" />
-```
 
-### Option 4: Linux Desktop Light Theme
-
-```md
+<!-- Light Theme -->
 <img src="assets/linux-desktop-banner-light.svg" alt="Linux Desktop Light" width="100%" />
+
+<!-- Auto Switch (Dark/Light Mode) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-desktop-banner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
+  <img src="assets/linux-desktop-banner.svg" alt="Linux Desktop" width="100%" />
+</picture>
 ```
 
 ---
 
 ## 🗺️ Asset Comparison
 
-| Banner | Theme | Animation | Boot Sequence | Hacker ASCII Art | `rajamuhammadawais` | Networking Commands | System Monitor | File Manager |
-|---|---|---|---|---|---|---|---|---|
-| **Kali Hacker Desktop** | Dark (Kali Purple) | ✅ | ✅ | ✅ Anonymous Face | ✅ whoami → rajamuhammadawais | ✅ 6 commands | ✅ CPU/Mem/Net | ✅ Thunar |
-| **Linux Desktop Banner** | Dark (Ubuntu) | ✅ | ✅ | ✅ Anonymous Face | ✅ whoami → rajamuhammadawais | ✅ 6 commands | ✅ CPU/Mem/Net/Disk | ✅ VS Code |
-| **Linux Desktop Light** | Light (Ubuntu) | ✅ | ✅ | ✅ Anonymous Face | ✅ whoami → rajamuhammadawais | ✅ 6 commands | ✅ CPU/Mem/Net/Disk | ✅ VS Code |
+| Banner | Theme | Boot | Hacker ASCII Art | `rajamuhammadawais` | Networking Commands | Monitor | File Manager |
+|---|---|---|---|---|---|---|---|
+| **Kali Hacker Desktop** | Dark (Kali Purple) | ✅ | ✅ Anonymous Face | ✅ whoami | ✅ 6 commands | ✅ CPU/Mem/Net | ✅ Thunar |
+| **Linux Desktop Dark** | Dark (Ubuntu) | ✅ | ✅ Anonymous Face | ✅ whoami | ✅ 6 commands | ✅ CPU/Mem/Net/Disk | ✅ VS Code |
+| **Linux Desktop Light** | Light (Ubuntu) | ✅ | ✅ Anonymous Face | ✅ whoami | ✅ 6 commands | ✅ CPU/Mem/Net/Disk | ✅ VS Code |
 
 ---
 
@@ -134,7 +94,7 @@ Each SVG banner includes:
 - **⏰ Boot Sequence** — 0s–8s: Animated ASCII logo + kernel loading messages
 - **🖥️ Desktop Environment** — 8s+: Full desktop with top panel, dock, desktop icons
 - **🎭 Hacker ASCII Art** — Anonymous face with glowing animated eyes
-- **⌨️ Step-by-Step Networking Commands** — `whoami` → `rajamuhammadawais`, `id`, `ifconfig`, `ip a`, `route -n`, `ping`, `nmap`
+- **⌨️ Step-by-Step Networking** — `whoami` → `rajamuhammadawais`, `id`, `ifconfig`, `ip a`, `route -n`, `ping`, `nmap`
 - **📊 Live System Monitor** — Animated CPU/Memory/Network/Disk usage bars
 - **📁 File Manager / VS Code** — Realistic project structure with typing animations
 - **🌙 Responsive** — `max-width:100%;height:auto` for all screen sizes
