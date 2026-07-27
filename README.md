@@ -1,9 +1,9 @@
 # Raja Muhammad Awais
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/enterprise-terminal-banner.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/enterprise-terminal-banner.svg" />
-  <img src="assets/enterprise-terminal-banner.svg" alt="Raja Muhammad Awais — Enterprise DevOps Terminal Banner — 6 Scenes: Network, Kubernetes, CI/CD, Monitoring, Cloud & AI, Summary" style="width:100%;max-width:1200px;height:auto;display:block;margin:0 auto;" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/kali-hacker-desktop.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/kali-hacker-desktop.svg" />
+  <img src="assets/kali-hacker-desktop.svg" alt="Raja Muhammad Awais — Kali Linux Hacker Desktop — Full Linux OS Simulation with Boot, Anonymous Hacker ASCII Art, Terminal, System Monitor & File Manager" style="width:100%;max-width:1400px;height:auto;display:block;margin:0 auto;" />
 </picture>
 
 <p align="center">
@@ -26,9 +26,10 @@
 
 ## Featured Assets
 
-- 🏢 **Enterprise Terminal Banner (NEW):** [assets/enterprise-terminal-banner.svg](assets/enterprise-terminal-banner.svg) — 30-second animated DevOps timeline with 6 terminal scenes: Network Infrastructure, Kubernetes, CI/CD, Monitoring & Security, Cloud & AI, and Enterprise Summary. Each scene features 5 seconds of rich terminal output with typing animations, network topology visualizations, and live metrics dashboards.
-- 🖥️ **Linux Desktop Banner (Dark):** [assets/linux-desktop-banner.svg](assets/linux-desktop-banner.svg) — Full Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, security center & cloud dashboard.
-- ☀️ **Linux Desktop Banner (Light):** [assets/linux-desktop-banner-light.svg](assets/linux-desktop-banner-light.svg) — Light mode variant of the Linux desktop experience.
+- 🎯 **Kali Linux Hacker Desktop (NEW — ACTIVE):** [assets/kali-hacker-desktop.svg](assets/kali-hacker-desktop.svg) — Full Kali Linux 2024.2 desktop simulation with animated boot sequence, Anonymous hacker face ASCII art, interactive terminal with hacking tools (Nmap, Metasploit, Burp Suite), system monitor with live CPU/memory/network graphs, Thunar file manager, and application dock. Research-based authentic Linux OS experience.
+- 🏢 **Enterprise Terminal Banner:** [assets/enterprise-terminal-banner.svg](assets/enterprise-terminal-banner.svg) — 30-second animated DevOps timeline with 6 terminal scenes.
+- 🖥️ **Linux Desktop Banner (Dark):** [assets/linux-desktop-banner.svg](assets/linux-desktop-banner.svg) — Ubuntu-style Linux desktop simulation.
+- ☀️ **Linux Desktop Banner (Light):** [assets/linux-desktop-banner-light.svg](assets/linux-desktop-banner-light.svg) — Light mode variant.
 - 📟 Legacy terminal banners: [assets/terminal-banner.svg](assets/terminal-banner.svg), [assets/terminal-banner-light.svg](assets/terminal-banner-light.svg), [assets/terminal-banner-optimized.svg](assets/terminal-banner-optimized.svg)
 
 ---

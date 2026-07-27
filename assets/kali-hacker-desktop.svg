@@ -1,0 +1,912 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Raja Muhammad Awais — Kali Linux Hacker Desktop" style="max-width:100%;height:auto;display:block;">
+  <title>Raja Muhammad Awais — Kali Linux Hacker Desktop</title>
+  <desc>Full Kali Linux desktop simulation with animated boot sequence, hacker ASCII art terminal, system monitor, Thunar file manager, and application dock — research-based authentic Linux OS experience.</desc>
+
+  <defs>
+    <!-- ============================================================ -->
+    <!-- KALI THEME GRADIENTS                                          -->
+    <!-- ============================================================ -->
+    <radialGradient id="kaliWallpaper" cx="50%" cy="40%" r="85%">
+      <stop offset="0%" stop-color="#2d1b4e" />
+      <stop offset="40%" stop-color="#1a0f2e" />
+      <stop offset="70%" stop-color="#0d0820" />
+      <stop offset="100%" stop-color="#050510" />
+    </radialGradient>
+
+    <linearGradient id="kaliPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d2d3d" />
+      <stop offset="100%" stop-color="#1a1a28" />
+    </linearGradient>
+
+    <linearGradient id="kaliAccent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#5B21B6" />
+    </linearGradient>
+
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a12" stop-opacity="0.97" />
+      <stop offset="100%" stop-color="#06060e" stop-opacity="0.98" />
+    </linearGradient>
+
+    <linearGradient id="windowBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#14142a" stop-opacity="0.98" />
+    </linearGradient>
+
+    <linearGradient id="neonGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff41" />
+      <stop offset="100%" stop-color="#22d3a0" />
+    </linearGradient>
+
+    <linearGradient id="cyberCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+
+    <!-- ============================================================ -->
+    <!-- FILTERS                                                       -->
+    <!-- ============================================================ -->
+    <filter id="winShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000" flood-opacity="0.7" />
+    </filter>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="terminalGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- ============================================================ -->
+    <!-- PATTERNS                                                      -->
+    <!-- ============================================================ -->
+    <pattern id="kaliGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2d1b4e" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+
+    <pattern id="kaliDots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#3d2b6e" fill-opacity="0.2" />
+    </pattern>
+
+    <pattern id="hexPattern" width="60" height="52" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L60 15 L60 37 L30 52 L0 37 L0 15 Z" fill="none" stroke="#7C3AED" stroke-width="0.4" stroke-opacity="0.06" />
+      <path d="M30 26 L60 41 L60 63 L30 78 L0 63 L0 41 Z" fill="none" stroke="#7C3AED" stroke-width="0.4" stroke-opacity="0.04" />
+    </pattern>
+
+    <!-- ============================================================ -->
+    <!-- CLIP PATHS FOR TERMINAL TYPING ANIMATIONS                    -->
+    <!-- ============================================================ -->
+    <clipPath id="termLine1"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="620" dur="0.6s" begin="10s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine2"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="550" dur="0.5s" begin="10.8s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine3"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="580" dur="0.6s" begin="11.5s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine4"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="500" dur="0.5s" begin="12.3s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine5"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="640" dur="0.6s" begin="13s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine6"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="530" dur="0.5s" begin="13.8s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine7"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="480" dur="0.5s" begin="14.5s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine8"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="600" dur="0.6s" begin="15.2s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine9"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="560" dur="0.5s" begin="16s" fill="freeze" /></rect></clipPath>
+    <clipPath id="termLine10"><rect x="0" y="0" width="0" height="22"><animate attributeName="width" from="0" to="510" dur="0.5s" begin="16.7s" fill="freeze" /></rect></clipPath>
+
+    <!-- ============================================================ -->
+    <!-- CSS ANIMATIONS                                                -->
+    <!-- ============================================================ -->
+    <style>
+      @keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0; } }
+      @keyframes pulse { 0%,100% { opacity:0.6; } 50% { opacity:1; } }
+      @keyframes pulseFast { 0%,100% { opacity:0.4; } 50% { opacity:0.9; } }
+      @keyframes scanLine { 0% { transform:translateY(-100%); } 100% { transform:translateY(100%); } }
+      @keyframes rotate { 0% { transform:rotate(0deg); } 100% { transform:rotate(360deg); } }
+      @keyframes fadeIn { 0% { opacity:0; transform:translateY(10px); } 100% { opacity:1; transform:translateY(0px); } }
+      @keyframes slideInRight { 0% { opacity:0; transform:translateX(60px); } 100% { opacity:1; transform:translateX(0px); } }
+      @keyframes slideInUp { 0% { opacity:0; transform:translateY(40px); } 100% { opacity:1; transform:translateY(0px); } }
+      @keyframes networkFlow { 0% { stroke-dashoffset:80; } 100% { stroke-dashoffset:0; } }
+      @keyframes cpuBounce { 0%,100% { height:8px; } 25% { height:26px; } 50% { height:16px; } 75% { height:30px; } }
+      @keyframes memBounce { 0%,100% { height:14px; } 33% { height:28px; } 66% { height:18px; } }
+      @keyframes netBounce { 0%,100% { height:6px; } 40% { height:22px; } 80% { height:12px; } }
+      @keyframes textGlow { 0%,100% { opacity:0.7; } 50% { opacity:1; filter:drop-shadow(0 0 6px currentColor); } }
+      @keyframes borderDash { 0% { stroke-dashoffset:0; } 100% { stroke-dashoffset:16; } }
+      @keyframes matrixRain { 0% { opacity:1; } 100% { opacity:0; transform:translateY(-20px); } }
+      .cursor { animation:blink 1s step-end infinite; }
+      .pulse-dot { animation:pulse 1.5s ease-in-out infinite; }
+      .pulse-fast { animation:pulseFast 0.8s ease-in-out infinite; }
+      .spin { animation:rotate 2s linear infinite; }
+      .spin-fast { animation:rotate 0.8s linear infinite; }
+      .net-flow { stroke-dasharray:8 6; animation:networkFlow 1.2s linear infinite; }
+      .fade-in { animation:fadeIn 0.6s ease-out forwards; }
+      .slide-in-r { animation:slideInRight 0.7s ease-out forwards; }
+      .slide-in-up { animation:slideInUp 0.7s ease-out forwards; }
+      .bar-cpu { animation:cpuBounce 1.8s ease-in-out infinite; }
+      .bar-mem { animation:memBounce 2.2s ease-in-out infinite; }
+      .bar-net { animation:netBounce 1.6s ease-in-out infinite; }
+      .text-glow { animation:textGlow 2s ease-in-out infinite; }
+      .scan-line { animation:scanLine 3s linear infinite; }
+      text { font-family:'Cascadia Code','Fira Code',Consolas,monospace; }
+    </style>
+
+  </defs>
+
+  <!-- ============================================================ -->
+  <!-- BACKGROUND                                                    -->
+  <!-- ============================================================ -->
+  <rect width="1400" height="900" fill="url(#kaliWallpaper)" />
+  <rect width="1400" height="900" fill="url(#kaliGrid)" />
+  <rect width="1400" height="900" fill="url(#hexPattern)" />
+  <rect width="1400" height="900" fill="url(#kaliDots)" />
+
+  <!-- Ambient glow orbs -->
+  <ellipse cx="400" cy="400" rx="400" ry="300" fill="#7C3AED" opacity="0.04" filter="url(#glow)" />
+  <ellipse cx="1000" cy="500" rx="350" ry="280" fill="#00e5ff" opacity="0.03" filter="url(#glow)" />
+
+  <!-- ============================================================ -->
+  <!-- BOOT SEQUENCE (0s - 8s)                                       -->
+  <!-- ============================================================ -->
+  <g id="bootSequence" opacity="1">
+    <animate attributeName="opacity" from="1" to="0" dur="1s" begin="7s" fill="freeze" />
+
+    <!-- Kali Dragon ASCII Logo -->
+    <g transform="translate(700, 200)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze" />
+      <text x="0" y="-120" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3" filter="url(#glow)">
+        <tspan>╔══════════════════════════════════════╗</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="0s" fill="freeze" />
+      </text>
+      <text x="0" y="-95" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3">
+        <tspan>║     ██╗  ██╗ █████╗ ██╗     ██╗     ║</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.3s" fill="freeze" />
+      </text>
+      <text x="0" y="-70" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3">
+        <tspan>║     ██║ ██╔╝██╔══██╗██║     ██║     ║</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.6s" fill="freeze" />
+      </text>
+      <text x="0" y="-45" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3">
+        <tspan>║     █████╔╝ ███████║██║     ██║     ║</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="0.9s" fill="freeze" />
+      </text>
+      <text x="0" y="-20" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3">
+        <tspan>║     ██╔═██╗ ██╔══██║██║     ██║     ║</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.2s" fill="freeze" />
+      </text>
+      <text x="0" y="5" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3">
+        <tspan>║     ██║  ██╗██║  ██║███████╗███████╗║</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.5s" fill="freeze" />
+      </text>
+      <text x="0" y="30" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3">
+        <tspan>║     ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝║</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.8s" fill="freeze" />
+      </text>
+      <text x="0" y="55" text-anchor="middle" font-size="18" font-weight="900" fill="#7C3AED" letter-spacing="3">
+        <tspan>╚══════════════════════════════════════╝</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.2s" begin="2.1s" fill="freeze" />
+      </text>
+      <text x="0" y="90" text-anchor="middle" font-size="14" fill="#00e5ff" letter-spacing="6" filter="url(#glow)">
+        <tspan>K A L I   L I N U X   2 0 2 4 . 2</tspan>
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="2.5s" fill="freeze" />
+      </text>
+    </g>
+
+    <!-- Boot Messages -->
+    <g transform="translate(100, 420)" font-size="14">
+      <text y="0" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Loading Kali Linux Kernel 6.8.11-amd64</tspan>
+      </text>
+      <text y="28" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.4s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Starting Network Manager...</tspan>
+      </text>
+      <text y="56" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.8s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Starting Docker Daemon...</tspan>
+      </text>
+      <text y="84" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.2s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Mounting File Systems...</tspan>
+      </text>
+      <text y="112" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="4.6s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Loading Security Modules...</tspan>
+      </text>
+      <text y="140" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="5s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Starting XFCE Desktop Environment...</tspan>
+      </text>
+      <text y="168" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.4s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Initializing Hacking Tool Suite...</tspan>
+      </text>
+      <text y="196" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.8s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Connecting to GitHub...</tspan>
+      </text>
+      <text y="224" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="6.2s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#8b949e"> Starting AI Inference Services...</tspan>
+      </text>
+      <text y="252" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="6.6s" fill="freeze" />
+        <tspan fill="#3b82f6">[</tspan><tspan fill="#00ff41"> OK </tspan><tspan fill="#3b82f6">]</tspan>
+        <tspan fill="#00ff41" font-weight="700" filter="url(#glow)"> System Ready. Welcome, Raja Muhammad Awais.</tspan>
+      </text>
+    </g>
+
+    <!-- Loading spinner -->
+    <g transform="translate(1260, 420)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3s" fill="freeze" />
+      <circle cx="0" cy="12" r="10" fill="none" stroke="#7C3AED" stroke-width="2" class="spin" />
+      <circle cx="0" cy="12" r="3" fill="#00e5ff" class="pulse-dot" />
+      <text x="0" y="40" text-anchor="middle" font-size="10" fill="#4a5568">LOADING</text>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- DESKTOP (Appears after boot at 8s)                           -->
+  <!-- ============================================================ -->
+  <g id="desktop" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="8s" fill="freeze" />
+
+    <!-- ============================================================ -->
+    <!-- TOP PANEL (Kali Linux XFCE Style)                            -->
+    <!-- ============================================================ -->
+    <g id="topPanel">
+      <rect x="0" y="0" width="1400" height="34" fill="url(#kaliPanel)" />
+      <rect x="0" y="33" width="1400" height="1" fill="#000" opacity="0.5" />
+
+      <!-- Whisker Menu (Kali Dragon Logo) -->
+      <g transform="translate(8, 4)">
+        <rect x="0" y="0" width="38" height="26" rx="4" fill="#7C3AED" opacity="0.8" />
+        <text x="19" y="18" text-anchor="middle" font-size="14" fill="#fff" font-weight="900">K</text>
+      </g>
+
+      <!-- App Launchers on Panel -->
+      <g transform="translate(56, 6)">
+        <rect x="0" y="0" width="28" height="22" rx="4" fill="#2d2d4d" stroke="#3d3d5d" stroke-width="0.6" />
+        <text x="14" y="16" text-anchor="middle" font-size="10" fill="#22d3a0">T</text>
+      </g>
+      <g transform="translate(88, 6)">
+        <rect x="0" y="0" width="28" height="22" rx="4" fill="#2d2d4d" stroke="#3d3d5d" stroke-width="0.6" />
+        <text x="14" y="16" text-anchor="middle" font-size="10" fill="#38bdf8">F</text>
+      </g>
+      <g transform="translate(120, 6)">
+        <rect x="0" y="0" width="28" height="22" rx="4" fill="#2d2d4d" stroke="#3d3d5d" stroke-width="0.6" />
+        <text x="14" y="16" text-anchor="middle" font-size="10" fill="#f97316">W</text>
+      </g>
+
+      <!-- Workspace Switcher -->
+      <g transform="translate(180, 6)">
+        <rect x="0" y="0" width="80" height="22" rx="4" fill="#1a1a2e" stroke="#3d3d5d" stroke-width="0.6" />
+        <rect x="4" y="4" width="32" height="14" rx="3" fill="#7C3AED" />
+        <text x="20" y="14" text-anchor="middle" font-size="8" fill="#fff">1</text>
+        <rect x="40" y="4" width="14" height="14" rx="3" fill="#2d2d4d" />
+        <text x="47" y="14" text-anchor="middle" font-size="8" fill="#8b949e">2</text>
+        <rect x="58" y="4" width="14" height="14" rx="3" fill="#2d2d4d" />
+        <text x="65" y="14" text-anchor="middle" font-size="8" fill="#8b949e">3</text>
+      </g>
+
+      <!-- Window List -->
+      <g transform="translate(280, 6)">
+        <rect x="0" y="0" width="160" height="22" rx="4" fill="#1a1a2e" stroke="#7C3AED" stroke-width="0.8" />
+        <circle cx="14" cy="11" r="3" fill="#00ff41" class="pulse-dot" />
+        <text x="22" y="15" font-size="10" fill="#e6edf3">root@kali: ~ — Terminal</text>
+      </g>
+      <g transform="translate(448, 6)">
+        <rect x="0" y="0" width="120" height="22" rx="4" fill="#2d2d4d" stroke="#3d3d5d" stroke-width="0.6" />
+        <text x="14" y="15" font-size="10" fill="#8b949e">📁 System Monitor</text>
+      </g>
+      <g transform="translate(576, 6)">
+        <rect x="0" y="0" width="90" height="22" rx="4" fill="#2d2d4d" stroke="#3d3d5d" stroke-width="0.6" />
+        <text x="14" y="15" font-size="10" fill="#8b949e">📁 File Manager</text>
+      </g>
+
+      <!-- System Tray (Right Side) -->
+      <!-- Network -->
+      <g transform="translate(1060, 6)">
+        <rect x="0" y="0" width="30" height="22" rx="4" fill="#2d2d4d" />
+        <path d="M6 16 Q8 8 12 16 Q16 8 20 16" fill="none" stroke="#22d3a0" stroke-width="1.2" class="net-flow" />
+        <circle cx="13" cy="16" r="1.5" fill="#22d3a0" />
+      </g>
+      <!-- Bluetooth -->
+      <g transform="translate(1094, 6)">
+        <rect x="0" y="0" width="26" height="22" rx="4" fill="#2d2d4d" />
+        <text x="13" y="16" text-anchor="middle" font-size="12" fill="#38bdf8">⏻</text>
+      </g>
+      <!-- Volume -->
+      <g transform="translate(1124, 6)">
+        <rect x="0" y="0" width="26" height="22" rx="4" fill="#2d2d4d" />
+        <text x="13" y="16" text-anchor="middle" font-size="12" fill="#8b949e">🔊</text>
+      </g>
+      <!-- Battery -->
+      <g transform="translate(1154, 6)">
+        <rect x="0" y="0" width="36" height="22" rx="4" fill="#2d2d4d" />
+        <rect x="6" y="7" width="16" height="8" rx="2" fill="none" stroke="#22d3a0" stroke-width="1.2" />
+        <rect x="22" y="9" width="3" height="4" rx="1" fill="#22d3a0" />
+        <rect x="8" y="9" width="8" height="4" rx="1" fill="#22d3a0" />
+      </g>
+      <!-- Clock -->
+      <g transform="translate(1196, 6)">
+        <rect x="0" y="0" width="130" height="22" rx="4" fill="#2d2d4d" />
+        <text x="65" y="15" text-anchor="middle" font-size="10" fill="#e6edf3">
+          2024-07-27 14:32:05
+          <animate attributeName="opacity" values="1;0.8;1" dur="60s" repeatCount="indefinite" />
+        </text>
+      </g>
+      <!-- Session / Power -->
+      <g transform="translate(1330, 6)">
+        <rect x="0" y="0" width="60" height="22" rx="4" fill="#7C3AED" opacity="0.6" />
+        <text x="14" y="15" font-size="8" fill="#fff">root</text>
+        <circle cx="46" cy="11" r="3" fill="#00ff41" class="pulse-dot" />
+      </g>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- DESKTOP ICONS                                                 -->
+    <!-- ============================================================ -->
+    <g id="desktopIcons" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="8.8s" fill="freeze" />
+
+      <g transform="translate(30, 80)" class="fade-in">
+        <rect x="-10" y="-5" width="50" height="50" rx="8" fill="none" />
+        <text x="15" y="22" text-anchor="middle" font-size="20" fill="#7C3AED">🗑</text>
+        <text x="15" y="42" text-anchor="middle" font-size="9" fill="#c0c0d0">Trash</text>
+      </g>
+
+      <g transform="translate(30, 160)" class="fade-in">
+        <rect x="-10" y="-5" width="50" height="50" rx="8" fill="none" />
+        <text x="15" y="22" text-anchor="middle" font-size="20" fill="#38bdf8">📁</text>
+        <text x="15" y="42" text-anchor="middle" font-size="9" fill="#c0c0d0">Home</text>
+      </g>
+
+      <g transform="translate(30, 240)" class="fade-in">
+        <rect x="-10" y="-5" width="50" height="50" rx="8" fill="none" />
+        <text x="15" y="22" text-anchor="middle" font-size="20" fill="#f97316">📂</text>
+        <text x="15" y="42" text-anchor="middle" font-size="9" fill="#c0c0d0">Projects</text>
+      </g>
+
+      <g transform="translate(30, 320)" class="fade-in">
+        <rect x="-10" y="-5" width="50" height="50" rx="8" fill="none" />
+        <text x="15" y="22" text-anchor="middle" font-size="20" fill="#22d3a0">🎯</text>
+        <text x="15" y="42" text-anchor="middle" font-size="9" fill="#c0c0d0">Targets</text>
+      </g>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- MAIN TERMINAL WINDOW (The Hero Element)                      -->
+    <!-- ============================================================ -->
+    <g id="terminalWindow" filter="url(#winShadow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="9s" fill="freeze" />
+
+      <rect x="90" y="48" width="760" height="790" rx="10" fill="url(#windowBg)" stroke="#2d2d5e" stroke-width="1" />
+      <rect x="90" y="48" width="760" height="36" rx="10" fill="#1a1a2e" />
+      <rect x="90" y="74" width="760" height="10" fill="#1a1a2e" />
+
+      <!-- Terminal Top Bar Details -->
+      <rect x="90" y="79" width="760" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <!-- Window Controls -->
+      <g transform="translate(108, 60)">
+        <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+        <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+        <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+      </g>
+
+      <!-- Terminal Title -->
+      <text x="470" y="72" text-anchor="middle" font-size="11" fill="#8b949e">
+        <tspan fill="#00ff41" filter="url(#softGlow)">●</tspan>
+        root@kali: ~ — Terminal (zsh)
+      </text>
+
+      <!-- Terminal Tab Bar -->
+      <g transform="translate(180, 56)">
+        <rect x="0" y="0" width="140" height="24" rx="5" fill="#2d2d5d" />
+        <text x="12" y="16" font-size="10" fill="#e6edf3">🔒 root@kali: ~</text>
+        <rect x="0" y="22" width="140" height="2" fill="#7C3AED" />
+      </g>
+      <g transform="translate(324, 56)">
+        <rect x="0" y="0" width="130" height="24" rx="5" fill="#1a1a2e" />
+        <text x="12" y="16" font-size="10" fill="#4a5568">📁 /var/log</text>
+      </g>
+
+      <!-- ============================================================ -->
+      <!-- TERMINAL CONTENT                                             -->
+      <!-- ============================================================ -->
+      <g transform="translate(108, 82)">
+        <!-- HACKER ASCII ART - Anonymous Face -->
+        <g opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.8s" begin="9.5s" fill="freeze" />
+          <text y="0" font-size="10" fill="#7C3AED" filter="url(#terminalGlow)">
+            <tspan x="170" fill="#7C3AED" font-weight="900">╔══════════════════════════════════════════╗</tspan>
+          </text>
+          <text y="16" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">          ██████████████████████          </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="32" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">       ████████████████████████████       </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="48" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">     █████████                █████████    </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="64" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">    ██████                      ███████   </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="80" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">   █████    ████          ████    █████   </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="96" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">   ████     ████          ████     ████   </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="112" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">   ████     ████          ████     ████   </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="128" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">   █████     ████        ████     █████   </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="144" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">    █████                      ██████    </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="160" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">     █████    ████████████████   █████    </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="176" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">      ███████                ███████     </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="192" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">       █████████            █████████     </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="208" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">        ███████████████████████████       </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="224" font-size="10">
+            <tspan x="170" fill="#7C3AED">║</tspan>
+            <tspan fill="#c0c0d0">           ████████████████████           </tspan>
+            <tspan fill="#7C3AED">║</tspan>
+          </text>
+          <text y="240" font-size="10" fill="#7C3AED">
+            <tspan x="170" font-weight="900">╚══════════════════════════════════════════╝</tspan>
+          </text>
+
+          <!-- Cyberpunk Glow Eyes (animated) -->
+          <text x="310" y="97" font-size="11" fill="#00ff41" filter="url(#glow)" class="text-glow">██</text>
+          <text x="414" y="97" font-size="11" fill="#00ff41" filter="url(#glow)" class="text-glow">██</text>
+        </g>
+
+        <!-- SYSTEM INFORMATION (neofetch style) -->
+        <g clip-path="url(#termLine1)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="10s" fill="freeze" />
+          <text y="260" font-size="11" fill="#00ff41">╔══════════════════════ SYSTEM INFO ═══════════════════╗</text>
+        </g>
+        <g clip-path="url(#termLine2)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="10.8s" fill="freeze" />
+          <text y="280" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  OS</tspan>
+            <tspan fill="#8b949e">          Kali GNU/Linux 2024.2 (xfce)</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine3)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="11.5s" fill="freeze" />
+          <text y="300" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  Host</tspan>
+            <tspan fill="#8b949e">        Intel Core i9-14900KS (32) @ 5.6GHz</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine4)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="12.3s" fill="freeze" />
+          <text y="320" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  Kernel</tspan>
+            <tspan fill="#8b949e">       Linux 6.8.11-amd64 x86_64</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine5)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="13s" fill="freeze" />
+          <text y="340" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  Uptime</tspan>
+            <tspan fill="#8b949e">       14 days, 6 hours, 32 mins</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine6)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="13.8s" fill="freeze" />
+          <text y="360" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  Memory</tspan>
+            <tspan fill="#8b949e">       6.2GiB / 31.2GiB (20%)</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine7)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="14.5s" fill="freeze" />
+          <text y="380" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  Shell</tspan>
+            <tspan fill="#8b949e">        zsh 5.9 (Oh My Zsh + Powerlevel10k)</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine8)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="15.2s" fill="freeze" />
+          <text y="400" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  Tools</tspan>
+            <tspan fill="#8b949e">        Nmap, Metasploit, Burp, Wireshark, Docker</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine9)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="16s" fill="freeze" />
+          <text y="420" font-size="11" fill="#e6edf3">
+            <tspan fill="#7C3AED" font-weight="700">  GitHub</tspan>
+            <tspan fill="#8b949e">       RajaMuhammadAwais ● 47 repos ● Active</tspan>
+          </text>
+        </g>
+        <g clip-path="url(#termLine10)" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.3s" begin="16.7s" fill="freeze" />
+          <text y="440" font-size="11" fill="#00ff41">╚═══════════════════════════════════════════════════╝</text>
+        </g>
+
+        <!-- HACKING COMMANDS & OUTPUT -->
+        <g opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="17.5s" fill="freeze" />
+
+          <!-- Command 1: whoami -->
+          <text y="468" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(root㉿kali)</tspan>
+            <tspan fill="#7C3AED">-[~]</tspan>
+          </text>
+          <text y="484" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan>
+            <tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> whoami &amp;&amp; id</tspan>
+          </text>
+          <text y="500" font-size="10" fill="#00ff41">root</text>
+          <text y="516" font-size="10" fill="#8b949e">uid=0(root) gid=0(root) groups=0(root)</text>
+
+          <!-- Command 2: ip a -->
+          <text y="544" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">┌──(root㉿kali)</tspan>
+            <tspan fill="#7C3AED">-[~]</tspan>
+          </text>
+          <text y="560" font-size="11" fill="#00ff41">
+            <tspan fill="#00ff41" font-weight="700">└─</tspan>
+            <tspan fill="#7C3AED">#</tspan>
+            <tspan fill="#e6edf3"> ip a | grep -E "inet |state"</tspan>
+          </text>
+          <text y="578" font-size="10" fill="#22d3a0">eth0: UP state UP</text>
+          <text y="594" font-size="10" fill="#8b949e">    inet 192.168.1.100/24 brd 192.168.1.255</text>
+          <text y="610" font-size="10" fill="#22d3a0">tun0: UP state UP (VPN)</text>
+          <text y="626" font-size="10" fill="#8b949e">    inet 10.8.0.2/24 scope global tun0</text>
+        </g>
+
+        <!-- Final Blinking Cursor -->
+        <text y="650" font-size="11" fill="#00ff41" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="19s" repeatCount="indefinite" />
+          <tspan fill="#00ff41" font-weight="700">┌──(root㉿kali)</tspan>
+          <tspan fill="#7C3AED">-[~]</tspan>
+        </text>
+        <text y="666" font-size="11" fill="#00ff41" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="19.5s" repeatCount="indefinite" />
+          <tspan fill="#00ff41" font-weight="700">└─</tspan>
+          <tspan fill="#7C3AED">#</tspan>
+          <tspan fill="#e6edf3" class="cursor"> █</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- SYSTEM MONITOR WINDOW                                         -->
+    <!-- ============================================================ -->
+    <g id="sysmonWindow" filter="url(#winShadow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="10.5s" fill="freeze" />
+
+      <rect x="890" y="55" width="430" height="380" rx="10" fill="url(#windowBg)" stroke="#2d2d5e" stroke-width="1" />
+      <rect x="890" y="55" width="430" height="36" rx="10" fill="#1a1a2e" />
+      <rect x="890" y="81" width="430" height="10" fill="#1a1a2e" />
+      <rect x="890" y="86" width="430" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <g transform="translate(908, 67)">
+        <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+        <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+        <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+      </g>
+
+      <text x="1105" y="79" text-anchor="middle" font-size="11" fill="#8b949e">
+        <tspan fill="#38bdf8">📊</tspan> System Monitor
+      </text>
+
+      <!-- CPU Section -->
+      <g transform="translate(908, 100)">
+        <text y="0" font-size="11" fill="#8b949e">CPU Usage: <tspan fill="#22d3a0">42%</tspan></text>
+        <rect x="0" y="10" width="394" height="12" rx="4" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.6" />
+        <rect x="0" y="10" width="165" height="12" rx="4" fill="url(#neonGreen)" opacity="0.8">
+          <animate attributeName="width" values="120;180;140;160;170;150;165" dur="4s" repeatCount="indefinite" />
+        </rect>
+        <text x="180" y="20" font-size="9" fill="#4a5568">6.2 GHz / 5.6 GHz</text>
+
+        <!-- CPU Core Bars -->
+        <g transform="translate(0, 32)">
+          <rect x="0" y="0" width="90" height="16" rx="3" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.5" />
+          <rect x="2" y="2" width="32" height="12" rx="2" fill="#22d3a0" class="bar-cpu" />
+          <text x="46" y="12" font-size="8" fill="#4a5568">Core 0: 35%</text>
+        </g>
+        <g transform="translate(98, 32)">
+          <rect x="0" y="0" width="90" height="16" rx="3" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.5" />
+          <rect x="2" y="2" width="52" height="12" rx="2" fill="#38bdf8" class="bar-cpu" />
+          <text x="58" y="12" font-size="8" fill="#4a5568">Core 1: 58%</text>
+        </g>
+        <g transform="translate(196, 32)">
+          <rect x="0" y="0" width="90" height="16" rx="3" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.5" />
+          <rect x="2" y="2" width="22" height="12" rx="2" fill="#22d3a0" class="bar-mem" />
+          <text x="48" y="12" font-size="8" fill="#4a5568">Core 2: 24%</text>
+        </g>
+        <g transform="translate(294, 32)">
+          <rect x="0" y="0" width="90" height="16" rx="3" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.5" />
+          <rect x="2" y="2" width="72" height="12" rx="2" fill="#f97316" class="bar-cpu" />
+          <text x="78" y="12" font-size="8" fill="#4a5568">Core 3: 80%</text>
+        </g>
+      </g>
+
+      <!-- Memory Section -->
+      <g transform="translate(908, 170)">
+        <text y="0" font-size="11" fill="#8b949e">Memory: <tspan fill="#38bdf8">6.2 GiB / 31.2 GiB</tspan></text>
+        <rect x="0" y="10" width="394" height="12" rx="4" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.6" />
+        <rect x="0" y="10" width="80" height="12" rx="4" fill="url(#cyberCyan)" opacity="0.8">
+          <animate attributeName="width" values="70;90;75;85;80" dur="5s" repeatCount="indefinite" />
+        </rect>
+        <text x="100" y="20" font-size="9" fill="#4a5568">20% used</text>
+
+        <g transform="translate(0, 32)">
+          <rect x="0" y="0" width="128" height="54" rx="6" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.6" />
+          <text x="64" y="20" text-anchor="middle" font-size="16" fill="#38bdf8">6.2</text>
+          <text x="64" y="44" text-anchor="middle" font-size="8" fill="#4a5568">Used (GiB)</text>
+        </g>
+        <g transform="translate(136, 32)">
+          <rect x="0" y="0" width="128" height="54" rx="6" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.6" />
+          <text x="64" y="20" text-anchor="middle" font-size="16" fill="#22d3a0">25.0</text>
+          <text x="64" y="44" text-anchor="middle" font-size="8" fill="#4a5568">Free (GiB)</text>
+        </g>
+        <g transform="translate(272, 32)">
+          <rect x="0" y="0" width="128" height="54" rx="6" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.6" />
+          <text x="64" y="20" text-anchor="middle" font-size="16" fill="#f97316">2.4</text>
+          <text x="64" y="44" text-anchor="middle" font-size="8" fill="#4a5568">Swap (GiB)</text>
+        </g>
+      </g>
+
+      <!-- Network Section -->
+      <g transform="translate(908, 270)">
+        <text y="0" font-size="11" fill="#8b949e">Network:</text>
+        <g transform="translate(0, 14)">
+          <text y="0" font-size="10" fill="#4a5568">⬇ Download:</text>
+          <text x="90" y="0" font-size="10" fill="#22d3a0" class="text-glow">1.24 Gbps</text>
+          <rect x="0" y="8" width="394" height="6" rx="3" fill="#1a1a2e" />
+          <rect x="0" y="8" width="110" height="6" rx="3" fill="#22d3a0">
+            <animate attributeName="width" values="90;130;100;110;95;120;110" dur="3s" repeatCount="indefinite" />
+          </rect>
+        </g>
+        <g transform="translate(0, 36)">
+          <text y="0" font-size="10" fill="#4a5568">⬆ Upload:</text>
+          <text x="90" y="0" font-size="10" fill="#38bdf8">340 Mbps</text>
+          <rect x="0" y="8" width="394" height="6" rx="3" fill="#1a1a2e" />
+          <rect x="0" y="8" width="40" height="6" rx="3" fill="#38bdf8">
+            <animate attributeName="width" values="30;50;35;42;38;45;40" dur="4s" repeatCount="indefinite" />
+          </rect>
+        </g>
+      </g>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- FILE MANAGER WINDOW (Thunar)                                  -->
+    <!-- ============================================================ -->
+    <g id="thunarWindow" filter="url(#winShadow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="11.5s" fill="freeze" />
+
+      <rect x="890" y="460" width="430" height="350" rx="10" fill="url(#windowBg)" stroke="#2d2d5e" stroke-width="1" />
+      <rect x="890" y="460" width="430" height="36" rx="10" fill="#1a1a2e" />
+      <rect x="890" y="486" width="430" height="10" fill="#1a1a2e" />
+      <rect x="890" y="491" width="430" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <g transform="translate(908, 472)">
+        <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+        <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+        <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+      </g>
+
+      <text x="1105" y="484" text-anchor="middle" font-size="11" fill="#8b949e">
+        <tspan fill="#f97316">📁</tspan> File Manager — /root/projects
+      </text>
+
+      <!-- Toolbar -->
+      <g transform="translate(898, 502)">
+        <rect x="0" y="0" width="414" height="30" rx="4" fill="#1a1a2e" stroke="#2d2d5e" stroke-width="0.6" />
+        <g transform="translate(8, 6)">
+          <rect x="0" y="0" width="28" height="18" rx="3" fill="#2d2d5d" />
+          <text x="14" y="14" text-anchor="middle" font-size="10" fill="#8b949e">◀</text>
+        </g>
+        <g transform="translate(40, 6)">
+          <rect x="0" y="0" width="28" height="18" rx="3" fill="#2d2d5d" />
+          <text x="14" y="14" text-anchor="middle" font-size="10" fill="#8b949e">▶</text>
+        </g>
+        <g transform="translate(76, 6)">
+          <rect x="0" y="0" width="250" height="18" rx="4" fill="#0d0d1a" stroke="#2d2d5d" stroke-width="0.6" />
+          <text x="10" y="14" font-size="9" fill="#4a5568">/root/projects/enterprise-platform/</text>
+        </g>
+        <g transform="translate(334, 6)">
+          <rect x="0" y="0" width="28" height="18" rx="3" fill="#2d2d5d" />
+          <text x="14" y="14" text-anchor="middle" font-size="10" fill="#8b949e">🔍</text>
+        </g>
+        <g transform="translate(366, 6)">
+          <rect x="0" y="0" width="28" height="18" rx="3" fill="#2d2d5d" />
+          <text x="14" y="14" text-anchor="middle" font-size="10" fill="#8b949e">☰</text>
+        </g>
+        <g transform="translate(398, 6)">
+          <rect x="0" y="0" width="28" height="18" rx="3" fill="#2d2d5d" />
+          <text x="14" y="14" text-anchor="middle" font-size="10" fill="#8b949e">⚙</text>
+        </g>
+      </g>
+
+      <!-- File List -->
+      <g transform="translate(898, 540)">
+        <!-- Sidebar -->
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="12s" fill="freeze" />
+        <rect x="0" y="0" width="120" height="245" fill="#14142a" stroke="#2d2d5e" stroke-width="0.5" />
+        <g transform="translate(8, 12)" font-size="10">
+          <text y="0" fill="#7C3AED" font-weight="700">📂 Places</text>
+          <text y="22" fill="#e6edf3">📁 root</text>
+          <text y="44" fill="#8b949e">📁 Desktop</text>
+          <text y="66" fill="#8b949e">📁 Downloads</text>
+          <text y="88" fill="#8b949e">📁 Documents</text>
+          <text y="110" fill="#e6edf3" font-weight="700">📁 projects</text>
+          <text y="132" fill="#8b949e">📁 tools</text>
+          <text y="154" fill="#8b949e">📁 targets</text>
+          <text y="176" fill="#8b949e">📁 reports</text>
+          <text y="198" fill="#7C3AED">────────────────</text>
+          <text y="218" fill="#8b949e">🗑 Trash</text>
+          <text y="240" fill="#8b949e">💻 Network</text>
+        </g>
+
+        <!-- File Contents -->
+        <g transform="translate(128, 12)" font-size="10">
+          <animate attributeName="opacity" values="0;1" dur="0.5s" begin="12s" fill="freeze" />
+          <text y="0" fill="#8b949e">Name                    Size     Modified</text>
+          <text y="22" fill="#22d3a0">📁 src/                   -        Today 14:00</text>
+          <text y="42" fill="#22d3a0">📁 config/                -        Today 13:45</text>
+          <text y="62" fill="#22d3a0">📁 deployment/            -        Today 13:30</text>
+          <text y="82" fill="#22d3a0">📁 notebooks/             -        Yesterday</text>
+          <text y="102" fill="#e6edf3">📄 main.py              12KB     Today 14:22</text>
+          <text y="122" fill="#e6edf3">📄 inference.py          8KB      Today 14:10</text>
+          <text y="142" fill="#e6edf3">📄 rag_pipeline.py       15KB     Today 13:55</text>
+          <text y="162" fill="#e6edf3">📄 Dockerfile            2KB      Today 12:30</text>
+          <text y="182" fill="#e6edf3">📄 docker-compose.yml    4KB      Today 12:20</text>
+          <text y="202" fill="#e6edf3">📄 requirements.txt      1KB      Yesterday</text>
+          <text y="222" fill="#e6edf3">📄 README.md             3KB      Yesterday</text>
+          <text y="242" fill="#8b949e">──────────────────────────────────────────────</text>
+          <text y="260" fill="#00ff41">  ✓ 12 items (245.2 MB total)</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- BOTTOM DOCK (Kali Application Dock)                          -->
+    <!-- ============================================================ -->
+    <g id="bottomDock" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="9.5s" fill="freeze" />        <g transform="translate(410, 855)">
+        <rect x="0" y="0" width="580" height="52" rx="24" fill="#1a1a2e" opacity="0.92" stroke="#2d2d5e" stroke-width="1" />
+
+        <!-- Active dock indicator -->
+        <rect x="22" y="0" width="4" height="52" rx="2" fill="#7C3AED" opacity="0.3" />
+
+        <!-- Terminal (Active) -->
+        <g transform="translate(14, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" stroke="#7C3AED" stroke-width="1" />
+          <rect x="8" y="8" width="24" height="16" rx="2" fill="none" stroke="#00ff41" stroke-width="2" />
+          <text x="12" y="28" font-size="9" fill="#00ff41">>_</text>
+          <rect x="0" y="38" width="40" height="2" rx="1" fill="#7C3AED" />
+        </g>
+
+        <!-- File Manager -->
+        <g transform="translate(64, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <text x="20" y="28" text-anchor="middle" font-size="18" fill="#f97316">📁</text>
+        </g>
+
+        <!-- Firefox -->
+        <g transform="translate(114, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <circle cx="20" cy="20" r="10" fill="none" stroke="#f97316" stroke-width="2" />
+          <path d="M12 20 Q20 6 28 20" fill="none" stroke="#f97316" stroke-width="1.5" />
+        </g>
+
+        <!-- Burp Suite -->
+        <g transform="translate(164, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <circle cx="20" cy="18" r="8" fill="none" stroke="#f97316" stroke-width="2" />
+          <text x="20" y="36" text-anchor="middle" font-size="8" fill="#f97316">B</text>
+        </g>
+
+        <!-- Wireshark -->
+        <g transform="translate(214, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <text x="20" y="28" text-anchor="middle" font-size="18" fill="#38bdf8">🦈</text>
+        </g>
+
+        <!-- Metasploit -->
+        <g transform="translate(264, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <text x="20" y="28" text-anchor="middle" font-size="18" fill="#22d3a0">⚔</text>
+        </g>
+
+        <!-- Nmap -->
+        <g transform="translate(314, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <text x="20" y="28" text-anchor="middle" font-size="18" fill="#7C3AED">🌐</text>
+        </g>
+
+        <!-- Docker -->
+        <g transform="translate(364, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <text x="20" y="28" text-anchor="middle" font-size="18" fill="#38bdf8">🐳</text>
+        </g>
+
+        <!-- VS Code -->
+        <g transform="translate(414, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <rect x="10" y="10" width="8" height="20" rx="2" fill="#3b82f6" />
+          <rect x="22" y="10" width="8" height="20" rx="2" fill="#6366f1" />
+        </g>
+
+        <!-- GitHub -->
+        <g transform="translate(464, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <circle cx="20" cy="20" r="10" fill="none" stroke="#e6edf3" stroke-width="2" />
+          <text x="20" y="25" text-anchor="middle" font-size="12" fill="#e6edf3">G</text>
+        </g>
+
+        <!-- Settings -->
+        <g transform="translate(514, 6)">
+          <rect x="0" y="0" width="40" height="40" rx="10" fill="#2d2d5d" />
+          <circle cx="20" cy="20" r="6" fill="none" stroke="#8b949e" stroke-width="2" />
+          <circle cx="20" cy="20" r="3" fill="#8b949e" />
+        </g>
+      </g>
+
+      <!-- Hostname label in bottom right -->
+      <g transform="translate(1260, 870)">
+        <rect x="0" y="0" width="120" height="24" rx="4" fill="#1a1a2e" opacity="0.8" stroke="#2d2d5e" stroke-width="0.6" />
+        <text x="60" y="16" text-anchor="middle" font-size="9" fill="#4a5568">
+          <tspan fill="#7C3AED">KALI</tspan> • root@kali
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
