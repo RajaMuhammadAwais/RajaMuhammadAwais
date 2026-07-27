@@ -18,30 +18,19 @@ jobs:
       - name: Create stats directory
         run: mkdir -p stats
 
-      - name: Set GitHub token for private repo stats
-        run: |
-          # GITHUB_TOKEN only covers this repo. For ALL private repos:
-          # 1. Create a PAT (repo scope) → https://github.com/settings/tokens?type=beta
-          # 2. Add as secret GH_PAT → Settings → Secrets → Actions → New secret
-          if [ -n "${{ secrets.GH_PAT }}" ]; then
-            echo "Using Personal Access Token (covers all private repos)"
-            echo "GH_TOKEN=${{ secrets.GH_PAT }}" >> $GITHUB_ENV
-          else
-            echo "Using GITHUB_TOKEN (covers only this repo)"
-            echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
-          fi
-
       - name: Generate GitHub Stats Card
         run: |
+          # Self-hosted instance with PAT_1 configured server-side on Vercel
+          # → includes ALL private repos data
           curl --fail -s \
-            "https://github-stats-extended.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&include_all_commits=true&PAT_1=${GH_TOKEN}" \
+            "https://github-readme-stats-five-dusky-24.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&include_all_commits=true" \
             -o stats/github-stats.svg
           echo "GitHub Stats Card generated: $(wc -c < stats/github-stats.svg) bytes"
 
       - name: Generate Top Languages Card
         run: |
           curl --fail -s \
-            "https://github-stats-extended.vercel.app/api/top-langs?username=RajaMuhammadAwais&layout=compact&theme=tokyonight&hide_border=true&PAT_1=${GH_TOKEN}" \
+            "https://github-readme-stats-five-dusky-24.vercel.app/api/top-langs?username=RajaMuhammadAwais&layout=compact&theme=tokyonight&hide_border=true" \
             -o stats/top-langs.svg
           echo "Top Languages Card generated: $(wc -c < stats/top-langs.svg) bytes"
 
