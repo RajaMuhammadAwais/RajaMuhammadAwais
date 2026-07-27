@@ -154,6 +154,36 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%">
+      <h3>⚡ DPDK-nDPI Traffic Analysis Lab</h3>
+      <p><strong>Tech Stack:</strong> DPDK, nDPI, ELK Stack, C, Python</p>
+      <p>Research-grade laboratory environment for high-speed network traffic classification. Integrates <strong>DPDK</strong> (Data Plane Development Kit) for kernel-bypass packet capture and <strong>nDPI</strong> for deep application-layer protocol identification with JA4+ TLS fingerprinting and stateful flow tracking using DPDK's <code>rte_hash</code>.</p>
+      <p>
+        <img src="https://img.shields.io/badge/DPDK_Kernel_Bypass-0095D5?style=flat-square&logo=intel&logoColor=white" alt="DPDK Data Plane Development Kit" />
+        <img src="https://img.shields.io/badge/nDPI_Deep_Packet_Inspection-00E676?style=flat-square&logo=probot&logoColor=white" alt="nDPI Deep Packet Inspection" />
+        <img src="https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="ELK Stack Log Analytics" />
+        <img src="https://img.shields.io/badge/C_Programming-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C Programming Language" />
+      </p>
+      <p>
+        <a href="https://github.com/RajaMuhammadAwais/dpdk-ndpi-traffic-analysis-lab"><strong>View Repository →</strong></a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🚨 Real-Time Network Anomaly Detection</h3>
+      <p><strong>Tech Stack:</strong> DPDK, nDPI, Python, Machine Learning, libpcap</p>
+      <p>Full-stack security monitoring platform that leverages high-performance packet capture via <strong>DPDK/libpcap</strong> and incorporates <strong>Deep Packet Inspection (DPI)</strong> for payload signature analysis and botnet heuristics detection. Enables real-time threat identification at wire speed.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Packet_Capture-004F8C?style=flat-square&logo=wireshark&logoColor=white" alt="High-Performance Packet Capture" />
+        <img src="https://img.shields.io/badge/DPI_Engine-FF6600?style=flat-square&logo=probot&logoColor=white" alt="Deep Packet Inspection Engine" />
+        <img src="https://img.shields.io/badge/Python_ML-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python Machine Learning" />
+        <img src="https://img.shields.io/badge/Botnet_Detection-DC143C?style=flat-square&logo=security&logoColor=white" alt="Botnet Threat Detection" />
+      </p>
+      <p>
+        <a href="https://github.com/RajaMuhammadAwais/real-time-network-anomaly-detection"><strong>View Repository →</strong></a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
