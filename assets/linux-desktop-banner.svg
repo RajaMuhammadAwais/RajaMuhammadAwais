@@ -534,7 +534,48 @@
     </g>
 
     <!-- ============================================================ -->
-    <!-- WINDOW 2: VS CODE                                            -->
+    <!-- WINDOW 2: DEVOPS TERMINAL                                   -->
+    <!-- ============================================================ -->
+    <g transform="translate(730, 90)" filter="url(#windowShadow)" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="10.2s" fill="freeze" />
+      <rect x="0" y="0" width="560" height="320" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="560" height="38" rx="10" fill="url(#titlebar)" />
+      <rect x="0" y="28" width="560" height="10" fill="url(#titlebar)" />
+      <g transform="translate(14, 11)">
+        <circle cx="0" cy="8" r="7" fill="#ff5f57" />
+        <circle cx="24" cy="8" r="7" fill="#febc2e" />
+        <circle cx="48" cy="8" r="7" fill="#28c840" />
+      </g>
+      <text x="280" y="24" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="12" fill="#6b553f">ops-shell</text>
+      <g transform="translate(18, 56)">
+        <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#4ef2b2">
+          <tspan fill="#00e5ff">raja@ubuntu</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> kubectl get pods -A</tspan>
+        </text>
+        <text y="24" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">NAMESPACE      NAME                  READY   STATUS</text>
+        <text y="44" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#4ef2b2">kube-system    coredns-7d4f6        2/2     Running</text>
+        <text y="64" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#4ef2b2">dev            api-gateway-7f2b    1/1     Running</text>
+        <text y="88" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#4ef2b2">
+          <tspan fill="#00e5ff">raja@ubuntu</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> docker ps --format 'table {{.Names}}\t{{.Status}}'</tspan>
+        </text>
+        <text y="112" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">postgres   Up 14 days</text>
+        <text y="132" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">redis      Up 14 days</text>
+        <text y="156" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#4ef2b2">
+          <tspan fill="#00e5ff">raja@ubuntu</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> terraform plan -out=tfplan</tspan>
+        </text>
+        <text y="180" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">Plan: 3 to add, 5 to change, 1 to destroy.</text>
+        <text y="204" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#4ef2b2">
+          <tspan fill="#00e5ff">raja@ubuntu</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> ansible-playbook --syntax-check deploy.yml</tspan>
+        </text>
+        <text y="228" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">playbook: deploy.yml syntax ok</text>
+        <text y="252" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#4ef2b2">
+          <tspan fill="#00e5ff">raja@ubuntu</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> systemctl status docker</tspan>
+        </text>
+        <text y="276" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">● docker.service - Docker Application Container Engine</text>
+      </g>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- WINDOW 3: VS CODE                                            -->
     <!-- ============================================================ -->
     <g transform="translate(530, 55)" filter="url(#windowShadow)" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="9.5s" fill="freeze" />

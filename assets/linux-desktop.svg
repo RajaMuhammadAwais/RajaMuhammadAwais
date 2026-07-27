@@ -1,0 +1,245 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="auto" role="img" aria-label="Animated Linux desktop interface for Raja Muhammad Awais">
+  <title>Linux Desktop Interface for Raja Muhammad Awais</title>
+  <desc>Animated GitHub README desktop experience with terminal, VS Code, system monitor, AI console, security center, and cloud dashboard.</desc>
+  <defs>
+    <linearGradient id="deskBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07111d"/>
+      <stop offset="50%" stop-color="#0c1824"/>
+      <stop offset="100%" stop-color="#050914"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111c2d"/>
+      <stop offset="100%" stop-color="#0a1320"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ef2b2"/>
+      <stop offset="50%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#5aa6ff"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffb454"/>
+      <stop offset="100%" stop-color="#ff7a18"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#14334a" stroke-width="1" opacity="0.25"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#deskBg)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity="0.55"/>
+  <circle cx="1260" cy="140" r="200" fill="#00e5ff" opacity="0.05"/>
+  <circle cx="340" cy="720" r="240" fill="#4ef2b2" opacity="0.05"/>
+
+  <rect x="0" y="0" width="1600" height="56" fill="#050b14" opacity="0.95"/>
+  <rect x="0" y="56" width="1600" height="844" fill="none"/>
+  <text x="40" y="35" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#dceeff">Ubuntu / Kali Style Workstation</text>
+  <text x="1220" y="35" font-family="'Cascadia Code', Consolas, monospace" font-size="14" fill="#4ef2b2">CPU 62%</text>
+  <text x="1320" y="35" font-family="'Cascadia Code', Consolas, monospace" font-size="14" fill="#00e5ff">RAM 74%</text>
+  <text x="1420" y="35" font-family="'Cascadia Code', Consolas, monospace" font-size="14" fill="#5aa6ff">NET OK</text>
+  <text x="1520" y="35" font-family="'Cascadia Code', Consolas, monospace" font-size="14" fill="#4ef2b2">●</text>
+  <text x="40" y="840" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#8fb4cf">raja@devops</text>
+
+  <g transform="translate(40 88)">
+    <rect x="0" y="0" width="76" height="600" rx="20" fill="#060b15" stroke="#15334b" stroke-width="1.3"/>
+    <rect x="16" y="18" width="44" height="44" rx="12" fill="#0d1724" stroke="#234d66"/>
+    <text x="28" y="47" font-family="'Cascadia Code', Consolas, monospace" font-size="22" fill="#4ef2b2">⌘</text>
+    <rect x="16" y="90" width="44" height="44" rx="12" fill="#10253b" stroke="#264d63"/>
+    <text x="26" y="120" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#00e5ff">T</text>
+    <rect x="16" y="156" width="44" height="44" rx="12" fill="#10253b" stroke="#264d63"/>
+    <text x="26" y="186" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#5aa6ff">B</text>
+    <rect x="16" y="222" width="44" height="44" rx="12" fill="#10253b" stroke="#264d63"/>
+    <text x="24" y="252" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#4ef2b2">V</text>
+    <rect x="16" y="288" width="44" height="44" rx="12" fill="#10253b" stroke="#264d63"/>
+    <text x="24" y="318" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#00e5ff">D</text>
+    <rect x="16" y="354" width="44" height="44" rx="12" fill="#10253b" stroke="#264d63"/>
+    <text x="24" y="384" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#4ef2b2">G</text>
+    <rect x="16" y="420" width="44" height="44" rx="12" fill="#10253b" stroke="#264d63"/>
+    <text x="24" y="450" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#5aa6ff">F</text>
+    <rect x="16" y="486" width="44" height="44" rx="12" fill="#10253b" stroke="#264d63"/>
+    <text x="24" y="516" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#4ef2b2">S</text>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.95">
+    <rect x="150" y="90" width="540" height="340" rx="18" fill="#0b1522" stroke="#204459" stroke-width="1.3"/>
+    <rect x="150" y="90" width="540" height="36" rx="18" fill="#101d2c"/>
+    <circle cx="176" cy="108" r="6" fill="#ff5f57"/>
+    <circle cx="198" cy="108" r="6" fill="#febc2e"/>
+    <circle cx="220" cy="108" r="6" fill="#28c840"/>
+    <text x="250" y="113" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">Terminal</text>
+    <rect x="150" y="126" width="540" height="304" rx="0 0 18 18" fill="#060a10"/>
+    <text x="176" y="160" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#4ef2b2">raja@devops:~$</text>
+    <text x="320" y="160" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#dceeff">
+      whoami
+      <animate attributeName="textLength" values="0;80" dur="0.7s" begin="0.3s" fill="freeze"/>
+      <animate attributeName="lengthAdjust" values="spacingAndGlyphs" dur="0.7s" begin="0.3s" fill="freeze"/>
+    </text>
+    <text x="176" y="190" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#00e5ff">Raja Muhammad Awais</text>
+    <text x="176" y="220" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#4ef2b2">raja@devops:~$</text>
+    <text x="320" y="220" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#dceeff">
+      kubectl get nodes
+      <animate attributeName="textLength" values="0;160" dur="0.8s" begin="1.3s" fill="freeze"/>
+      <animate attributeName="lengthAdjust" values="spacingAndGlyphs" dur="0.8s" begin="1.3s" fill="freeze"/>
+    </text>
+    <text x="176" y="250" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#5aa6ff">node-01 Ready   node-02 Ready   node-03 Ready</text>
+    <text x="176" y="280" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#4ef2b2">raja@devops:~$</text>
+    <text x="320" y="280" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#dceeff">
+      docker ps
+      <animate attributeName="textLength" values="0;90" dur="0.7s" begin="2.4s" fill="freeze"/>
+      <animate attributeName="lengthAdjust" values="spacingAndGlyphs" dur="0.7s" begin="2.4s" fill="freeze"/>
+    </text>
+    <text x="176" y="310" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#4ef2b2">nginx  running  0.0.0.0:80</text>
+    <text x="176" y="340" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#4ef2b2">raja@devops:~$</text>
+    <text x="320" y="340" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#dceeff">
+      terraform plan
+      <animate attributeName="textLength" values="0;140" dur="0.8s" begin="3.6s" fill="freeze"/>
+      <animate attributeName="lengthAdjust" values="spacingAndGlyphs" dur="0.8s" begin="3.6s" fill="freeze"/>
+    </text>
+    <text x="176" y="370" font-family="'Cascadia Code', Consolas, monospace" font-size="15" fill="#00e5ff">Plan: 6 to add, 0 to change, 0 to destroy</text>
+    <rect x="650" y="148" width="10" height="16" fill="#dceeff" opacity="0.95">
+      <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.95">
+    <rect x="430" y="180" width="590" height="355" rx="18" fill="#0c1524" stroke="#21455a" stroke-width="1.3"/>
+    <rect x="430" y="180" width="590" height="36" rx="18" fill="#101c2b"/>
+    <circle cx="456" cy="198" r="6" fill="#ff5f57"/>
+    <circle cx="478" cy="198" r="6" fill="#febc2e"/>
+    <circle cx="500" cy="198" r="6" fill="#28c840"/>
+    <text x="528" y="203" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">VS Code — healthcare-iot-realtime-platform</text>
+    <rect x="430" y="216" width="590" height="319" rx="0 0 18 18" fill="#0a1018"/>
+    <rect x="446" y="238" width="140" height="276" rx="10" fill="#0f1a2b" stroke="#21435a"/>
+    <text x="468" y="268" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#00e5ff">Explorer</text>
+    <text x="468" y="294" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#5aa6ff">src/</text>
+    <text x="486" y="318" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">main.py</text>
+    <text x="486" y="342" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">docker-compose.yml</text>
+    <text x="486" y="366" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">k8s.yaml</text>
+    <text x="486" y="390" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">rag.py</text>
+    <text x="486" y="414" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">README.md</text>
+    <rect x="600" y="238" width="400" height="276" rx="10" fill="#0d151f" stroke="#21435a"/>
+    <rect x="616" y="256" width="368" height="24" rx="6" fill="#101c2b"/>
+    <text x="632" y="272" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#4ef2b2">main.py</text>
+    <text x="700" y="272" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">docker-compose.yml</text>
+    <text x="840" y="272" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">k8s.yaml</text>
+    <text x="620" y="314" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#00e5ff">def load_context():</text>
+    <text x="620" y="338" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#5aa6ff">    embed = OpenAIEmbeddings()</text>
+    <text x="620" y="362" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#4ef2b2">    vector_store = Qdrant()</text>
+    <text x="620" y="386" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#8fb4cf">    return build_rag_pipeline()</text>
+    <text x="620" y="410" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#ffb454"># production-ready</text>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.95">
+    <rect x="1040" y="110" width="440" height="275" rx="18" fill="#0b1420" stroke="#21455a" stroke-width="1.3"/>
+    <rect x="1040" y="110" width="440" height="36" rx="18" fill="#111d2c"/>
+    <circle cx="1066" cy="128" r="6" fill="#ff5f57"/>
+    <circle cx="1088" cy="128" r="6" fill="#febc2e"/>
+    <circle cx="1110" cy="128" r="6" fill="#28c840"/>
+    <text x="1138" y="133" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">System Monitor</text>
+    <rect x="1070" y="170" width="110" height="90" rx="10" fill="#0f1a2b"/>
+    <rect x="1194" y="170" width="110" height="90" rx="10" fill="#0f1a2b"/>
+    <rect x="1318" y="170" width="110" height="90" rx="10" fill="#0f1a2b"/>
+    <rect x="1088" y="182" width="74" height="46" rx="8" fill="#4ef2b2" opacity="0.9">
+      <animate attributeName="height" values="0;46" dur="1.2s" begin="0.2s" fill="freeze"/>
+    </rect>
+    <rect x="1212" y="182" width="74" height="70" rx="8" fill="#00e5ff" opacity="0.9">
+      <animate attributeName="height" values="0;70" dur="1.2s" begin="0.6s" fill="freeze"/>
+    </rect>
+    <rect x="1336" y="182" width="74" height="58" rx="8" fill="#5aa6ff" opacity="0.9">
+      <animate attributeName="height" values="0;58" dur="1.2s" begin="0.9s" fill="freeze"/>
+    </rect>
+    <text x="1070" y="282" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#4ef2b2">CPU</text>
+    <text x="1194" y="282" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#00e5ff">RAM</text>
+    <text x="1318" y="282" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#5aa6ff">NET</text>
+    <path d="M1070 332 C1105 308, 1128 310, 1152 322 C1184 338, 1218 340, 1266 306 C1301 282, 1328 280, 1360 298" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round">
+      <animate attributeName="stroke-dasharray" values="0 1000; 1000 0" dur="2.0s" repeatCount="indefinite"/>
+    </path>
+    <text x="1070" y="352" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#8fb4cf">Pods running: 18  Docker: 6</text>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.95">
+    <rect x="160" y="470" width="500" height="280" rx="18" fill="#0b1420" stroke="#21455a" stroke-width="1.3"/>
+    <rect x="160" y="470" width="500" height="36" rx="18" fill="#111d2c"/>
+    <circle cx="186" cy="488" r="6" fill="#ff5f57"/>
+    <circle cx="208" cy="488" r="6" fill="#febc2e"/>
+    <circle cx="230" cy="488" r="6" fill="#28c840"/>
+    <text x="258" y="493" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">GitHub Dashboard</text>
+    <rect x="182" y="514" width="150" height="92" rx="10" fill="#0f1a2b" stroke="#22475d"/>
+    <text x="202" y="544" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#4ef2b2">Pinned Projects</text>
+    <text x="202" y="568" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#00e5ff">platform-ops</text>
+    <text x="202" y="586" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">rag-infra</text>
+    <rect x="346" y="514" width="150" height="92" rx="10" fill="#0f1a2b" stroke="#22475d"/>
+    <text x="366" y="544" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#4ef2b2">Activity</text>
+    <text x="366" y="568" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#00e5ff">12 commits today</text>
+    <text x="366" y="586" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">+139 contributions</text>
+    <rect x="182" y="620" width="314" height="90" rx="10" fill="#0f1a2b" stroke="#22475d"/>
+    <text x="202" y="648" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#4ef2b2">Contribution Heatmap</text>
+    <g fill="#1d4f65">
+      <rect x="204" y="660" width="10" height="10" rx="2"/><rect x="220" y="660" width="10" height="10" rx="2" fill="#4ef2b2"/><rect x="236" y="660" width="10" height="10" rx="2"/><rect x="252" y="660" width="10" height="10" rx="2" fill="#00e5ff"/><rect x="268" y="660" width="10" height="10" rx="2"/><rect x="284" y="660" width="10" height="10" rx="2" fill="#4ef2b2"/><rect x="300" y="660" width="10" height="10" rx="2"/><rect x="316" y="660" width="10" height="10" rx="2" fill="#5aa6ff"/>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.95">
+    <rect x="720" y="470" width="470" height="280" rx="18" fill="#0b1420" stroke="#21455a" stroke-width="1.3"/>
+    <rect x="720" y="470" width="470" height="36" rx="18" fill="#111d2c"/>
+    <circle cx="746" cy="488" r="6" fill="#ff5f57"/>
+    <circle cx="768" cy="488" r="6" fill="#febc2e"/>
+    <circle cx="790" cy="488" r="6" fill="#28c840"/>
+    <text x="818" y="493" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">AI Console</text>
+    <text x="746" y="534" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#4ef2b2">Loading LLM...</text>
+    <text x="746" y="560" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#00e5ff">Initializing embedding model...</text>
+    <text x="746" y="586" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#5aa6ff">Connecting ChromaDB & Qdrant...</text>
+    <rect x="746" y="606" width="280" height="10" rx="5" fill="#102132"/>
+    <rect x="746" y="606" width="220" height="10" rx="5" fill="url(#accent)">
+      <animate attributeName="width" values="0;220" dur="1.8s" begin="0.3s" fill="freeze"/>
+    </rect>
+    <text x="746" y="642" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#4ef2b2">Status: Connected • Ready</text>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.95">
+    <rect x="1220" y="470" width="330" height="280" rx="18" fill="#0b1420" stroke="#21455a" stroke-width="1.3"/>
+    <rect x="1220" y="470" width="330" height="36" rx="18" fill="#111d2c"/>
+    <circle cx="1246" cy="488" r="6" fill="#ff5f57"/>
+    <circle cx="1268" cy="488" r="6" fill="#febc2e"/>
+    <circle cx="1290" cy="488" r="6" fill="#28c840"/>
+    <text x="1318" y="493" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">Security Center</text>
+    <text x="1246" y="534" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#4ef2b2">Scanning ports...</text>
+    <text x="1246" y="560" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#00e5ff">Checking containers...</text>
+    <text x="1246" y="586" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#5aa6ff">Running Trivy...</text>
+    <text x="1246" y="612" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#4ef2b2">No threats found</text>
+    <text x="1246" y="638" font-family="'Cascadia Code', Consolas, monospace" font-size="13" fill="#00e5ff">Security score: 98%</text>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.95">
+    <rect x="930" y="620" width="460" height="220" rx="18" fill="#0b1420" stroke="#21455a" stroke-width="1.3"/>
+    <rect x="930" y="620" width="460" height="36" rx="18" fill="#111d2c"/>
+    <circle cx="956" cy="638" r="6" fill="#ff5f57"/>
+    <circle cx="978" cy="638" r="6" fill="#febc2e"/>
+    <circle cx="1000" cy="638" r="6" fill="#28c840"/>
+    <text x="1028" y="643" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#8fb4cf">Cloud Dashboard</text>
+    <rect x="956" y="674" width="100" height="70" rx="10" fill="#102132"/>
+    <text x="972" y="700" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#4ef2b2">AWS</text>
+    <text x="972" y="718" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#00e5ff">Connected</text>
+    <rect x="1070" y="674" width="100" height="70" rx="10" fill="#102132"/>
+    <text x="1086" y="700" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#4ef2b2">Azure</text>
+    <text x="1086" y="718" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#00e5ff">Connected</text>
+    <rect x="1184" y="674" width="100" height="70" rx="10" fill="#102132"/>
+    <text x="1200" y="700" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#4ef2b2">GCP</text>
+    <text x="1200" y="718" font-family="'Cascadia Code', Consolas, monospace" font-size="12" fill="#00e5ff">Standby</text>
+    <rect x="956" y="764" width="328" height="10" rx="5" fill="#102132"/>
+    <rect x="956" y="764" width="280" height="10" rx="5" fill="url(#orange)">
+      <animate attributeName="width" values="0;280" dur="2.0s" begin="0.8s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <text x="800" y="860" text-anchor="middle" font-family="'Cascadia Code', Consolas, monospace" font-size="20" fill="#4ef2b2" filter="url(#glow)">
+    RAJA MUHAMMAD AWAIS
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.8s" repeatCount="indefinite"/>
+  </text>
+</svg>
