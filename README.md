@@ -74,7 +74,7 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
 ### 🖥️ Operating Systems & Platforms
 ![Linux Operating System](https://img.shields.io/badge/Linux_OS-FCC624?style=for-the-badge&logo=linux&logoColor=black&label=OS)
 ![Kali Linux Security](https://img.shields.io/badge/Kali_Linux_Penetration_Testing-557C94?style=for-the-badge&logo=kalilinux&logoColor=white&label=Security%20OS)
-![Ubuntu Linux](https://img.shields.io/badge/Ubuntu_Linux- E95420?style=for-the-badge&logo=ubuntu&logoColor=white&label=Linux)
+![Ubuntu Linux](https://img.shields.io/badge/Ubuntu_Linux-E95420?style=for-the-badge&logo=ubuntu&logoColor=white&label=Linux)
 ![Debian Linux](https://img.shields.io/badge/Debian_Linux-A81D33?style=for-the-badge&logo=debian&logoColor=white&label=Linux)
 
 ### 📊 Monitoring, Observability & Logging
@@ -240,6 +240,5 @@ I am actively open to collaboration on **open-source DevOps tools, AI/ML infrast
   <strong>DevOps Engineer • AI Engineer • Cyber Security Researcher • Cloud & Kubernetes Architect • RAG Systems Engineer</strong>
   <br />
   <em>Architecting secure, intelligent, and scalable infrastructure — one commit at a time.</em>
-  <br /><br />
-  <img src="https://komarev.com/ghpvc/?username=RajaMuhammadAwais&color=blueviolet&style=flat-square" alt="Raja Muhammad Awais — Profile visitor counter" />
+
 </p>
