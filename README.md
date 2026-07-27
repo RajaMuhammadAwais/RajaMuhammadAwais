@@ -198,7 +198,7 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
 
 <p align="center">
   <img src="stats/streak-stats.svg" alt="Raja Muhammad Awais GitHub Contribution Streak — Daily Commits and Consistency" width="48%" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=tokyonight&hide_border=true&area=true" alt="Raja Muhammad Awais GitHub Contribution Activity Graph — Open Source Contributions Over Time" width="98%" />
+  <img src="stats/activity-graph.svg" alt="Raja Muhammad Awais GitHub Contribution Activity Graph — Open Source Contributions Over Time" width="98%" />
 </p>
 
 ---
