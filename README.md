@@ -1,10 +1,10 @@
 # Raja Muhammad Awais
 
-<p align="center">
-  <img src="assets/linux-desktop-banner.svg" alt="Animated Linux Desktop for Raja Muhammad Awais — DevOps, AI, Cyber Security" width="100%" />
-</p>
-
-<!-- ☀️ Light mode variant: <img src="assets/linux-desktop-banner-light.svg" alt="Light theme Linux Desktop for Raja Muhammad Awais" width="100%" /> -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-desktop-banner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
+  <img src="assets/linux-desktop-banner.svg" alt="Animated Linux Desktop for Raja Muhammad Awais — DevOps, AI, Cyber Security" style="width:100%;max-width:1400px;height:auto;display:block;margin:0 auto;" />
+</picture>
 
 <p align="center">
   <strong>DevOps Engineer • AI Engineer • Cyber Security Researcher • Cloud & Kubernetes • RAG Systems • Linux Engineer</strong>

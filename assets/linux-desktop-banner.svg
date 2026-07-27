@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="100%" height="auto" role="img" aria-label="Raja Muhammad Awais Linux Development Desktop">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900" width="1400" height="900" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Raja Muhammad Awais Linux Development Desktop" style="max-width:100%;height:auto;display:block;">
   <title>Raja Muhammad Awais — Linux Development Desktop</title>
   <desc>Full Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, security center, and cloud dashboard — all animated in pure SVG for a premium GitHub profile experience.</desc>
 
@@ -221,7 +221,14 @@
       .bar-net { animation: netBounce 1.8s ease-in-out infinite; }
       .bar-disk { animation: diskBounce 2.2s ease-in-out infinite; }
       .logs-scroll { animation: logsScroll 12s linear infinite; }
-
+      /* Responsive text rendering for all screen sizes */
+      text { text-rendering: geometricPrecision; }
+      @media (max-width: 768px) {
+        text { font-size-adjust: 0.95; }
+      }
+      @media (max-width: 480px) {
+        text { font-size-adjust: 0.88; }
+      }
     </style>
   </defs>
 
