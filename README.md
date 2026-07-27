@@ -84,12 +84,11 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
 ![Logstash Data Pipeline](https://img.shields.io/badge/Logstash_Data_Processing-000000?style=for-the-badge&logo=logstash&logoColor=white&label=Pipeline)
 ![Kibana Visualization](https://img.shields.io/badge/Kibana_Data_Visualization-E8478B?style=for-the-badge&logo=kibana&logoColor=white&label=Visualization)
 
-### 🛡️ Cyber Security & Penetration Testing Tools
-![Metasploit Framework](https://img.shields.io/badge/Metasploit_Penetration_Testing_Framework-333?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIi8+PC9zdmc+&label=Exploitation)
-![Nmap Network Scanner](https://img.shields.io/badge/Nmap_Network_Security_Scanner-004F8C?style=for-the-badge&logo=nmap&logoColor=white&label=Scanner)
-![Burp Suite Web Security](https://img.shields.io/badge/Burp_Suite_Web_Application_Security-FF6600?style=for-the-badge&logo=burpsuite&logoColor=white&label=Web%20Security)
-![Wireshark Network Analysis](https://img.shields.io/badge/Wireshark_Network_Protocol_Analyzer-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&label=Analysis)
-![Hydra Password Attacks](https://img.shields.io/badge/Hydra_Authentication_Brute_Force-000000?style=for-the-badge&logo=hydra&logoColor=white&label=Attacks)
+### 🛡️ Network Analyzer & Penetration Testing Tools
+![DPDK Data Plane Development Kit](https://img.shields.io/badge/DPDK_Kernel_Bypass-0095D5?style=for-the-badge&logo=intel&logoColor=white&label=Performance)
+![nDPI Deep Packet Inspection](https://img.shields.io/badge/nDPI_Deep_Packet_Inspection-00E676?style=for-the-badge&logo=probot&logoColor=white&label=DPI)
+![Wireshark Protocol Analyzer](https://img.shields.io/badge/Wireshark_Network_Protocol_Analyzer-1679A7?style=for-the-badge&logo=wireshark&logoColor=white&label=Analysis)
+![Penetration Testing Suite](https://img.shields.io/badge/Penetration_Testing_Suite-000000?style=for-the-badge&logo=kalilinux&logoColor=white&label=Security)
 
 ### 🤖 Artificial Intelligence & Data Engineering
 ![LangChain AI Framework](https://img.shields.io/badge/LangChain_AI_Application_Framework-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&label=AI)
