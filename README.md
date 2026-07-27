@@ -1,9 +1,10 @@
 # Raja Muhammad Awais
 
+<!-- ===================== HERO BANNER ===================== -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/kali-hacker-desktop.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/kali-hacker-desktop.svg" />
-  <img src="assets/kali-hacker-desktop.svg" alt="Raja Muhammad Awais — Kali Linux Hacker Desktop — Full Linux OS Simulation with Boot, Anonymous Hacker ASCII Art, Terminal, System Monitor & File Manager" style="width:100%;max-width:1400px;height:auto;display:block;margin:0 auto;" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
+  <img src="assets/kali-hacker-desktop.svg" alt="Raja Muhammad Awais — Kali Linux Hacker Desktop — Animated Boot, Anonymous Hacker ASCII Art, Interactive Terminal with Networking Commands, System Monitor & File Manager" style="width:100%;max-width:1400px;height:auto;display:block;margin:0 auto;border-radius:12px;" />
 </picture>
 
 <p align="center">
@@ -24,17 +25,124 @@
   <img src="https://img.shields.io/github/followers/RajaMuhammadAwais?label=Followers&style=for-the-badge" alt="Followers" />
 </p>
 
-## Featured Assets
+---
 
-- 🎯 **Kali Linux Hacker Desktop (NEW — ACTIVE):** [assets/kali-hacker-desktop.svg](assets/kali-hacker-desktop.svg) — Full Kali Linux 2024.2 desktop simulation with animated boot sequence, Anonymous hacker face ASCII art, interactive terminal with hacking tools (Nmap, Metasploit, Burp Suite), system monitor with live CPU/memory/network graphs, Thunar file manager, and application dock. Research-based authentic Linux OS experience.
-- 🏢 **Enterprise Terminal Banner:** [assets/enterprise-terminal-banner.svg](assets/enterprise-terminal-banner.svg) — 30-second animated DevOps timeline with 6 terminal scenes.
-- 🖥️ **Linux Desktop Banner (Dark):** [assets/linux-desktop-banner.svg](assets/linux-desktop-banner.svg) — Ubuntu-style Linux desktop simulation.
-- ☀️ **Linux Desktop Banner (Light):** [assets/linux-desktop-banner-light.svg](assets/linux-desktop-banner-light.svg) — Light mode variant.
-- 📟 Legacy terminal banners: [assets/terminal-banner.svg](assets/terminal-banner.svg), [assets/terminal-banner-light.svg](assets/terminal-banner-light.svg), [assets/terminal-banner-optimized.svg](assets/terminal-banner-optimized.svg)
+## 🎬 Animated Desktop Banners
+
+### 🐉 Kali Linux Hacker Desktop (Primary — Dark Theme)
+
+> Full Kali Linux 2024.2 desktop simulation with boot sequence, Anonymous hacker ASCII art, interactive terminal showing `rajamuhammadawais`, step-by-step networking commands (whoami → id → ifconfig → ip a → route -n → ping → nmap → ss), system monitor with live CPU/memory/network graphs, Thunar file manager, and application dock.
+
+```md
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/kali-hacker-desktop.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/kali-hacker-desktop.svg" />
+  <img src="assets/kali-hacker-desktop.svg" alt="Kali Linux Hacker Desktop" width="100%" />
+</picture>
+```
+
+<p align="center">
+  <img src="assets/kali-hacker-desktop.svg" alt="Kali Linux Hacker Desktop Preview" style="width:100%;max-width:1200px;height:auto;border-radius:8px;border:1px solid #30363d;" />
+</p>
+
+---
+
+### 🖥️ Linux Desktop Banner (Dark — Ubuntu Theme)
+
+> Dark-themed Ubuntu-style Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, security center, and cloud dashboard. Features Anonymous hacker ASCII art, `rajamuhammadawais` identity, and step-by-step networking commands.
+
+```md
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-desktop-banner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner.svg" />
+  <img src="assets/linux-desktop-banner.svg" alt="Linux Desktop Dark" width="100%" />
+</picture>
+```
+
+<p align="center">
+  <img src="assets/linux-desktop-banner.svg" alt="Linux Desktop Dark Preview" style="width:100%;max-width:1200px;height:auto;border-radius:8px;border:1px solid #30363d;" />
+</p>
+
+---
+
+### ☀️ Linux Desktop Banner (Light — Ubuntu Theme)
+
+> Light-themed Ubuntu-style Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, and more. Fully animated with hacker ASCII art, `rajamuhammadawais` identity, and networking commands — perfect for light mode GitHub profiles.
+
+```md
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-desktop-banner-light.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
+  <img src="assets/linux-desktop-banner-light.svg" alt="Linux Desktop Light" width="100%" />
+</picture>
+```
+
+<p align="center">
+  <img src="assets/linux-desktop-banner-light.svg" alt="Linux Desktop Light Preview" style="width:100%;max-width:1200px;height:auto;border-radius:8px;border:1px solid #d0d7de;" />
+</p>
+
+---
+
+## 🎯 Quick Start — Use Any Banner in Your Profile
+
+### Option 1: Hero Banner (Auto Dark/Light Mode)
+
+Paste at the top of your `README.md`:
+
+```md
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/kali-hacker-desktop.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
+  <img src="assets/kali-hacker-desktop.svg" alt="Raja Muhammad Awais" width="100%" />
+</picture>
+```
+
+### Option 2: Kali Linux Hacker Theme (Always Dark)
+
+```md
+<img src="assets/kali-hacker-desktop.svg" alt="Kali Linux Hacker Desktop" width="100%" />
+```
+
+### Option 3: Linux Desktop Dark Theme
+
+```md
+<img src="assets/linux-desktop-banner.svg" alt="Linux Desktop Dark" width="100%" />
+```
+
+### Option 4: Linux Desktop Light Theme
+
+```md
+<img src="assets/linux-desktop-banner-light.svg" alt="Linux Desktop Light" width="100%" />
+```
+
+---
+
+## 🗺️ Asset Comparison
+
+| Banner | Theme | Animation | Boot Sequence | Hacker ASCII Art | `rajamuhammadawais` | Networking Commands | System Monitor | File Manager |
+|---|---|---|---|---|---|---|---|---|
+| **Kali Hacker Desktop** | Dark (Kali Purple) | ✅ | ✅ | ✅ Anonymous Face | ✅ whoami → rajamuhammadawais | ✅ 6 commands | ✅ CPU/Mem/Net | ✅ Thunar |
+| **Linux Desktop Banner** | Dark (Ubuntu) | ✅ | ✅ | ✅ Anonymous Face | ✅ whoami → rajamuhammadawais | ✅ 6 commands | ✅ CPU/Mem/Net/Disk | ✅ VS Code |
+| **Linux Desktop Light** | Light (Ubuntu) | ✅ | ✅ | ✅ Anonymous Face | ✅ whoami → rajamuhammadawais | ✅ 6 commands | ✅ CPU/Mem/Net/Disk | ✅ VS Code |
+
+---
+
+## 🛠️ Animation Features
+
+Each SVG banner includes:
+
+- **⏰ Boot Sequence** — 0s–8s: Animated ASCII logo + kernel loading messages
+- **🖥️ Desktop Environment** — 8s+: Full desktop with top panel, dock, desktop icons
+- **🎭 Hacker ASCII Art** — Anonymous face with glowing animated eyes
+- **⌨️ Step-by-Step Networking Commands** — `whoami` → `rajamuhammadawais`, `id`, `ifconfig`, `ip a`, `route -n`, `ping`, `nmap`
+- **📊 Live System Monitor** — Animated CPU/Memory/Network/Disk usage bars
+- **📁 File Manager / VS Code** — Realistic project structure with typing animations
+- **🌙 Responsive** — `max-width:100%;height:auto` for all screen sizes
 
 ---
 
 ## Open Source Contributions
+
 - SR-IOV CNI (k8snetworkplumbingwg/sriov-cni)
   - Configured Dependabot for automated dependency updates
   - Example PRs created via Dependabot: [#335](https://github.com/k8snetworkplumbingwg/sriov-cni/pull/335), [#343](https://github.com/k8snetworkplumbingwg/sriov-cni/pull/343)
@@ -46,6 +154,7 @@
 > Always learning, always hacking — bridging the gap between DevOps, AI, and offensive security.
 
 ---
+
 <h1 align="center">I'm Raja Muhammad Awais</h1>
 
 <p align="center">
@@ -57,6 +166,7 @@
 ---
 
 ### 📊 GitHub Stats
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
 </p>
@@ -64,6 +174,7 @@
 ---
 
 ### 🏆 Top Languages
+
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=radical" alt="Top Languages" />
 </p>
@@ -71,6 +182,7 @@
 ---
 
 ### 🔥 Contribution Streak
+
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=RajaMuhammadAwais&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
@@ -78,11 +190,12 @@
 ---
 
 ### 📈 Contribution Activity
+
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
 </p>
 
-
+---
 
 ## 🧰 Tech Stack & Tools
 
