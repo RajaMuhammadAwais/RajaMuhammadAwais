@@ -129,6 +129,15 @@
       <rect x="0" y="0" width="330" height="120" rx="2" />
     </clipPath>
 
+    <!-- Terminal Content Overflow Prevention -->
+    <clipPath id="terminalContentClip">
+      <rect x="0" y="-10" width="580" height="520" rx="6" />
+    </clipPath>
+    
+    <clipPath id="devopsContentClip">
+      <rect x="0" y="-10" width="540" height="310" rx="6" />
+    </clipPath>
+
     <!-- CSSC Animations in Style -->
     <style>
       @keyframes blink {
@@ -223,12 +232,9 @@
       .logs-scroll { animation: logsScroll 12s linear infinite; }
       /* Responsive text rendering for all screen sizes */
       text { text-rendering: geometricPrecision; }
-      @media (max-width: 768px) {
-        text { font-size-adjust: 0.95; }
-      }
-      @media (max-width: 480px) {
-        text { font-size-adjust: 0.88; }
-      }
+      /* Ensure consistent text rendering across browsers */
+      text { text-rendering: geometricPrecision; }
+      /* Remove dead media queries - SVG text doesn't support font-size-adjust */
     </style>
   </defs>
 
@@ -442,7 +448,7 @@
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="9s" fill="freeze" />
 
       <!-- Window Frame -->
-      <rect x="0" y="0" width="620" height="540" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="620" height="540" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="620" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="620" height="10" fill="url(#titlebar)" />
 
@@ -458,8 +464,8 @@
         raja@devops-workstation: ~/dev
       </text>
 
-      <!-- Window Content -->
-      <g transform="translate(20, 55)">
+      <!-- Window Content - With overflow prevention and responsive layout -->
+      <g transform="translate(20, 55)" clip-path="url(#terminalContentClip)">
         <!-- 1. whoami -->
         <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="14" fill="#4ef2b2">
           <tspan fill="#00e5ff">raja@devops</tspan>
@@ -545,7 +551,7 @@
     <!-- ============================================================ -->
     <g transform="translate(730, 90)" filter="url(#windowShadow)" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="10.2s" fill="freeze" />
-      <rect x="0" y="0" width="560" height="320" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="560" height="320" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="560" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="560" height="10" fill="url(#titlebar)" />
       <g transform="translate(14, 11)">
@@ -554,7 +560,7 @@
         <circle cx="48" cy="8" r="7" fill="#28c840" />
       </g>
       <text x="280" y="24" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="12" fill="#6b553f">ops-shell</text>
-      <g transform="translate(18, 56)">
+      <g transform="translate(18, 56)" clip-path="url(#devopsContentClip)">
         <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#4ef2b2">
           <tspan fill="#00e5ff">raja@ubuntu</tspan><tspan fill="#8b949e">:~$</tspan><tspan fill="#e6edf3"> kubectl get pods -A</tspan>
         </text>
@@ -588,7 +594,7 @@
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="9.5s" fill="freeze" />
 
       <!-- Window Frame -->
-      <rect x="0" y="0" width="530" height="460" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="530" height="460" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="530" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="530" height="10" fill="url(#titlebar)" />
 
@@ -769,7 +775,7 @@
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="10s" fill="freeze" />
 
       <!-- Window Frame -->
-      <rect x="0" y="0" width="480" height="390" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="480" height="390" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="480" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="480" height="10" fill="url(#titlebar)" />
 
@@ -900,7 +906,7 @@
     <g transform="translate(570, 530)" filter="url(#windowShadow)" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="10.5s" fill="freeze" />
 
-      <rect x="0" y="0" width="420" height="345" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="420" height="345" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="420" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="420" height="10" fill="url(#titlebar)" />
 
@@ -1005,7 +1011,7 @@
     <g transform="translate(1000, 55)" filter="url(#windowShadow)" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="11s" fill="freeze" />
 
-      <rect x="0" y="0" width="370" height="280" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="370" height="280" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="370" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="370" height="10" fill="url(#titlebar)" />
 
@@ -1124,7 +1130,7 @@
     <g transform="translate(1000, 365)" filter="url(#windowShadow)" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="11.5s" fill="freeze" />
 
-      <rect x="0" y="0" width="370" height="290" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="370" height="290" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="370" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="370" height="10" fill="url(#titlebar)" />
 
@@ -1196,7 +1202,7 @@
     <g transform="translate(530, 275)" filter="url(#windowShadow)" opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.8s" begin="12s" fill="freeze" />
 
-      <rect x="0" y="0" width="460" height="195" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" />
+      <rect x="0" y="0" width="460" height="195" rx="10" fill="url(#windowBody)" stroke="#2d3748" stroke-width="1" overflow="hidden" />
       <rect x="0" y="0" width="460" height="38" rx="10" fill="url(#titlebar)" />
       <rect x="0" y="28" width="460" height="10" fill="url(#titlebar)" />
 
