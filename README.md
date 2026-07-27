@@ -1,9 +1,9 @@
 # Raja Muhammad Awais
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/linux-desktop-banner.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/linux-desktop-banner-light.svg" />
-  <img src="assets/linux-desktop-banner.svg" alt="Animated Linux Desktop for Raja Muhammad Awais — DevOps, AI, Cyber Security" style="width:100%;max-width:1400px;height:auto;display:block;margin:0 auto;" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/enterprise-terminal-banner.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/enterprise-terminal-banner.svg" />
+  <img src="assets/enterprise-terminal-banner.svg" alt="Raja Muhammad Awais — Enterprise DevOps Terminal Banner — 6 Scenes: Network, Kubernetes, CI/CD, Monitoring, Cloud & AI, Summary" style="width:100%;max-width:1200px;height:auto;display:block;margin:0 auto;" />
 </picture>
 
 <p align="center">
@@ -26,6 +26,7 @@
 
 ## Featured Assets
 
+- 🏢 **Enterprise Terminal Banner (NEW):** [assets/enterprise-terminal-banner.svg](assets/enterprise-terminal-banner.svg) — 30-second animated DevOps timeline with 6 terminal scenes: Network Infrastructure, Kubernetes, CI/CD, Monitoring & Security, Cloud & AI, and Enterprise Summary. Each scene features 5 seconds of rich terminal output with typing animations, network topology visualizations, and live metrics dashboards.
 - 🖥️ **Linux Desktop Banner (Dark):** [assets/linux-desktop-banner.svg](assets/linux-desktop-banner.svg) — Full Linux desktop simulation with terminal, VS Code, system monitor, GitHub dashboard, AI console, security center & cloud dashboard.
 - ☀️ **Linux Desktop Banner (Light):** [assets/linux-desktop-banner-light.svg](assets/linux-desktop-banner-light.svg) — Light mode variant of the Linux desktop experience.
 - 📟 Legacy terminal banners: [assets/terminal-banner.svg](assets/terminal-banner.svg), [assets/terminal-banner-light.svg](assets/terminal-banner-light.svg), [assets/terminal-banner-optimized.svg](assets/terminal-banner-optimized.svg)

@@ -1,0 +1,1593 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Raja Muhammad Awais — Enterprise DevOps Terminal Banner" style="max-width:100%;height:auto;display:block;">
+  <title>Raja Muhammad Awais — Enterprise DevOps Terminal Banner</title>
+  <desc>A premium animated SVG banner showcasing DevOps, Network Engineering, Kubernetes, CI/CD, Monitoring, Security, Cloud &amp; AI infrastructure across 6 terminal scenes — each with 5-second timed animations in a 30-second enterprise-grade experience.</desc>
+
+  <defs>
+    <!-- ============================================================ -->
+    <!-- GRADIENTS                                                     -->
+    <!-- ============================================================ -->
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#1a1a2e" />
+      <stop offset="50%" stop-color="#0f0f23" />
+      <stop offset="100%" stop-color="#05050f" />
+    </radialGradient>
+
+    <linearGradient id="headerBar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16162a" />
+      <stop offset="100%" stop-color="#0d0d1a" />
+    </linearGradient>
+
+    <linearGradient id="windowTitlebar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1e3a" />
+      <stop offset="100%" stop-color="#15152a" />
+    </linearGradient>
+
+    <linearGradient id="windowBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d1a" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#0a0a15" stop-opacity="0.98" />
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff" />
+      <stop offset="100%" stop-color="#00ff88" />
+    </linearGradient>
+
+    <linearGradient id="accentPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <linearGradient id="accentOrange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+
+    <linearGradient id="progressGreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+
+    <linearGradient id="progressBlue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+
+    <!-- ============================================================ -->
+    <!-- FILTERS                                                       -->
+    <!-- ============================================================ -->
+    <filter id="windowShadow" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- ============================================================ -->
+    <!-- PATTERNS                                                      -->
+    <!-- ============================================================ -->
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1a1a3e" stroke-width="0.5" stroke-opacity="0.4" />
+    </pattern>
+
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#2d2d5e" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- ============================================================ -->
+    <!-- CLIP PATHS FOR TYPING ANIMATIONS                             -->
+    <!-- ============================================================ -->
+    <!-- Terminal 1 clips (fast typing for max reading time) -->
+    <clipPath id="t1l1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="680" dur="0.3s" begin="1.8s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t1l2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="580" dur="0.25s" begin="2.2s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t1l3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="700" dur="0.3s" begin="2.6s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t1l4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="520" dur="0.25s" begin="3.0s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t1l5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="640" dur="0.3s" begin="3.4s" fill="freeze" /></rect></clipPath>
+
+    <!-- Terminal 2 clips -->
+    <clipPath id="t2l1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="660" dur="0.3s" begin="7s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t2l2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="750" dur="0.35s" begin="7.4s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t2l3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="560" dur="0.25s" begin="7.9s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t2l4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="680" dur="0.3s" begin="8.3s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t2l5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="600" dur="0.25s" begin="8.7s" fill="freeze" /></rect></clipPath>
+
+    <!-- Terminal 3 clips -->
+    <clipPath id="t3l1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="720" dur="0.3s" begin="12s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t3l2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="550" dur="0.25s" begin="12.4s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t3l3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="670" dur="0.3s" begin="12.8s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t3l4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="590" dur="0.25s" begin="13.2s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t3l5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="650" dur="0.3s" begin="13.6s" fill="freeze" /></rect></clipPath>
+
+    <!-- Terminal 4 clips -->
+    <clipPath id="t4l1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="630" dur="0.3s" begin="17s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t4l2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="710" dur="0.35s" begin="17.4s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t4l3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="580" dur="0.25s" begin="17.9s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t4l4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="660" dur="0.3s" begin="18.3s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t4l5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="540" dur="0.25s" begin="18.7s" fill="freeze" /></rect></clipPath>
+
+    <!-- Terminal 5 clips -->
+    <clipPath id="t5l1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="690" dur="0.3s" begin="22s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t5l2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="570" dur="0.25s" begin="22.4s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t5l3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="730" dur="0.35s" begin="22.8s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t5l4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="610" dur="0.25s" begin="23.3s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t5l5"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="660" dur="0.3s" begin="23.7s" fill="freeze" /></rect></clipPath>
+
+    <!-- Terminal 6 clips -->
+    <clipPath id="t6l1"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="700" dur="0.3s" begin="27s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t6l2"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="560" dur="0.25s" begin="27.4s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t6l3"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="720" dur="0.35s" begin="27.8s" fill="freeze" /></rect></clipPath>
+    <clipPath id="t6l4"><rect x="0" y="0" width="0" height="20"><animate attributeName="width" from="0" to="640" dur="0.3s" begin="28.3s" fill="freeze" /></rect></clipPath>
+
+    <!-- ============================================================ -->
+    <!-- CSS ANIMATIONS                                                -->
+    <!-- ============================================================ -->
+    <style>
+      @keyframes blink { 0%,100% { opacity:1; } 50% { opacity:0; } }
+      @keyframes pulse { 0%,100% { opacity:0.6; } 50% { opacity:1; } }
+      @keyframes pulseFast { 0%,100% { opacity:0.4; } 50% { opacity:0.9; } }
+      @keyframes pulseDot { 0%,100% { r:2; opacity:0.6; } 50% { r:4; opacity:1; } }
+      @keyframes scanLine { 0% { transform:translateY(-100%); } 100% { transform:translateY(100%); } }
+      @keyframes rotate { 0% { transform:rotate(0deg); } 100% { transform:rotate(360deg); } }
+      @keyframes netFlow { 0% { stroke-dashoffset:120; } 100% { stroke-dashoffset:0; } }
+      @keyframes netFlowRev { 0% { stroke-dashoffset:-120; } 100% { stroke-dashoffset:0; } }
+      @keyframes barCpu { 0%,100% { height:8px; } 25% { height:24px; } 50% { height:14px; } 75% { height:28px; } }
+      @keyframes barMem { 0%,100% { height:16px; } 33% { height:28px; } 66% { height:20px; } }
+      @keyframes barNet { 0%,100% { height:6px; } 40% { height:22px; } 80% { height:12px; } }
+      @keyframes barDisk { 0%,100% { height:12px; } 30% { height:26px; } 70% { height:18px; } }
+      @keyframes fadeInUp { 0% { opacity:0; transform:translateY(10px); } 100% { opacity:1; transform:translateY(0); } }
+      @keyframes fadeInScale { 0% { opacity:0; transform:scale(0.95); } 100% { opacity:1; transform:scale(1); } }
+      @keyframes slideInRight { 0% { opacity:0; transform:translateX(40px); } 100% { opacity:1; transform:translateX(0); } }
+      @keyframes slideOutLeft { 0% { opacity:1; transform:translateX(0); } 100% { opacity:0; transform:translateX(-40px); } }
+      @keyframes nodePulse { 0%,100% { r:5; opacity:0.8; } 50% { r:7; opacity:1; } }
+      @keyframes borderDash { 0% { stroke-dashoffset:0; } 100% { stroke-dashoffset:20; } }
+      @keyframes textGlow { 0%,100% { opacity:0.7; } 50% { opacity:1; filter:drop-shadow(0 0 6px currentColor); } }
+      @keyframes progressFill { 0% { width:0; } }
+      .cursor { animation:blink 1s step-end infinite; }
+      .pulse-dot { animation:pulse 1.5s ease-in-out infinite; }
+      .pulse-fast { animation:pulseFast 0.8s ease-in-out infinite; }
+      .pulse-node { animation:nodePulse 2s ease-in-out infinite; transform-origin:center; }
+      .spin { animation:rotate 2s linear infinite; }
+      .spin-fast { animation:rotate 0.8s linear infinite; }
+      .net-flow { stroke-dasharray:10 8; animation:netFlow 1.5s linear infinite; }
+      .net-flow-rev { stroke-dasharray:8 10; animation:netFlowRev 1.8s linear infinite; }
+      .bar-cpu { animation:barCpu 1.8s ease-in-out infinite; }
+      .bar-mem { animation:barMem 2.2s ease-in-out infinite; }
+      .bar-net { animation:barNet 1.6s ease-in-out infinite; }
+      .bar-disk { animation:barDisk 2s ease-in-out infinite; }
+      .fade-in-up { animation:fadeInUp 0.5s ease-out forwards; }
+      .slide-in-r { animation:slideInRight 0.6s ease-out forwards; }
+      .fade-scale { animation:fadeInScale 0.4s ease-out forwards; }
+      .text-glow { animation:textGlow 2s ease-in-out infinite; }
+      .scan-line { animation:scanLine 3s linear infinite; }
+      text { text-rendering:geometricPrecision; }
+    </style>
+
+    <!-- ============================================================ -->
+    <!-- NETWORK TOPOLOGY SHAPES                                      -->
+    <!-- ============================================================ -->
+    <marker id="arrowCyan" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6" fill="#00d4ff" />
+    </marker>
+    <marker id="arrowGreen" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6" fill="#22c55e" />
+    </marker>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6" fill="#3b82f6" />
+    </marker>
+  </defs>
+
+  <!-- ============================================================ -->
+  <!-- BACKGROUND                                                    -->
+  <!-- ============================================================ -->
+  <rect width="1200" height="800" fill="url(#bgGlow)" />
+  <rect width="1200" height="800" fill="url(#grid)" />
+  <rect width="1200" height="800" fill="url(#dots)" />
+
+  <!-- Ambient Glow Orbs -->
+  <ellipse cx="300" cy="400" rx="350" ry="300" fill="#00d4ff" opacity="0.03" filter="url(#glow)" />
+  <ellipse cx="900" cy="400" rx="350" ry="300" fill="#a855f7" opacity="0.03" filter="url(#glow)" />
+
+  <!-- ============================================================ -->
+  <!-- TOP STATUS BAR                                                -->
+  <!-- ============================================================ -->
+  <g id="topBar">
+    <rect x="0" y="0" width="1200" height="48" fill="url(#headerBar)" />
+    <rect x="0" y="47" width="1200" height="1" fill="#2d2d5e" opacity="0.6" />
+
+    <!-- Left: Brand -->
+    <g transform="translate(20, 14)">
+      <text x="0" y="20" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="14" font-weight="700" fill="#00d4ff" filter="url(#softGlow)">Raja Muhammad Awais</text>
+      <text x="162" y="20" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#6366f1">DevOps Engineer</text>
+      <circle cx="310" cy="16" r="4" fill="#22c55e" class="pulse-dot" />
+      <text x="320" y="20" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="10" fill="#22c55e">ONLINE</text>
+    </g>
+
+    <!-- Center: Status indicators -->
+    <g transform="translate(420, 12)">
+      <rect x="0" y="0" width="360" height="24" rx="12" fill="#15152a" stroke="#2d2d5e" stroke-width="0.8" />
+      <g transform="translate(16, 6)">
+        <circle cx="0" cy="6" r="3" fill="#22c55e" class="pulse-dot" />
+        <text x="10" y="10" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#22c55e">System Ready</text>
+      </g>
+      <g transform="translate(120, 6)">
+        <circle cx="0" cy="6" r="3" fill="#3b82f6" class="pulse-dot" />
+        <text x="10" y="10" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#3b82f6">Network Active</text>
+      </g>
+      <g transform="translate(244, 6)">
+        <circle cx="0" cy="6" r="3" fill="#a855f7" class="pulse-dot" />
+        <text x="10" y="10" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#a855f7">AI Services</text>
+      </g>
+    </g>
+
+    <!-- Right: Clock & status -->
+    <g transform="translate(960, 12)">
+      <rect x="0" y="0" width="220" height="24" rx="12" fill="#15152a" stroke="#2d2d5e" stroke-width="0.8" />
+      <text x="110" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#8b949e">
+        <tspan fill="#00d4ff">◆</tspan> Uptime: 14d 6h 32m
+      </text>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- BOTTOM NAVIGATION BAR                                         -->
+  <!-- ============================================================ -->
+  <g id="bottomBar">
+    <rect x="0" y="752" width="1200" height="48" fill="url(#headerBar)" />
+    <rect x="0" y="752" width="1200" height="1" fill="#2d2d5e" opacity="0.6" />
+
+    <!-- Scene indicator labels -->
+    <g transform="translate(200, 766)" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#4a5568">
+      <!-- Active indicator dot that moves with scenes -->
+      <g opacity="0">
+        <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" dur="31s" repeatCount="indefinite" keyTimes="0;0.04;0.16;0.21;0.37;0.53;0.69;0.86;1" />
+        <g transform="translate(0, 0)">
+          <rect x="-8" y="-4" width="16" height="16" rx="3" fill="#00d4ff" opacity="0.2" />
+          <circle cx="0" cy="4" r="3" fill="#00d4ff" class="pulse-dot" />
+        </g>
+      </g>
+      <g text-anchor="middle">
+        <text x="0" y="22" fill="#00d4ff" font-weight="700">Network</text>
+        <rect x="-28" y="28" width="56" height="2" rx="1" fill="#00d4ff" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.2;0.2;0.2;0.2;0.2" dur="31s" repeatCount="indefinite" keyTimes="0;0.21;0.38;0.53;0.69;0.85;1" /></rect>
+      </g>
+      <g text-anchor="middle" transform="translate(160, 0)">
+        <text x="0" y="22" fill="#8b949e">Kubernetes</text>
+        <rect x="-36" y="28" width="72" height="2" rx="1" fill="#6366f1" opacity="0"><animate attributeName="opacity" values="0;0.6;0.2;0.2;0.2;0.2;0" dur="31s" repeatCount="indefinite" keyTimes="0;0.21;0.23;0.38;0.53;0.69;0.85" /></rect>
+      </g>
+      <g text-anchor="middle" transform="translate(320, 0)">
+        <text x="0" y="22" fill="#8b949e">CI/CD</text>
+        <rect x="-24" y="28" width="48" height="2" rx="1" fill="#f97316" opacity="0"><animate attributeName="opacity" values="0;0;0.6;0.2;0.2;0.2;0" dur="31s" repeatCount="indefinite" keyTimes="0;0.36;0.38;0.40;0.53;0.69;0.85" /></rect>
+      </g>
+      <g text-anchor="middle" transform="translate(480, 0)">
+        <text x="0" y="22" fill="#8b949e">Monitoring</text>
+        <rect x="-34" y="28" width="68" height="2" rx="1" fill="#f43f5e" opacity="0"><animate attributeName="opacity" values="0;0;0;0.6;0.2;0.2;0" dur="31s" repeatCount="indefinite" keyTimes="0;0.51;0.53;0.55;0.57;0.69;0.85" /></rect>
+      </g>
+      <g text-anchor="middle" transform="translate(640, 0)">
+        <text x="0" y="22" fill="#8b949e">Cloud &amp; AI</text>
+        <rect x="-32" y="28" width="64" height="2" rx="1" fill="#a855f7" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0.6;0.2;0" dur="31s" repeatCount="indefinite" keyTimes="0;0.67;0.69;0.71;0.73;0.85;1" /></rect>
+      </g>
+      <g text-anchor="middle" transform="translate(800, 0)">
+        <text x="0" y="22" fill="#8b949e">Summary</text>
+        <rect x="-26" y="28" width="52" height="2" rx="1" fill="#22c55e" opacity="0"><animate attributeName="opacity" values="0;0;0;0;0;0.6" dur="31s" repeatCount="indefinite" keyTimes="0;0.83;0.85;0.87;0.9;1" /></rect>
+      </g>
+    </g>
+
+    <!-- Scene counter (animated 1→6) -->
+    <g transform="translate(1100, 766)" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#4a5568">
+      <text x="0" y="14" text-anchor="end">
+        <tspan fill="#00d4ff" opacity="1"><animate attributeName="opacity" values="1;0" dur="31s" fill="freeze" keyTimes="0;0.04" />1</tspan>
+        <tspan fill="#00d4ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="31s" fill="freeze" keyTimes="0;0.21;0.24" />2</tspan>
+        <tspan fill="#00d4ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="31s" fill="freeze" keyTimes="0;0.37;0.40" />3</tspan>
+        <tspan fill="#00d4ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="31s" fill="freeze" keyTimes="0;0.53;0.55" />4</tspan>
+        <tspan fill="#00d4ff" opacity="0"><animate attributeName="opacity" values="0;1;0" dur="31s" fill="freeze" keyTimes="0;0.69;0.72" />5</tspan>
+        <tspan fill="#00d4ff" opacity="0"><animate attributeName="opacity" values="0;1" dur="31s" fill="freeze" keyTimes="0;0.86" />6</tspan>
+        <tspan fill="#8b949e"> / 6</tspan>
+      </text>
+      <text x="0" y="30" text-anchor="end" fill="#4a5568">TERMINAL</text>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- TERMINAL 1: NETWORK INFRASTRUCTURE (0s - 6.5s)              -->
+  <!-- ============================================================ -->
+  <g id="terminal1" transform="translate(100, 72)">
+    <!-- Main terminal slides in from right -->
+    <animateTransform attributeName="transform" type="translate" values="1400,72;100,72" dur="0.8s" begin="1.2s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" />
+    <!-- Stay visible, then slide out left -->
+    <animateTransform attributeName="transform" type="translate" values="100,72;-1400,72" dur="0.6s" begin="6.5s" fill="freeze" calcMode="spline" keySplines="0.55 0 1 0.45" />
+
+    <!-- Window frame -->
+    <rect x="0" y="0" width="1000" height="680" rx="12" fill="url(#windowBody)" stroke="#2d2d5e" stroke-width="1.2" filter="url(#windowShadow)" />
+    <rect x="0" y="0" width="1000" height="42" rx="12" fill="url(#windowTitlebar)" />
+    <rect x="0" y="30" width="1000" height="12" fill="url(#windowTitlebar)" />
+
+    <!-- Window controls -->
+    <g transform="translate(18, 14)">
+      <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+      <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+      <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+    </g>
+
+    <!-- Title -->
+    <g transform="translate(120, 14)">
+      <rect x="0" y="0" width="200" height="22" rx="4" fill="#2d2d5e" opacity="0.5" />
+      <text x="100" y="16" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#8b949e">📡 Network Infrastructure Scanner</text>
+    </g>
+
+    <!-- Right side title -->
+    <text x="870" y="26" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="10" fill="#4a5568">raja@devops:~ 14:32:05</text>
+
+    <!-- ============================================================ -->
+    <!-- Terminal 1 Content                                           -->
+    <!-- ============================================================ -->
+    <g transform="translate(28, 62)">
+      <!-- Pane split: Terminal (left 65%) + Network Viz (right 35%) -->
+      
+      <!-- LEFT: Terminal commands -->
+      <g clip-path="url(#t1l1)">
+        <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> nmap -sV -sC 10.0.1.0/24 --top-ports 50</tspan>
+        </text>
+        <text y="24" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">Starting Nmap 7.94SVN ( https://nmap.org )</text>
+        <text y="46" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">Nmap scan report for 10.0.1.0/24</text>
+      </g>
+
+      <g clip-path="url(#t1l2)">
+        <text y="72" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#22c55e">10.0.1.1</tspan>     Gateway       <tspan fill="#8b949e">80/tcp open http  nginx 1.24</tspan>
+        </text>
+        <text y="94" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#22c55e">10.0.1.15</tspan>    K8s-Master    <tspan fill="#8b949e">6443/tcp open https kube-apiserver</tspan>
+        </text>
+        <text y="116" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#22c55e">10.0.1.22</tspan>    Worker-01     <tspan fill="#8b949e">10250/tcp open https kubelet</tspan>
+        </text>
+        <text y="138" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#22c55e">10.0.1.45</tspan>    DB-Node       <tspan fill="#8b949e">5432/tcp open pgsql PostgreSQL 16.3</tspan>
+        </text>
+        <text y="160" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#22c55e">10.0.1.67</tspan>    Cache-Srv     <tspan fill="#8b949e">6379/tcp open redis Redis 7.2</tspan>
+        </text>
+      </g>
+
+      <g clip-path="url(#t1l3)">
+        <text y="190" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> traceroute -n api.github.com</tspan>
+        </text>
+        <text y="214" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">traceroute to 140.82.121.5 (api.github.com)</text>
+        <text y="236" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          1  <tspan fill="#f97316">192.168.1.1</tspan>    0.452 ms
+        </text>
+        <text y="258" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          2  <tspan fill="#f97316">172.16.0.1</tspan>     1.234 ms
+        </text>
+        <text y="280" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          3  <tspan fill="#f97316">10.0.0.254</tspan>    3.876 ms
+        </text>
+        <text y="302" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          4  <tspan fill="#22c55e">140.82.121.5</tspan>  12.345 ms  ✓
+        </text>
+      </g>
+
+      <g clip-path="url(#t1l4)">
+        <text y="332" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> ss -tlnp | grep -E '(80|443|5432|6379)'</tspan>
+        </text>
+        <text y="356" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">LISTEN  0  128  0.0.0.0:80     0.0.0.0:*   nginx</text>
+        <text y="378" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">LISTEN  0  128  0.0.0.0:443    0.0.0.0:*   nginx</text>
+        <text y="400" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">LISTEN  0  100  0.0.0.0:5432   0.0.0.0:*   postgres</text>
+        <text y="422" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">LISTEN  0  511  0.0.0.0:6379   0.0.0.0:*   redis</text>
+      </g>
+
+      <g clip-path="url(#t1l5)">
+        <text y="452" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> curl -s -o /dev/null -w "Latency: %{time_total}s HTTP %{http_code}" https://status.internal</tspan>
+        </text>
+        <text y="476" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">Latency: 0.042s HTTP 200 ✓ All services healthy</text>
+        
+        <!-- Network health summary -->
+        <rect x="0" y="496" width="620" height="60" rx="6" fill="#15152a" stroke="#2d2d5e" stroke-width="0.8" />
+        <text x="16" y="516" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#8b949e">Network Health Summary:</text>
+        <g transform="translate(16, 530)">
+          <rect x="0" y="0" width="140" height="18" rx="9" fill="#0d2d1a" stroke="#22c55e" stroke-width="0.6" />
+          <text x="70" y="13" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#22c55e">● 12 hosts online</text>
+        </g>
+        <g transform="translate(168, 530)">
+          <rect x="0" y="0" width="120" height="18" rx="9" fill="#0d2d1a" stroke="#22c55e" stroke-width="0.6" />
+          <text x="60" y="13" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#22c55e">● 0ms avg latency</text>
+        </g>
+        <g transform="translate(300, 530)">
+          <rect x="0" y="0" width="130" height="18" rx="9" fill="#0d2d1a" stroke="#22c55e" stroke-width="0.6" />
+          <text x="65" y="13" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#22c55e">● 47 open ports</text>
+        </g>
+        <g transform="translate(442, 530)">
+          <rect x="0" y="0" width="140" height="18" rx="9" fill="#0d2d1a" stroke="#22c55e" stroke-width="0.6" />
+          <text x="70" y="13" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#22c55e">● 0 threats detected</text>
+        </g>
+      </g>
+
+      <!-- Blinking cursor at end -->
+      <text y="574" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;1" dur="6.5s" begin="1.5s" fill="freeze" keyTimes="0;0.6;0.7;0.8;1" />
+        <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+        <tspan fill="#6366f1">:~$</tspan>
+        <tspan fill="#e6edf3" class="cursor"> █</tspan>
+      </text>
+    </g>
+
+    <!-- RIGHT: Network topology visualization -->
+    <g transform="translate(680, 70)">
+      <rect x="0" y="0" width="290" height="580" rx="8" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+      <text x="145" y="24" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#8b949e">NETWORK TOPOLOGY</text>
+      <rect x="10" y="32" width="270" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <!-- Network nodes -->
+      <g transform="translate(145, 80)">
+        <!-- Internet Cloud -->
+        <ellipse cx="0" cy="0" rx="50" ry="20" fill="none" stroke="#6366f1" stroke-width="1.2" stroke-dasharray="4 3" />
+        <text x="0" y="4" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#6366f1">Internet</text>
+        <circle cx="0" cy="0" r="3" fill="#6366f1" class="pulse-node" />
+
+        <!-- Connection lines -->
+        <line x1="-2" y1="22" x2="-2" y2="60" stroke="#6366f1" stroke-width="1" class="net-flow" />
+        <line x1="2" y1="22" x2="2" y2="60" stroke="#3b82f6" stroke-width="1" class="net-flow-rev" />
+
+        <!-- Firewall -->
+        <rect x="-30" y="60" width="60" height="30" rx="4" fill="#15152a" stroke="#f97316" stroke-width="1.2" />
+        <text x="0" y="79" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#f97316">FIREWALL</text>
+        <circle cx="0" cy="75" r="2.5" fill="#22c55e" class="pulse-dot" />
+
+        <!-- Load Balancer -->
+        <line x1="-40" y1="90" x2="-40" y2="120" stroke="#22c55e" stroke-width="1" class="net-flow" />
+        <line x1="40" y1="90" x2="40" y2="120" stroke="#22c55e" stroke-width="1" class="net-flow" />
+        <rect x="-45" y="120" width="90" height="26" rx="4" fill="#15152a" stroke="#3b82f6" stroke-width="1" />
+        <text x="0" y="137" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#3b82f6">LB: api.example.com</text>
+
+        <!-- Backend nodes -->
+        <line x1="-50" y1="146" x2="-50" y2="180" stroke="#22c55e" stroke-width="1" class="net-flow" />
+        <line x1="0" y1="146" x2="0" y2="180" stroke="#22c55e" stroke-width="1" class="net-flow" />
+        <line x1="50" y1="146" x2="50" y2="180" stroke="#22c55e" stroke-width="1" class="net-flow" />
+
+        <g transform="translate(-80, 180)">
+          <rect x="-20" y="0" width="40" height="24" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="15" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">App-01</text>
+          <circle cx="0" cy="-5" r="2" fill="#22c55e" class="pulse-dot" />
+        </g>
+        <g transform="translate(-20, 180)">
+          <rect x="-20" y="0" width="40" height="24" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="15" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">App-02</text>
+          <circle cx="0" cy="-5" r="2" fill="#22c55e" class="pulse-dot" />
+        </g>
+        <g transform="translate(40, 180)">
+          <rect x="-20" y="0" width="40" height="24" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="15" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">App-03</text>
+          <circle cx="0" cy="-5" r="2" fill="#22c55e" class="pulse-dot" />
+        </g>
+
+        <!-- DB Nodes -->
+        <line x1="-20" y1="180" x2="-20" y2="220" stroke="#f97316" stroke-width="1" class="net-flow" />
+        <line x1="20" y1="180" x2="20" y2="220" stroke="#f97316" stroke-width="0.8" class="net-flow-rev" />
+
+        <g transform="translate(-55, 220)">
+          <rect x="-20" y="0" width="40" height="24" rx="4" fill="#1a0d0d" stroke="#f97316" stroke-width="0.8" />
+          <text x="0" y="15" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#f97316">Postgres</text>
+        </g>
+        <g transform="translate(-5, 220)">
+          <rect x="-20" y="0" width="40" height="24" rx="4" fill="#1a0d0d" stroke="#f97316" stroke-width="0.8" />
+          <text x="0" y="15" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#f97316">Redis</text>
+        </g>
+        <g transform="translate(45, 220)">
+          <rect x="-20" y="0" width="40" height="24" rx="4" fill="#1a0d0d" stroke="#f97316" stroke-width="0.8" />
+          <text x="0" y="15" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#f97316">Elastic</text>
+        </g>
+
+        <!-- Traffic flow indicators -->
+        <g transform="translate(-120, 100)" opacity="0.6">
+          <rect x="0" y="0" width="16" height="16" rx="3" fill="#0d1a2d" stroke="#00d4ff" stroke-width="0.6" />
+          <text x="8" y="12" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#00d4ff">↗</text>
+        </g>
+        <text x="-108" y="108" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">UPL 1.2Gbps</text>
+        <g transform="translate(-120, 122)" opacity="0.6">
+          <rect x="0" y="0" width="16" height="16" rx="3" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.6" />
+          <text x="8" y="12" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#22c55e">↘</text>
+        </g>
+        <text x="-108" y="130" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">DNL 3.4Gbps</text>
+
+        <!-- Active connections list -->
+        <g transform="translate(-120, 160)">
+          <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#8b949e">Active Connections:</text>
+          <text x="0" y="16" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+            <tspan fill="#22c55e">●</tspan> 4 API endpoints
+          </text>
+          <text x="0" y="30" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+            <tspan fill="#22c55e">●</tspan> 3 DB connections
+          </text>
+          <text x="0" y="44" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+            <tspan fill="#22c55e">●</tspan> 2 cache hits/s
+          </text>
+        </g>
+      </g>
+
+      <!-- Live traffic log -->
+      <g transform="translate(12, 460)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Live Traffic:</text>
+        <rect x="0" y="8" width="266" height="100" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.6" />
+        
+        <g font-family="'Cascadia Code',Consolas,monospace" font-size="8" opacity="0">
+          <animate attributeName="opacity" values="0;1" dur="6s" begin="1.5s" fill="freeze" />
+          <text x="8" y="24" fill="#22c55e">✓ 10.0.1.1 → 8.8.8.8:443  HTTPS</text>
+          <text x="8" y="40" fill="#3b82f6">→ 10.0.1.22 → LB:443    TLS 1.3</text>
+          <text x="8" y="56" fill="#22c55e">✓ 10.0.1.45 → API:5432  PGSQL</text>
+          <text x="8" y="72" fill="#f97316">⚠ 10.0.1.100 → 443      Rate limit</text>
+          <text x="8" y="88" fill="#22c55e">✓ github.com → 22        SSH  ✓</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- TERMINAL 2: KUBERNETES & CONTAINERS (6.5s - 11.5s)          -->
+  <!-- ============================================================ -->  
+  <g id="terminal2" transform="translate(1400, 72)">
+    <animateTransform attributeName="transform" type="translate" values="1400,72;100,72" dur="0.8s" begin="6.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" />
+    <animateTransform attributeName="transform" type="translate" values="100,72;-1400,72" dur="0.6s" begin="11.5s" fill="freeze" calcMode="spline" keySplines="0.55 0 1 0.45" />
+
+    <rect x="0" y="0" width="1000" height="680" rx="12" fill="url(#windowBody)" stroke="#2d2d5e" stroke-width="1.2" filter="url(#windowShadow)" />
+    <rect x="0" y="0" width="1000" height="42" rx="12" fill="url(#windowTitlebar)" />
+    <rect x="0" y="30" width="1000" height="12" fill="url(#windowTitlebar)" />
+
+    <g transform="translate(18, 14)">
+      <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+      <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+      <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+    </g>
+
+    <g transform="translate(120, 14)">
+      <rect x="0" y="0" width="220" height="22" rx="4" fill="#2d2d5e" opacity="0.5" />
+      <text x="110" y="16" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#8b949e">☸ Kubernetes Cluster Manager</text>
+    </g>
+
+    <text x="870" y="26" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="10" fill="#4a5568">kubectl · docker · helm</text>
+
+    <!-- ============================================================ -->
+    <!-- Terminal 2 Content                                           -->
+    <!-- ============================================================ -->
+    <g transform="translate(28, 62)">
+      <!-- LEFT: K8s Commands -->
+      <g clip-path="url(#t2l1)">
+        <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> kubectl get nodes -o wide</tspan>
+        </text>
+        <text y="24" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">NAME            STATUS   ROLES           VERSION   INTERNAL-IP</text>
+        <text y="46" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">control-plane   Ready    control-plane   v1.30.1   10.0.1.15</text>
+        <text y="68" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">worker-01       Ready    worker          v1.30.1   10.0.1.22</text>
+        <text y="90" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">worker-02       Ready    worker          v1.30.1   10.0.1.23</text>
+        <text y="112" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">gpu-node        Ready    worker,gpu      v1.30.1   10.0.1.50</text>
+      </g>
+
+      <g clip-path="url(#t2l2)">
+        <text y="142" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> kubectl get pods -A --sort-by=.status.phase</tspan>
+        </text>
+        <text y="166" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">NAMESPACE     NAME                     READY   STATUS    RESTARTS   AGE</text>
+        <text y="188" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">kube-system   coredns-7d4f7f6f9-abc1   1/1     Running   0          14d</text>
+        <text y="210" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">kube-system   coredns-7d4f7f6f9-xyz2   1/1     Running   0          14d</text>
+        <text y="232" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">prod          api-gateway-7f2b4c-8x9   3/3     Running   0          7d</text>
+        <text y="254" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">prod          auth-svc-5d8f7d6-mn3b    2/2     Running   0          7d</text>
+        <text y="276" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">prod          ml-inference-c4f9k       4/4     Running   0          3d</text>
+        <text y="298" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">staging       web-frontend-b8d2f       1/2     Running   1          2h</text>
+        <text y="320" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">monitoring    prometheus-0             2/2     Running   0          14d</text>
+        <text y="342" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">monitoring    grafana-7b5f8c6d-4k9m    1/1     Running   0          14d</text>
+      </g>
+
+      <g clip-path="url(#t2l3)">
+        <text y="372" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'</tspan>
+        </text>
+        <text y="396" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">NAME                    STATUS              PORTS</text>
+        <text y="418" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">postgres-16             Up 14 days          0.0.0.0:5432→5432</text>
+        <text y="440" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">redis-cache-7           Up 14 days          0.0.0.0:6379→6379</text>
+        <text y="462" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">nginx-ingress           Up 14 days          0.0.0.0:443→443</text>
+        <text y="484" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">elasticsearch           Up 14 days          0.0.0.0:9200→9200</text>
+        <text y="506" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">rabbitmq                Up 7 days           0.0.0.0:5672→5672</text>
+        <text y="528" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">web-debug               Up 2 hours          0.0.0.0:3000→3000</text>
+      </g>
+
+      <g clip-path="url(#t2l4)">
+        <text y="558" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> kubectl rollout status deploy/api-gateway -n prod</tspan>
+        </text>
+        <text y="582" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">deployment "api-gateway" successfully rolled out ✓</text>
+      </g>
+
+      <g clip-path="url(#t2l5)">
+        <text y="612" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> helm list -A | grep -E '(prod|monitoring|ingress)'</tspan>
+        </text>
+        <text y="636" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">prod        nginx-ingress   7.2.1    4.8.3   14d</text>
+        <text y="658" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">monitoring  prometheus      25.2.0   7.5.1   14d</text>
+        <text y="680" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#4a5568"><tspan fill="#22c55e">✓</tspan> 12 Helm charts deployed, all healthy</text>
+      </g>
+    </g>
+
+    <!-- RIGHT: K8s Cluster Visualization -->
+    <g transform="translate(680, 70)">
+      <rect x="0" y="0" width="290" height="580" rx="8" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+      <text x="145" y="24" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#8b949e">CLUSTER OVERVIEW</text>
+      <rect x="10" y="32" width="270" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <g transform="translate(145, 60)">
+        <!-- Cluster ring -->
+        <circle cx="0" cy="60" r="55" fill="none" stroke="#6366f1" stroke-width="0.8" stroke-dasharray="4 4" opacity="0.3" />
+        
+        <!-- Control Plane -->
+        <g transform="translate(0, 0)">
+          <rect x="-30" y="-14" width="60" height="28" rx="6" fill="#0d1a2d" stroke="#00d4ff" stroke-width="1.2" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#00d4ff">Control Plane</text>
+          <circle cx="0" cy="-10" r="2.5" fill="#22c55e" class="pulse-dot" />
+        </g>
+
+        <!-- Worker Nodes -->
+        <g transform="translate(-50, 65)">
+          <rect x="-22" y="-10" width="44" height="20" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="4" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">Worker 1</text>
+        </g>
+        <g transform="translate(50, 65)">
+          <rect x="-22" y="-10" width="44" height="20" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="4" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">Worker 2</text>
+        </g>
+        <g transform="translate(-50, 100)">
+          <rect x="-22" y="-10" width="44" height="20" rx="4" fill="#0d1a2d" stroke="#f97316" stroke-width="0.8" />
+          <text x="0" y="4" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#f97316">GPU Node</text>
+        </g>
+        <g transform="translate(50, 100)">
+          <rect x="-22" y="-10" width="44" height="20" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="4" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">Storage</text>
+        </g>
+
+        <!-- Connection lines -->
+        <line x1="0" y1="14" x2="-30" y2="55" stroke="#6366f1" stroke-width="0.8" class="net-flow" />
+        <line x1="0" y1="14" x2="30" y2="55" stroke="#6366f1" stroke-width="0.8" class="net-flow" />
+        <line x1="-30" y1="55" x2="-30" y2="90" stroke="#6366f1" stroke-width="0.6" class="net-flow-rev" />
+        <line x1="30" y1="55" x2="30" y2="90" stroke="#6366f1" stroke-width="0.6" class="net-flow-rev" />
+      </g>
+
+      <!-- Pod status bars -->
+      <g transform="translate(12, 190)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Namespace Resource Usage:</text>
+        
+        <g transform="translate(0, 16)">
+          <rect x="0" y="0" width="266" height="6" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="160" height="6" rx="3" fill="#22c55e" />
+          <text x="8" y="-4" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">kube-system 45%</text>
+        </g>
+        <g transform="translate(0, 34)">
+          <rect x="0" y="0" width="266" height="6" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="220" height="6" rx="3" fill="#3b82f6" />
+          <text x="8" y="-4" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#3b82f6">prod 72%</text>
+        </g>
+        <g transform="translate(0, 52)">
+          <rect x="0" y="0" width="266" height="6" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="90" height="6" rx="3" fill="#a855f7" />
+          <text x="8" y="-4" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#a855f7">monitoring 28%</text>
+        </g>
+        <g transform="translate(0, 70)">
+          <rect x="0" y="0" width="266" height="6" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="130" height="6" rx="3" fill="#f97316" />
+          <text x="8" y="-4" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#f97316">staging 42%</text>
+        </g>
+      </g>
+
+      <!-- Resource metrics boxes -->
+      <g transform="translate(12, 310)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Cluster Metrics:</text>
+        
+        <g transform="translate(0, 14)">
+          <rect x="0" y="0" width="84" height="44" rx="6" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.6" />
+          <text x="42" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#22c55e">42%</text>
+          <text x="42" y="36" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">CPU</text>
+        </g>
+        <g transform="translate(92, 14)">
+          <rect x="0" y="0" width="84" height="44" rx="6" fill="#0d1a2d" stroke="#3b82f6" stroke-width="0.6" />
+          <text x="42" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#3b82f6">68%</text>
+          <text x="42" y="36" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">MEM</text>
+        </g>
+        <g transform="translate(184, 14)">
+          <rect x="0" y="0" width="84" height="44" rx="6" fill="#0d1a2d" stroke="#a855f7" stroke-width="0.6" />
+          <text x="42" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#a855f7">34%</text>
+          <text x="42" y="36" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">STORAGE</text>
+        </g>
+      </g>
+
+      <!-- Pod list -->
+      <g transform="translate(12, 390)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Running Pods: 24 total</text>
+        <rect x="0" y="8" width="266" height="160" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.6" />
+        <g font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+          <text x="8" y="26" fill="#22c55e">● coredns             2/2</text>
+          <text x="8" y="42" fill="#22c55e">● api-gateway         3/3</text>
+          <text x="8" y="58" fill="#22c55e">● auth-service        2/2</text>
+          <text x="8" y="74" fill="#22c55e">● ml-inference        4/4</text>
+          <text x="8" y="90" fill="#22c55e">● prometheus          2/2</text>
+          <text x="8" y="106" fill="#22c55e">● grafana             1/1</text>
+          <text x="8" y="122" fill="#f97316">● web-frontend        1/2  ⚠</text>
+          <text x="8" y="138" fill="#22c55e">● redis-cache         1/1</text>
+          <text x="8" y="154" fill="#22c55e">● postgres-16         1/1</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- TERMINAL 3: CI/CD PIPELINE (11.5s - 16.5s)                  -->
+  <!-- ============================================================ -->
+  <g id="terminal3" transform="translate(1400, 72)">
+    <animateTransform attributeName="transform" type="translate" values="1400,72;100,72" dur="0.8s" begin="11.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" />
+    <animateTransform attributeName="transform" type="translate" values="100,72;-1400,72" dur="0.6s" begin="16.5s" fill="freeze" calcMode="spline" keySplines="0.55 0 1 0.45" />
+
+    <rect x="0" y="0" width="1000" height="680" rx="12" fill="url(#windowBody)" stroke="#2d2d5e" stroke-width="1.2" filter="url(#windowShadow)" />
+    <rect x="0" y="0" width="1000" height="42" rx="12" fill="url(#windowTitlebar)" />
+    <rect x="0" y="30" width="1000" height="12" fill="url(#windowTitlebar)" />
+
+    <g transform="translate(18, 14)">
+      <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+      <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+      <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+    </g>
+
+    <g transform="translate(120, 14)">
+      <rect x="0" y="0" width="240" height="22" rx="4" fill="#2d2d5e" opacity="0.5" />
+      <text x="120" y="16" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#8b949e">🔄 CI/CD Pipeline Runner</text>
+    </g>
+
+    <text x="870" y="26" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="10" fill="#4a5568">git · gh · terraform · argo</text>
+
+    <!-- ============================================================ -->
+    <!-- Terminal 3 Content                                           -->
+    <!-- ============================================================ -->
+    <g transform="translate(28, 62)">
+      <!-- LEFT: CI/CD Commands -->
+      <g clip-path="url(#t3l1)">
+        <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> gh run list --limit 5 --json conclusion,headBranch,status</tspan>
+        </text>
+        <text y="24" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">BRANCH           STATUS     CONCLUSION</text>
+        <text y="46" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">main             completed  success   ✓</text>
+        <text y="68" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">staging/v2.1     completed  success   ✓</text>
+        <text y="90" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">feat/api-v3      completed  success   ✓</text>
+        <text y="112" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">fix/auth-bug     in_progress -         ⏳</text>
+        <text y="134" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">hotfix/cve-2024  completed  success   ✓</text>
+      </g>
+
+      <g clip-path="url(#t3l2)">
+        <text y="164" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> git log --oneline --graph -8</tspan>
+        </text>
+        <text y="188" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">* 8f2a4b7 <tspan fill="#f97316">(HEAD → main)</tspan> Merge: fix auth service rate limiting</text>
+        <text y="210" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">* 3d1e5c9 <tspan fill="#22c55e">(tag: v2.1.0)</tspan> Deploy ML inference pipeline v2</text>
+        <text y="232" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">* 7b4f2a1 feat: add GPU autoscaling policy</text>
+        <text y="254" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">* 1c9d8e3 fix: redis connection pool leak</text>
+        <text y="276" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">* 5e6f7a8 <tspan fill="#a855f7">(origin/main)</tspan> chore: update dependencies</text>
+        <text y="298" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">* 4b2c3d1 docs: update API reference</text>
+        <text y="320" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">* 9a8b7c6 security: patch CVE-2024-4567</text>
+        <text y="342" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#4a5568"><tspan fill="#8b949e">↓ 12 commits ahead, 0 behind</tspan></text>
+      </g>
+
+      <g clip-path="url(#t3l3)">
+        <text y="372" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> terraform plan -out=tfplan -var-file=prod.tfvars</tspan>
+        </text>
+        <text y="396" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">Terraform used the selected providers to generate execution plan:</text>
+        <text y="418" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">  ✓ aws_instance.web (update in-place)</text>
+        <text y="440" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">  ✓ aws_db_instance.postgres (update in-place)</text>
+        <text y="462" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">  ✓ aws_eks_node_group.gpu (force replacement)</text>
+        <text y="484" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">──────────────────────────────────────────────────────</text>
+        <text y="506" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">  Plan: 3 to add, 5 to change, 1 to destroy.</text>
+        <text y="528" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#00d4ff">  ── Auto-approved: yes</text>
+      </g>
+
+      <g clip-path="url(#t3l4)">
+        <text y="558" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> argocd app list | grep -v '^$'</tspan>
+        </text>
+        <text y="582" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">APP NAME          STATUS       SYNC</text>
+        <text y="604" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">api-gateway       Healthy      Synced  ✓</text>
+        <text y="626" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">ml-inference      Healthy      Synced  ✓</text>
+        <text y="648" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">web-frontend      Degraded     OutOfSync  ⚠</text>
+      </g>
+
+      <g clip-path="url(#t3l5)">
+        <text y="678" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> ansible all -m ping -o 2>/dev/null | head -8</tspan>
+        </text>
+        <text y="702" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">web-01 | SUCCESS | rc=0 | pong ✓</text>
+        <text y="724" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">web-02 | SUCCESS | rc=0 | pong ✓</text>
+        <text y="746" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">db-01  | SUCCESS | rc=0 | pong ✓</text>
+        <text y="768" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">cache-01 | SUCCESS | rc=0 | pong ✓</text>
+        <text y="790" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#4a5568"><tspan fill="#22c55e">✓</tspan> 12/12 hosts reachable</text>
+      </g>
+    </g>
+
+    <!-- RIGHT: Pipeline Visualization -->
+    <g transform="translate(680, 70)">
+      <rect x="0" y="0" width="290" height="580" rx="8" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+      <text x="145" y="24" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#8b949e">PIPELINE STATUS</text>
+      <rect x="10" y="32" width="270" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <!-- Pipeline stages -->
+      <g transform="translate(20, 60)" font-family="'Cascadia Code',Consolas,monospace">
+        <!-- Stage 1: Lint -->
+        <rect x="0" y="0" width="250" height="42" rx="6" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+        <text x="12" y="18" font-size="10" fill="#22c55e">✓ 1. Lint &amp; Validate</text>
+        <text x="12" y="34" font-size="8" fill="#4a5568">eslint · prettier · type-check</text>
+        <circle cx="230" cy="16" r="4" fill="#22c55e" class="pulse-dot" />
+
+        <!-- Connection arrow -->
+        <line x1="125" y1="42" x2="125" y2="52" stroke="#22c55e" stroke-width="1.5" />
+        <polygon points="120,52 125,58 130,52" fill="#22c55e" />
+
+        <!-- Stage 2: Test -->
+        <rect x="0" y="58" width="250" height="42" rx="6" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+        <text x="12" y="76" font-size="10" fill="#22c55e">✓ 2. Unit &amp; Integration Tests</text>
+        <text x="12" y="92" font-size="8" fill="#4a5568">jest 182 tests · 100% coverage</text>
+        <circle cx="230" cy="80" r="4" fill="#22c55e" class="pulse-dot" />
+
+        <line x1="125" y1="100" x2="125" y2="110" stroke="#22c55e" stroke-width="1.5" />
+        <polygon points="120,110 125,116 130,110" fill="#22c55e" />
+
+        <!-- Stage 3: Build -->
+        <rect x="0" y="116" width="250" height="42" rx="6" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+        <text x="12" y="134" font-size="10" fill="#22c55e">✓ 3. Build &amp; Package</text>
+        <text x="12" y="150" font-size="8" fill="#4a5568">docker build -t app:v2.1.0  ✓</text>
+        <circle cx="230" cy="138" r="4" fill="#22c55e" class="pulse-dot" />
+
+        <line x1="125" y1="158" x2="125" y2="168" stroke="#22c55e" stroke-width="1.5" />
+        <polygon points="120,168 125,174 130,168" fill="#22c55e" />
+
+        <!-- Stage 4: Deploy Staging -->
+        <rect x="0" y="174" width="250" height="42" rx="6" fill="#0d1a2d" stroke="#3b82f6" stroke-width="0.8" />
+        <text x="12" y="192" font-size="10" fill="#3b82f6">● 4. Deploy → Staging</text>
+        <text x="12" y="208" font-size="8" fill="#4a5568">kubectl apply -f k8s/staging/</text>
+        <circle cx="230" cy="196" r="4" fill="#3b82f6" class="pulse-fast" />
+
+        <line x1="125" y1="216" x2="125" y2="226" stroke="#3b82f6" stroke-width="1.5" />
+        <polygon points="120,226 125,232 130,226" fill="#3b82f6" />
+
+        <!-- Stage 5: Integration Tests -->
+        <rect x="0" y="232" width="250" height="42" rx="6" fill="#0d1a2d" stroke="#f97316" stroke-width="0.8" />
+        <text x="12" y="250" font-size="10" fill="#f97316">⌛ 5. Integration Tests</text>
+        <text x="12" y="266" font-size="8" fill="#4a5568">e2e · load-test · security-scan</text>
+        <!-- Progress bar -->
+        <rect x="12" y="276" width="226" height="4" rx="2" fill="#15152a" />
+        <rect x="12" y="276" width="140" height="4" rx="2" fill="url(#progressBlue)">
+          <animate attributeName="width" values="0;140" dur="5s" begin="11.5s" fill="freeze" />
+        </rect>
+
+        <line x1="125" y1="286" x2="125" y2="296" stroke="#4a5568" stroke-width="1.5" />
+        <polygon points="120,296 125,302 130,296" fill="#4a5568" />
+
+        <!-- Stage 6: Deploy Production -->
+        <rect x="0" y="302" width="250" height="42" rx="6" fill="#0d1a2d" stroke="#4a5568" stroke-width="0.8" opacity="0.6" />
+        <text x="12" y="320" font-size="10" fill="#4a5568">⋯ 6. Deploy → Production</text>
+        <text x="12" y="336" font-size="8" fill="#4a5568">Waiting for integration tests...</text>
+      </g>
+
+      <!-- Deployment Stats -->
+      <g transform="translate(12, 410)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Deployment Stats:</text>
+        
+        <g transform="translate(0, 14)">
+          <rect x="0" y="0" width="130" height="38" rx="6" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.6" />
+          <text x="65" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="16" fill="#22c55e">47</text>
+          <text x="65" y="32" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">Successful Deploys</text>
+        </g>
+        <g transform="translate(140, 14)">
+          <rect x="0" y="0" width="130" height="38" rx="6" fill="#0d1a2d" stroke="#3b82f6" stroke-width="0.6" />
+          <text x="65" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="16" fill="#3b82f6">99.7%</text>
+          <text x="65" y="32" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">Success Rate</text>
+        </g>
+        
+        <g transform="translate(0, 58)">
+          <rect x="0" y="0" width="130" height="38" rx="6" fill="#0d1a2d" stroke="#a855f7" stroke-width="0.6" />
+          <text x="65" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="16" fill="#a855f7">12</text>
+          <text x="65" y="32" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">Rollbacks</text>
+        </g>
+        <g transform="translate(140, 58)">
+          <rect x="0" y="0" width="130" height="38" rx="6" fill="#0d1a2d" stroke="#f97316" stroke-width="0.6" />
+          <text x="65" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="16" fill="#f97316">23s</text>
+          <text x="65" y="32" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">Avg Build Time</text>
+        </g>
+      </g>
+
+      <!-- Recent commits -->
+      <g transform="translate(12, 510)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Recent Activity:</text>
+        <rect x="0" y="8" width="266" height="60" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.6" />
+        <g font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+          <text x="8" y="26" fill="#22c55e">○ fixed auth rate-limiting</text>
+          <text x="8" y="42" fill="#3b82f6">○ deployed ml-v2 to prod</text>
+          <text x="8" y="58" fill="#f97316">○ updated terraform infra</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- TERMINAL 4: MONITORING & SECURITY (16.5s - 21.5s)           -->
+  <!-- ============================================================ -->
+  <g id="terminal4" transform="translate(1400, 72)">
+    <animateTransform attributeName="transform" type="translate" values="1400,72;100,72" dur="0.8s" begin="16.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" />
+    <animateTransform attributeName="transform" type="translate" values="100,72;-1400,72" dur="0.6s" begin="21.5s" fill="freeze" calcMode="spline" keySplines="0.55 0 1 0.45" />
+
+    <rect x="0" y="0" width="1000" height="680" rx="12" fill="url(#windowBody)" stroke="#2d2d5e" stroke-width="1.2" filter="url(#windowShadow)" />
+    <rect x="0" y="0" width="1000" height="42" rx="12" fill="url(#windowTitlebar)" />
+    <rect x="0" y="30" width="1000" height="12" fill="url(#windowTitlebar)" />
+
+    <g transform="translate(18, 14)">
+      <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+      <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+      <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+    </g>
+
+    <g transform="translate(120, 14)">
+      <rect x="0" y="0" width="260" height="22" rx="4" fill="#2d2d5e" opacity="0.5" />
+      <text x="130" y="16" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#8b949e">📊 Monitoring &amp; Security Operations</text>
+    </g>
+
+    <text x="870" y="26" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="10" fill="#4a5568">prometheus · grafana · nmap</text>
+
+    <!-- ============================================================ -->
+    <!-- Terminal 4 Content                                           -->
+    <!-- ============================================================ -->
+    <g transform="translate(28, 62)">
+      <!-- LEFT: Monitoring Commands -->
+      <g clip-path="url(#t4l1)">
+        <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> promtool query 'node_cpu_seconds_total{mode="idle"}'</tspan>
+        </text>
+        <text y="24" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">Query returned 4 metric series at 14:32:05</text>
+        <text y="46" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          {instance="worker-01"}  <tspan fill="#22c55e">58.2% idle</tspan>
+        </text>
+        <text y="68" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          {instance="worker-02"}  <tspan fill="#22c55e">64.7% idle</tspan>
+        </text>
+        <text y="90" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          {instance="gpu-node"}   <tspan fill="#f97316">32.1% idle</tspan>
+        </text>
+        <text y="112" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          {instance="control-plane"} <tspan fill="#22c55e">72.8% idle</tspan>
+        </text>
+      </g>
+
+      <g clip-path="url(#t4l2)">
+        <text y="142" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> nvidia-smi --query-gpu=utilization.gpu,memory.used --format=csv</tspan>
+        </text>
+        <text y="166" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">GPU Utilization, Memory Used</text>
+        <text y="188" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">NVIDIA A100-80GB, 72%, 58.4 GiB</text>
+        <text y="210" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">NVIDIA A100-80GB, 34%, 22.1 GiB</text>
+      </g>
+
+      <g clip-path="url(#t4l3)">
+        <text y="240" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> nmap -sV --script vuln 10.0.1.0/24 --top-ports 100</tspan>
+        </text>
+        <text y="264" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">Starting vulnerability scan on 10.0.1.0/24...</text>
+        <text y="286" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">✓ 10.0.1.15: 0 vulnerabilities found</text>
+        <text y="308" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">✓ 10.0.1.22: 0 vulnerabilities found</text>
+        <text y="330" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">✓ 10.0.1.23: 0 vulnerabilities found</text>
+        <text y="352" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">⚠ 10.0.1.50: CVE-2024-21626 detected</text>
+      </g>
+
+      <g clip-path="url(#t4l4)">
+        <text y="382" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> df -h | grep -E '(sd|nvme)'</tspan>
+        </text>
+        <text y="406" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">/dev/nvme0n1p2  468G  212G  233G  48% /</text>
+        <text y="428" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">/dev/nvme1n1    932G  445G  487G  48% /data</text>
+        
+        <rect x="0" y="446" width="300" height="18" rx="4" fill="#15152a" />
+        <rect x="0" y="446" width="144" height="18" rx="4" fill="#22c55e" opacity="0.8" />
+        <text x="150" y="459" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Disk Usage: 48% (212G / 468G)</text>
+      </g>
+
+      <g clip-path="url(#t4l5)">
+        <text y="498" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> systemctl status --all | grep -i 'failed\|error' | wc -l</tspan>
+        </text>
+        <text y="522" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">0 failed services detected ✓</text>
+        
+        <text y="550" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> journalctl -u kubelet --since "1 hour ago" | grep -c error</tspan>
+        </text>
+        <text y="574" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">0 kubelet errors in the last hour ✓</text>
+
+        <!-- Security summary -->
+        <rect x="0" y="590" width="620" height="48" rx="6" fill="#0a0a18" stroke="#22c55e" stroke-width="0.8" />
+        <text x="16" y="610" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#22c55e">🔒 Security Posture: 98.7% compliant</text>
+        <text x="16" y="628" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#4a5568"><tspan fill="#22c55e">✓</tspan> SSL/TLS enforced  <tspan fill="#22c55e">✓</tspan> 2FA required  <tspan fill="#f97316">⚠</tspan> 1 CVE patch pending</text>
+      </g>
+    </g>
+
+    <!-- RIGHT: Monitoring Dashboard -->
+    <g transform="translate(680, 70)">
+      <rect x="0" y="0" width="290" height="580" rx="8" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+      <text x="145" y="24" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#8b949e">LIVE METRICS DASHBOARD</text>
+      <rect x="10" y="32" width="270" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <!-- Real-time CPU Graph -->
+      <g transform="translate(16, 48)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">CPU Usage (last 5 min)</text>
+        
+        <!-- Bar chart -->
+        <g transform="translate(0, 12)">
+          <rect x="0" y="20" width="16" height="10" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="20" y="14" width="16" height="16" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="40" y="6" width="16" height="24" rx="2" fill="#f97316" class="bar-cpu" />
+          <rect x="60" y="12" width="16" height="18" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="80" y="16" width="16" height="14" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="100" y="8" width="16" height="22" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="120" y="10" width="16" height="20" rx="2" fill="#f97316" class="bar-cpu" />
+          <rect x="140" y="14" width="16" height="16" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="160" y="4" width="16" height="26" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="180" y="18" width="16" height="12" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="200" y="8" width="16" height="22" rx="2" fill="#f97316" class="bar-cpu" />
+          <rect x="220" y="12" width="16" height="18" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="240" y="10" width="16" height="20" rx="2" fill="#22c55e" class="bar-cpu" />
+          <rect x="260" y="16" width="16" height="14" rx="2" fill="#22c55e" class="bar-cpu" />
+        </g>
+        <text x="0" y="60" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">0%              50%              100%</text>
+      </g>
+
+      <!-- Memory Usage -->
+      <g transform="translate(16, 118)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Memory Usage: 6.2G / 15.6G</text>
+        <rect x="0" y="8" width="260" height="10" rx="4" fill="#15152a" />
+        <rect x="0" y="8" width="166" height="10" rx="4" fill="url(#progressBlue)">
+          <animate attributeName="width" values="0;166" dur="3s" begin="16.5s" fill="freeze" />
+        </rect>
+        <text x="130" y="28" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#3b82f6">40% used</text>
+      </g>
+
+      <!-- Network Traffic -->
+      <g transform="translate(16, 158)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Network Traffic</text>
+        <g transform="translate(0, 10)">
+          <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">Inbound:</text>
+          <text x="80" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">1.2 Gbps</text>
+          <rect x="0" y="6" width="260" height="6" rx="3" fill="#15152a" />
+          <rect x="0" y="6" width="104" height="6" rx="3" fill="#22c55e" />
+        </g>
+        <g transform="translate(0, 28)">
+          <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">Outbound:</text>
+          <text x="80" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#3b82f6">340 Mbps</text>
+          <rect x="0" y="6" width="260" height="6" rx="3" fill="#15152a" />
+          <rect x="0" y="6" width="52" height="6" rx="3" fill="#3b82f6" />
+        </g>
+      </g>
+
+      <!-- Service Health -->
+      <g transform="translate(16, 218)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Service Health</text>
+        <g transform="translate(0, 10)">
+          <rect x="0" y="0" width="260" height="80" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.6" />
+          <g font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+            <text x="8" y="18" fill="#22c55e">● API Gateway        uptime: 14d</text>
+            <text x="8" y="34" fill="#22c55e">● ML Inference       uptime: 3d</text>
+            <text x="8" y="50" fill="#22c55e">● PostgreSQL 16      uptime: 14d</text>
+            <text x="8" y="66" fill="#22c55e">● Redis Cache        uptime: 14d</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- Container Resource Usage -->
+      <g transform="translate(16, 320)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Container Resource Usage</text>
+        
+        <g transform="translate(0, 12)">
+          <!-- api-gateway -->
+          <rect x="0" y="0" width="260" height="10" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="90" height="10" rx="3" fill="#22c55e" />
+          <text x="4" y="8" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#fff">api-gateway</text>
+          <text x="250" y="8" text-anchor="end" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">35%</text>
+        </g>
+        <g transform="translate(0, 18)">
+          <rect x="0" y="0" width="260" height="10" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="180" height="10" rx="3" fill="#f97316" />
+          <text x="4" y="8" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#fff">ml-inference</text>
+          <text x="250" y="8" text-anchor="end" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">72%</text>
+        </g>
+        <g transform="translate(0, 36)">
+          <rect x="0" y="0" width="260" height="10" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="60" height="10" rx="3" fill="#22c55e" />
+          <text x="4" y="8" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#fff">postgres</text>
+          <text x="250" y="8" text-anchor="end" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">22%</text>
+        </g>
+        <g transform="translate(0, 54)">
+          <rect x="0" y="0" width="260" height="10" rx="3" fill="#15152a" />
+          <rect x="0" y="0" width="30" height="10" rx="3" fill="#22c55e" />
+          <text x="4" y="8" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#fff">redis</text>
+          <text x="250" y="8" text-anchor="end" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">12%</text>
+        </g>
+      </g>
+
+      <!-- Security Alerts -->
+      <g transform="translate(16, 400)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Security Alerts (24h)</text>
+        <rect x="0" y="10" width="260" height="80" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.6" />
+        <g font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+          <text x="8" y="28" fill="#22c55e">✓ No critical alerts</text>
+          <text x="8" y="46" fill="#22c55e">✓ 124,000 req scanned</text>
+          <text x="8" y="64" fill="#22c55e">✓ 0 threats blocked</text>
+          <text x="8" y="82" fill="#f97316">⚠ 2 rate limit warnings</text>
+        </g>
+      </g>
+
+      <!-- Log stream -->
+      <g transform="translate(16, 500)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Log Stream:</text>
+        <rect x="0" y="8" width="260" height="70" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.6" />
+        <g font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">
+          <text x="8" y="24" fill="#22c55e">✓ 14:32:01 api OK 200</text>
+          <text x="8" y="38" fill="#22c55e">✓ 14:32:02 db query 12ms</text>
+          <text x="8" y="52" fill="#3b82f6">→ 14:32:03 inference req</text>
+          <text x="8" y="66" fill="#22c55e">✓ 14:32:04 cache hit</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- TERMINAL 5: CLOUD & AI INFRASTRUCTURE (21.5s - 26.5s)       -->
+  <!-- ============================================================ -->
+  <g id="terminal5" transform="translate(1400, 72)">
+    <animateTransform attributeName="transform" type="translate" values="1400,72;100,72" dur="0.8s" begin="21.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" />
+    <animateTransform attributeName="transform" type="translate" values="100,72;-1400,72" dur="0.6s" begin="26.5s" fill="freeze" calcMode="spline" keySplines="0.55 0 1 0.45" />
+
+    <rect x="0" y="0" width="1000" height="680" rx="12" fill="url(#windowBody)" stroke="#2d2d5e" stroke-width="1.2" filter="url(#windowShadow)" />
+    <rect x="0" y="0" width="1000" height="42" rx="12" fill="url(#windowTitlebar)" />
+    <rect x="0" y="30" width="1000" height="12" fill="url(#windowTitlebar)" />
+
+    <g transform="translate(18, 14)">
+      <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+      <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+      <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+    </g>
+
+    <g transform="translate(120, 14)">
+      <rect x="0" y="0" width="280" height="22" rx="4" fill="#2d2d5e" opacity="0.5" />
+      <text x="140" y="16" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#8b949e">☁️ Cloud Infrastructure &amp; AI Services</text>
+    </g>
+
+    <text x="870" y="26" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="10" fill="#4a5568">aws · terraform · python · helm</text>
+
+    <!-- ============================================================ -->
+    <!-- Terminal 5 Content                                           -->
+    <!-- ============================================================ -->
+    <g transform="translate(28, 62)">
+      <!-- LEFT: Cloud & AI Commands -->
+      <g clip-path="url(#t5l1)">
+        <text y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> aws s3 ls s3://prod-infra-backup --summarize</tspan>
+        </text>
+        <text y="24" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">S3 Bucket: prod-infra-backup (us-east-1)</text>
+        <text y="46" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#f97316">2024-07-27</tspan>  14:00    terraform/state-20240727.tfstate
+        </text>
+        <text y="68" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#f97316">2024-07-26</tspan>  08:00    k8s-backup/etcd-snapshot-20240726.db
+        </text>
+        <text y="90" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#e6edf3">
+          <tspan fill="#f97316">2024-07-25</tspan>  00:00    postgres/db-dump-weekly.sql.gz
+        </text>
+        <text y="112" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">Total Objects: 1,247 | Size: 234.5 GB</text>
+      </g>
+
+      <g clip-path="url(#t5l2)">
+        <text y="142" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> terraform state list | grep -E '(eks|rds|ec2)'</tspan>
+        </text>
+        <text y="166" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">aws_eks_cluster.main</text>
+        <text y="188" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">aws_eks_node_group.gpu_workers</text>
+        <text y="210" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">aws_db_instance.postgres_prod</text>
+        <text y="232" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">aws_ec2_instance.bastion_host</text>
+        <text y="254" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e"><tspan fill="#22c55e">✓</tspan> 47 managed resources (0 drift detected)</text>
+      </g>
+
+      <g clip-path="url(#t5l3)">
+        <text y="284" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> python3 inference.py --model med-llm-v2 --input samples/patient_001.json</tspan>
+        </text>
+        <text y="308" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">Loading Med-LLM v2.1.0 (quantized: int8) ... ✓</text>
+        <text y="330" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">Tokenizing input... ✓ (412 tokens)</text>
+        <text y="352" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#f97316">Running inference on GPU (NVIDIA A100-80GB)...</text>
+        <text y="374" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">✓ Generated output in 1.24s (245 tokens/s)</text>
+        <text y="396" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#4a5568">  Diagnosis: <tspan fill="#e6edf3">78.4% confidence — Normal sinus rhythm</tspan></text>
+        <text y="418" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#4a5568">  Recommendations: <tspan fill="#e6edf3">Standard monitoring, no intervention required</tspan></text>
+      </g>
+
+      <g clip-path="url(#t5l4)">
+        <text y="448" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> helm list -A | awk '{print $1, $2, $8, $9}'</tspan>
+        </text>
+        <text y="472" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#8b949e">NAME            NAMESPACE     STATUS   AGE</text>
+        <text y="494" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">nginx-ingress   prod          deployed 14d</text>
+        <text y="516" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">prometheus      monitoring    deployed 14d</text>
+        <text y="538" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">milvus          ai-infra      deployed 7d</text>
+        <text y="560" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">kafka           data-pipeline deployed 7d</text>
+        <text y="582" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">elastic-stack   logging       deployed 14d</text>
+      </g>
+
+      <g clip-path="url(#t5l5)">
+        <text y="612" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff">
+          <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+          <tspan fill="#6366f1">:~$</tspan>
+          <tspan fill="#e6edf3"> kubectl get svc --all-namespaces | wc -l &amp;&amp; echo "services running"</tspan>
+        </text>
+        <text y="636" font-family="'Cascadia Code',Consolas,monospace" font-size="12" fill="#22c55e">32 services running</text>
+        
+        <rect x="0" y="652" width="620" height="18" rx="4" fill="#0a0a18" stroke="#a855f7" stroke-width="0.6" />
+        <text x="310" y="665" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#a855f7">☁️ Multi-Cloud: AWS · GCP · Azure  |  AI: 3 models serving</text>
+      </g>
+    </g>
+
+    <!-- RIGHT: Cloud Architecture -->
+    <g transform="translate(680, 70)">
+      <rect x="0" y="0" width="290" height="580" rx="8" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+      <text x="145" y="24" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="10" fill="#8b949e">CLOUD ARCHITECTURE</text>
+      <rect x="10" y="32" width="270" height="1" fill="#2d2d5e" opacity="0.5" />
+
+      <g transform="translate(145, 65)">
+        <!-- Cloud Provider Nodes -->
+        <g transform="translate(0, -20)">
+          <rect x="-35" y="-10" width="70" height="20" rx="4" fill="#1a0d0d" stroke="#f97316" stroke-width="1" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#f97316">AWS</text>
+        </g>
+        <g transform="translate(-50, 10)">
+          <rect x="-30" y="-10" width="60" height="20" rx="4" fill="#0d1a2d" stroke="#3b82f6" stroke-width="1" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#3b82f6">GCP</text>
+        </g>
+        <g transform="translate(50, 10)">
+          <rect x="-30" y="-10" width="60" height="20" rx="4" fill="#1a0d1a" stroke="#a855f7" stroke-width="1" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#a855f7">Azure</text>
+        </g>
+
+        <!-- Connection lines -->
+        <line x1="0" y1="0" x2="-20" y2="40" stroke="#3b82f6" stroke-width="0.8" class="net-flow" />
+        <line x1="0" y1="0" x2="20" y2="40" stroke="#a855f7" stroke-width="0.8" class="net-flow-rev" />
+        <line x1="-20" y1="40" x2="0" y2="0" stroke="#f97316" stroke-width="0.8" class="net-flow" />
+        <line x1="20" y1="40" x2="0" y2="0" stroke="#a855f7" stroke-width="0.8" class="net-flow-rev" />
+        <line x1="-50" y1="10" x2="0" y2="-20" stroke="#3b82f6" stroke-width="0.6" class="net-flow" />
+        <line x1="50" y1="10" x2="0" y2="-20" stroke="#a855f7" stroke-width="0.6" class="net-flow-rev" />
+
+        <!-- EKS Cluster -->
+        <g transform="translate(0, 50)">
+          <rect x="-55" y="-12" width="110" height="24" rx="6" fill="#0d1a2d" stroke="#22c55e" stroke-width="1" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#22c55e">EKS Cluster</text>
+        </g>
+
+        <!-- RDS -->
+        <g transform="translate(-50, 90)">
+          <rect x="-35" y="-10" width="70" height="20" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">RDS</text>
+        </g>
+        <!-- ElastiCache -->
+        <g transform="translate(50, 90)">
+          <rect x="-38" y="-10" width="76" height="20" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.8" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">ElastiCache</text>
+        </g>
+
+        <!-- S3 -->
+        <g transform="translate(-50, 130)">
+          <rect x="-24" y="-10" width="48" height="20" rx="4" fill="#0d1a2d" stroke="#f97316" stroke-width="0.8" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#f97316">S3</text>
+        </g>
+        <!-- SageMaker -->
+        <g transform="translate(50, 130)">
+          <rect x="-38" y="-10" width="76" height="20" rx="4" fill="#1a0d0d" stroke="#a855f7" stroke-width="0.8" />
+          <text x="0" y="5" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#a855f7">SageMaker</text>
+        </g>
+
+        <!-- Lines connecting infra -->
+        <line x1="0" y1="62" x2="-35" y2="80" stroke="#22c55e" stroke-width="0.6" class="net-flow" />
+        <line x1="0" y1="62" x2="35" y2="80" stroke="#22c55e" stroke-width="0.6" class="net-flow-rev" />
+        <line x1="-35" y1="100" x2="-35" y2="120" stroke="#22c55e" stroke-width="0.6" class="net-flow" />
+        <line x1="35" y1="100" x2="35" y2="120" stroke="#22c55e" stroke-width="0.6" class="net-flow-rev" />
+      </g>
+
+      <!-- AI Model Serving -->
+      <g transform="translate(12, 210)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">AI Model Serving</text>
+        <rect x="0" y="8" width="266" height="100" rx="6" fill="#0d1a2d" stroke="#a855f7" stroke-width="0.8" />
+        
+        <g transform="translate(8, 18)" font-family="'Cascadia Code',Consolas,monospace">
+          <rect x="0" y="0" width="80" height="24" rx="4" fill="#1a0d1a" stroke="#a855f7" stroke-width="0.6" />
+          <text x="40" y="16" text-anchor="middle" font-size="8" fill="#a855f7">Med-LLM</text>
+          <circle cx="70" cy="6" r="2.5" fill="#22c55e" class="pulse-dot" />
+          
+          <rect x="88" y="0" width="80" height="24" rx="4" fill="#1a0d1a" stroke="#a855f7" stroke-width="0.6" />
+          <text x="128" y="16" text-anchor="middle" font-size="8" fill="#a855f7">CodeGen</text>
+          <circle cx="158" cy="6" r="2.5" fill="#22c55e" class="pulse-dot" />
+
+          <rect x="176" y="0" width="80" height="24" rx="4" fill="#1a0d1a" stroke="#a855f7" stroke-width="0.6" />
+          <text x="216" y="16" text-anchor="middle" font-size="8" fill="#a855f7">RAG-Chat</text>
+          <circle cx="246" cy="6" r="2.5" fill="#22c55e" class="pulse-dot" />
+        </g>
+
+        <g transform="translate(8, 52)" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+          <text x="0" y="0">Total Requests (24h): 24,582</text>
+          <text x="0" y="16">Avg Latency: 124ms</text>
+          <text x="0" y="32">P99 Latency: 342ms</text>
+          <text x="0" y="48">Tokens Generated: 1.2M</text>
+        </g>
+      </g>
+
+      <!-- Cloud Costs -->
+      <g transform="translate(12, 340)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Cloud Costs (Current Month)</text>
+        <g transform="translate(0, 12)">
+          <rect x="0" y="0" width="130" height="38" rx="6" fill="#0d1a2d" stroke="#f97316" stroke-width="0.6" />
+          <text x="65" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#f97316">$4,280</text>
+          <text x="65" y="32" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">AWS</text>
+        </g>
+        <g transform="translate(138, 12)">
+          <rect x="0" y="0" width="130" height="38" rx="6" fill="#0d1a2d" stroke="#3b82f6" stroke-width="0.6" />
+          <text x="65" y="16" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#3b82f6">$1,240</text>
+          <text x="65" y="32" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="7" fill="#4a5568">GCP</text>
+        </g>
+      </g>
+
+      <!-- Service Status -->
+      <g transform="translate(12, 410)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Service Status Matrix</text>
+        <rect x="0" y="10" width="266" height="70" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.6" />
+        <g font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+          <text x="8" y="28" fill="#22c55e">● EKS Cluster           Running  14d</text>
+          <text x="8" y="44" fill="#22c55e">● RDS Instance          Running  14d</text>
+          <text x="8" y="60" fill="#f97316">● SageMaker Endpoint    Updated  2h ago</text>
+        </g>
+      </g>
+
+      <!-- Backup Status -->
+      <g transform="translate(12, 500)">
+        <text x="0" y="0" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#8b949e">Backup Status</text>
+        <g transform="translate(0, 10)" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+          <rect x="0" y="0" width="130" height="20" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.6" />
+          <text x="65" y="14" text-anchor="middle" fill="#22c55e">✓ DB: 2h ago</text>
+        </g>
+        <g transform="translate(138, 10)">
+          <rect x="0" y="0" width="130" height="20" rx="4" fill="#0d1a2d" stroke="#22c55e" stroke-width="0.6" />
+          <text x="65" y="14" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#22c55e">✓ Config: 1h ago</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- TERMINAL 6: FINAL SUMMARY (26.5s - 31s)                     -->
+  <!-- ============================================================ -->
+  <g id="terminal6" transform="translate(1400, 72)">
+    <animateTransform attributeName="transform" type="translate" values="1400,72;100,72" dur="0.8s" begin="26.5s" fill="freeze" calcMode="spline" keySplines="0.25 0.1 0.25 1" />
+    <animateTransform attributeName="transform" type="translate" values="100,72;-1400,72" dur="0.6s" begin="31s" fill="freeze" calcMode="spline" keySplines="0.55 0 1 0.45" />
+
+    <rect x="0" y="0" width="1000" height="680" rx="12" fill="url(#windowBody)" stroke="#2d2d5e" stroke-width="1.2" filter="url(#windowShadow)" />
+    <rect x="0" y="0" width="1000" height="42" rx="12" fill="url(#windowTitlebar)" />
+    <rect x="0" y="30" width="1000" height="12" fill="url(#windowTitlebar)" />
+
+    <g transform="translate(18, 14)">
+      <circle cx="0" cy="8" r="6.5" fill="#ff5f57" />
+      <circle cx="22" cy="8" r="6.5" fill="#febc2e" />
+      <circle cx="44" cy="8" r="6.5" fill="#28c840" />
+    </g>
+
+    <g transform="translate(120, 14)">
+      <rect x="0" y="0" width="260" height="22" rx="4" fill="#2d2d5e" opacity="0.5" />
+      <text x="130" y="16" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#8b949e">📋 Enterprise Infrastructure Summary</text>
+    </g>
+
+    <text x="870" y="26" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="10" fill="#4a5568">ALL SYSTEMS OPERATIONAL</text>
+
+    <!-- ============================================================ -->
+    <!-- Terminal 6: Full Dashboard Summary                           -->
+    <!-- ============================================================ -->
+    <g transform="translate(28, 62)">
+      <!-- Top: Main Status Banner -->
+      <rect x="0" y="0" width="944" height="60" rx="8" fill="#0a1a0a" stroke="#22c55e" stroke-width="1.5" filter="url(#glow)">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="26.8s" fill="freeze" />
+      </rect>
+      <g transform="translate(0, 0)" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="26.8s" fill="freeze" />
+        <text x="472" y="28" text-anchor="middle" font-family="'Cascadia Code',Consolas,monospace" font-size="22" font-weight="700" fill="#22c55e" filter="url(#glow)">ALL SYSTEMS OPERATIONAL</text>
+        <text x="472" y="50" text-anchor="middle" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="11" fill="#4a5568">Raja Muhammad Awais · Enterprise DevOps Platform · Uptime: 14d 6h 32m</text>
+      </g>
+
+      <!-- Total metrics summary -->
+      <g transform="translate(0, 76)" opacity="0" font-family="'Cascadia Code',Consolas,monospace">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="27.2s" fill="freeze" />
+
+        <!-- Row 1: Infrastructure -->
+        <rect x="0" y="0" width="308" height="72" rx="6" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+        <text x="16" y="20" font-size="11" fill="#00d4ff" font-weight="700">🖥️ Infrastructure</text>
+        <text x="16" y="40" font-size="10" fill="#22c55e"><tspan font-weight="700" font-size="16">12</tspan> Hosts Online</text>
+        <text x="16" y="58" font-size="10" fill="#4a5568">4 Nodes · 47 Containers · 32 Services</text>
+
+        <g transform="translate(318, 0)">
+          <rect x="0" y="0" width="308" height="72" rx="6" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+          <text x="16" y="20" font-size="11" fill="#3b82f6" font-weight="700">☸️ Orchestration</text>
+          <text x="16" y="40" font-size="10" fill="#3b82f6"><tspan font-weight="700" font-size="16">24</tspan> Running Pods</text>
+          <text x="16" y="58" font-size="10" fill="#4a5568">12 Helm Charts · 3 Namespaces</text>
+        </g>
+
+        <g transform="translate(636, 0)">
+          <rect x="0" y="0" width="308" height="72" rx="6" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+          <text x="16" y="20" font-size="11" fill="#a855f7" font-weight="700">🤖 AI &amp; Data</text>
+          <text x="16" y="40" font-size="10" fill="#a855f7"><tspan font-weight="700" font-size="16">3</tspan> Models Serving</text>
+          <text x="16" y="58" font-size="10" fill="#4a5568">245 tok/s · 124ms avg latency</text>
+        </g>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 162)" opacity="0" font-family="'Cascadia Code',Consolas,monospace">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="27.8s" fill="freeze" />
+
+        <rect x="0" y="0" width="308" height="72" rx="6" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+        <text x="16" y="20" font-size="11" fill="#f97316" font-weight="700">🔄 CI/CD</text>
+        <text x="16" y="40" font-size="10" fill="#f97316"><tspan font-weight="700" font-size="16">47</tspan> Successful Deploys</text>
+        <text x="16" y="58" font-size="10" fill="#4a5568">99.7% Success · 23s Avg Build Time</text>
+
+        <g transform="translate(318, 0)">
+          <rect x="0" y="0" width="308" height="72" rx="6" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+          <text x="16" y="20" font-size="11" fill="#22c55e" font-weight="700">🔒 Security</text>
+          <text x="16" y="40" font-size="10" fill="#22c55e"><tspan font-weight="700" font-size="16">98.7%</tspan> Compliant</text>
+          <text x="16" y="58" font-size="10" fill="#4a5568">0 Critical Alerts · 1 CVE Pending</text>
+        </g>
+
+        <g transform="translate(636, 0)">
+          <rect x="0" y="0" width="308" height="72" rx="6" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+          <text x="16" y="20" font-size="11" fill="#3b82f6" font-weight="700">☁️ Cloud</text>
+          <text x="16" y="40" font-size="10" fill="#3b82f6"><tspan font-weight="700" font-size="16">$5,520</tspan> Monthly Cost</text>
+          <text x="16" y="58" font-size="10" fill="#4a5568">AWS · GCP · Azure · 47 Resources</text>
+        </g>
+      </g>
+
+      <!-- Row 3: System metrics -->
+      <g transform="translate(0, 248)" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.5s" begin="28.5s" fill="freeze" />
+        
+        <rect x="0" y="0" width="944" height="100" rx="6" fill="#0a0a18" stroke="#2d2d5e" stroke-width="0.8" />
+        <text x="16" y="22" font-family="'Cascadia Code',Consolas,monospace" font-size="11" fill="#8b949e">System Health Metrics (Last 24h)</text>
+        
+        <!-- Bar graph area -->
+        <g transform="translate(16, 34)" font-family="'Cascadia Code',Consolas,monospace" font-size="8" fill="#4a5568">
+          <!-- CPU -->
+          <rect x="0" y="14" width="24" height="28" rx="3" fill="#22c55e" class="bar-cpu" />
+          <text x="12" y="10" text-anchor="middle" fill="#22c55e">42%</text>
+          <text x="12" y="58" text-anchor="middle">CPU</text>
+          
+          <!-- MEM -->
+          <rect x="44" y="8" width="24" height="36" rx="3" fill="#3b82f6" class="bar-mem" />
+          <text x="56" y="4" text-anchor="middle" fill="#3b82f6">68%</text>
+          <text x="56" y="58" text-anchor="middle">MEM</text>
+
+          <!-- DSK -->
+          <rect x="88" y="16" width="24" height="26" rx="3" fill="#f97316" class="bar-disk" />
+          <text x="100" y="12" text-anchor="middle" fill="#f97316">48%</text>
+          <text x="100" y="58" text-anchor="middle">DSK</text>
+
+          <!-- NET -->
+          <rect x="132" y="10" width="24" height="32" rx="3" fill="#a855f7" class="bar-net" />
+          <text x="144" y="6" text-anchor="middle" fill="#a855f7">1.2G</text>
+          <text x="144" y="58" text-anchor="middle">NET</text>
+
+          <!-- GPU -->
+          <rect x="176" y="4" width="24" height="40" rx="3" fill="#22c55e" class="bar-cpu" />
+          <text x="188" y="0" text-anchor="middle" fill="#22c55e">72%</text>
+          <text x="188" y="58" text-anchor="middle">GPU</text>
+        </g>
+
+        <!-- Right side: Quick stats -->
+        <g transform="translate(280, 34)" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#4a5568">
+          <rect x="0" y="0" width="320" height="50" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.5" />
+          <text x="12" y="18" fill="#8b949e">Network Traffic Today:</text>
+          <text x="12" y="34" fill="#22c55e">↑ 1.2 Gbps out  ↓ 3.4 Gbps in</text>
+          <text x="12" y="48" fill="#3b82f6">124K requests · 99.9% success rate</text>
+        </g>
+
+        <g transform="translate(610, 34)" font-family="'Cascadia Code',Consolas,monospace" font-size="9" fill="#4a5568">
+          <rect x="0" y="0" width="320" height="50" rx="4" fill="#050510" stroke="#2d2d5e" stroke-width="0.5" />
+          <text x="12" y="18" fill="#8b949e">Git Repository:</text>
+          <text x="12" y="34" fill="#22c55e">24 commits today · 12 branches</text>
+          <text x="12" y="48" fill="#f97316">2 open PRs · 1 review pending</text>
+        </g>
+      </g>
+
+      <!-- Bottom: Tagline -->
+      <g transform="translate(0, 364)" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.8s" begin="29.2s" fill="freeze" />
+        
+        <rect x="0" y="0" width="944" height="90" rx="8" fill="#0a0a18" stroke="#00d4ff" stroke-width="1" />
+        
+        <!-- ASCII badge -->
+        <g transform="translate(40, 12)" font-family="'Cascadia Code',Consolas,monospace">
+          <text x="0" y="14" font-size="9" fill="#4a5568">
+<tspan fill="#6366f1">╔══════════════════════════════════════════════════════════╗</tspan>
+<tspan fill="#6366f1">║</tspan>  <tspan fill="#00d4ff">Raja Muhammad Awais</tspan>        <tspan fill="#22c55e">● DevOps Engineer</tspan>      <tspan fill="#6366f1">║</tspan>
+<tspan fill="#6366f1">║</tspan>  <tspan fill="#3b82f6">● AI Engineer</tspan>  <tspan fill="#f97316">● Cyber Security</tspan>  <tspan fill="#a855f7">● Cloud Native</tspan>  <tspan fill="#6366f1">║</tspan>
+<tspan fill="#6366f1">╚══════════════════════════════════════════════════════════╝</tspan>
+          </text>
+        </g>
+
+        <!-- Bottom glow line -->
+        <rect x="0" y="74" width="944" height="3" rx="1.5" fill="url(#accentCyan)" opacity="0.4" />
+      </g>
+
+      <!-- Final cursor blink -->
+      <text y="476" font-family="'Cascadia Code',Consolas,monospace" font-size="13" fill="#00d4ff" opacity="0">
+        <animate attributeName="opacity" values="0;0;0;0;1" dur="31s" begin="27s" fill="freeze" keyTimes="0;0.85;0.9;0.95;1" />
+        <tspan fill="#00d4ff" font-weight="700">raja@devops</tspan>
+        <tspan fill="#6366f1">:~$</tspan>
+        <tspan fill="#e6edf3" class="cursor"> █</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
