@@ -144,7 +144,7 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
       </p>
     </td>
     <td width="50%">
-      <h3>🐉 Kali Linux Hacker Desktop — Animated SVG Banner</h3>
+      <h3>🐉 Kali Linux Hacker Desktop </h3>
       <p><strong>Tech Stack:</strong> SVG Animation, CSS, Design Engineering</p>
       <p>Full Kali Linux 2024.2 desktop simulation in pure SVG — featuring animated boot sequence, Anonymous hacker ASCII art with glowing eyes, interactive terminal showing <strong>rajamuhammadawais</strong> identity with step-by-step networking commands (whoami, id, ifconfig, ip a, route -n, ping, nmap), live system monitor with CPU/Memory/Network graphs, and Thunar file manager.</p>
       <p>
