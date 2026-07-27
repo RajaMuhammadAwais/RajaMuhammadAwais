@@ -192,12 +192,12 @@ I am **Raja Muhammad Awais**, a multi-disciplinary **DevOps Engineer, AI Enginee
 ## 📊 GitHub Statistics & Contribution Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&include_all_commits=true" alt="Raja Muhammad Awais GitHub Statistics — Commits, PRs, Stars, and Contributions" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=tokyonight&hide_border=true" alt="Raja Muhammad Awais Most Used Programming Languages — Python, Go, Shell, HCL" width="48%" />
+  <img src="stats/github-stats.svg" alt="Raja Muhammad Awais GitHub Statistics — Commits, PRs, Stars, and Contributions" width="48%" />
+  <img src="stats/top-langs.svg" alt="Raja Muhammad Awais Most Used Programming Languages — Python, Go, Shell, HCL" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=tokyonight&hide_border=true" alt="Raja Muhammad Awais GitHub Contribution Streak — Daily Commits and Consistency" width="48%" />
+  <img src="stats/streak-stats.svg" alt="Raja Muhammad Awais GitHub Contribution Streak — Daily Commits and Consistency" width="48%" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=tokyonight&hide_border=true&area=true" alt="Raja Muhammad Awais GitHub Contribution Activity Graph — Open Source Contributions Over Time" width="98%" />
 </p>
 
