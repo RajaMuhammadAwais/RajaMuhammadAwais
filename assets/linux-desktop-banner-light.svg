@@ -297,25 +297,32 @@
           <text y="338" font-size="11" fill="#059669">eth0  UP  192.168.1.100/24  2001:db8::100/64</text>
           <text y="352" font-size="11" fill="#64748b">tun0  UP  10.8.0.2/24</text>
 
-          <!-- [5] ping -->
+          <!-- [5] ping → Connectivity Test -->
           <text y="370" font-size="13" fill="#059669">
             <tspan fill="#2563eb" font-weight="700">rajamuhammadawais@devops</tspan>
             <tspan fill="#64748b">:~$</tspan>
             <tspan fill="#0f172a"> ping -c 2 google.com</tspan>
           </text>
-          <text y="386" font-size="11" fill="#059669">✓ 64 bytes: icmp_seq=1 ttl=118 time=12.4ms</text>
-          <text y="400" font-size="11" fill="#2563eb">✓ 2 xmt, 2 rcvd, 0% loss — Network OK</text>
+          <text y="386" font-size="11" fill="#059669">✓ 64 bytes: icmp_seq=1 ttl=118 time=12.4ms — 0% loss</text>
 
-          <!-- [6] nmap -->
-          <text y="418" font-size="13" fill="#059669">
+          <!-- [6] traceroute → Path Tracing -->
+          <text y="400" font-size="13" fill="#059669">
             <tspan fill="#2563eb" font-weight="700">rajamuhammadawais@devops</tspan>
             <tspan fill="#64748b">:~$</tspan>
-            <tspan fill="#0f172a"> nmap -sn 192.168.1.0/24</tspan>
+            <tspan fill="#0f172a"> traceroute -n google.com</tspan>
           </text>
-          <text y="434" font-size="11" fill="#059669">Nmap done: 256 IPs — 3 hosts up (192.168.1.1, .100, .150)</text>
+          <text y="416" font-size="11" fill="#059669">1  192.168.1.1   0.45ms   2  172.16.0.1   1.23ms   3  142.250.190.46   12.3ms ✓</text>
+
+          <!-- [7] ss → Socket Statistics -->
+          <text y="432" font-size="13" fill="#059669">
+            <tspan fill="#2563eb" font-weight="700">rajamuhammadawais@devops</tspan>
+            <tspan fill="#64748b">:~$</tspan>
+            <tspan fill="#0f172a"> ss -tuln | grep LISTEN</tspan>
+          </text>
+          <text y="448" font-size="11" fill="#059669">ssh(22)  http(80)  https(443)  postgres(5432)  redis(6379)</text>
 
           <!-- Inline Cursor -->
-          <text y="452" font-size="13" fill="#059669">
+          <text y="462" font-size="13" fill="#059669">
             <tspan fill="#2563eb" font-weight="700">rajamuhammadawais@devops</tspan>
             <tspan fill="#64748b">:~$</tspan>
             <tspan fill="#0f172a" class="cursor"> █</tspan>
