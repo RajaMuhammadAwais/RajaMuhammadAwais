@@ -1,14 +1,25 @@
 # Hi there, I'm Raja Muhammad Awais 👋
 
+<p align="left">
+  <a href="https://linkedin.com/in/rajamuhammadawais" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:contact@rajamuhammadawais.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://rajamuhammadawais.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-25292e?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
+  </a>
+</p>
+
 ### 🚀 Security Researcher | DevOps Engineer | AI Enthusiast
 
 I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing in building resilient, AI-driven infrastructure and high-performance network intelligence systems. My work bridges the gap between deep packet inspection, real-time IoT monitoring, and automated security operations.
 
-- 🔭 I’m currently working on **RISKX**, a research-first enterprise cyber-risk CLI.
+- 🔭 I’m currently working on **[RISKX](https://github.com/RajaMuhammadAwais/RISKX)**, a research-first enterprise cyber-risk CLI.
 - 🌱 I’m currently learning **Advanced Rust for Network Programming** and **LLM Observability**.
 - 👯 I’m looking to collaborate on **Open Source Security Tooling** and **AIOps Frameworks**.
 - 💬 Ask me about **nDPI, ntopng, Kubernetes, and Healthcare IoT**.
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/rajamuhammadawais/) | [Portfolio](https://rajamuhammadawais.com)
 - ⚡ Fun fact: I believe that **automated evidence beats manual guessing** every time.
 
 ---
@@ -16,12 +27,12 @@ I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing
 ### 📊 GitHub Stats (Live)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Raja's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Raja's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=dark&hide_border=true" alt="GitHub Streak" width="100%" />
 </p>
 
 ---
@@ -30,11 +41,11 @@ I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing
 
 | Category | Tools & Technologies |
 | :--- | :--- |
-| **Languages** | Python, TypeScript, Go, C, Rust, Shell, SQL |
-| **DevOps & Cloud** | Kubernetes, Docker, Terraform, GitHub Actions, AWS, EKS |
-| **Security & Networking** | nDPI, ntopng, OpenShift, SOC Automation, Risk Intelligence |
-| **AI & Data** | RAG Systems, Neural Networks, Kafka, MQTT, ELK Stack, Grafana |
-| **Web Development** | React, Node.js, Tailwind CSS, Fast API |
+| **Languages** | `Python`, `TypeScript`, `Go`, `C`, `Rust`, `Shell`, `SQL` |
+| **DevOps & Cloud** | `Kubernetes`, `Docker`, `Terraform`, `GitHub Actions`, `AWS`, `EKS` |
+| **Security & Networking** | `nDPI`, `ntopng`, `OpenShift`, `SOC Automation`, `Risk Intelligence` |
+| **AI & Data** | `RAG Systems`, `Neural Networks`, `Kafka`, `MQTT`, `ELK Stack`, `Grafana` |
+| **Web Development** | `React`, `Node.js`, `Tailwind CSS`, `Fast API` |
 
 ---
 
@@ -64,8 +75,10 @@ A real-time patient monitoring system leveraging **Docker, Kubernetes, Kafka, an
 
 ### 📈 Activity Graph
 
-![Raja's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=github-compact&hide_border=true)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=dracula&hide_border=true" alt="Raja's Activity Graph" width="100%" />
+</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=RajaMuhammadAwais&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=RajaMuhammadAwais&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
 </p>
