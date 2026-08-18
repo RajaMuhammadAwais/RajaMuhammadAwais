@@ -24,15 +24,16 @@ I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing
 
 ---
 
-### 📊 GitHub Stats (Live)
+### 📊 Professional Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Raja's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RajaMuhammadAwais&theme=dark" alt="Profile Details" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=dark&hide_border=true" alt="GitHub Streak" width="100%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=RajaMuhammadAwais&theme=dark" alt="Most Committed Languages" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=RajaMuhammadAwais&theme=dark" alt="Stats Card" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=RajaMuhammadAwais&theme=dark" alt="Productive Time" width="32%" />
 </p>
 
 ---
@@ -73,10 +74,10 @@ A real-time patient monitoring system leveraging **Docker, Kubernetes, Kafka, an
 
 ---
 
-### 📈 Activity Graph
+### 📈 Activity & Reach
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=dracula&hide_border=true" alt="Raja's Activity Graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=github-compact&hide_border=true" alt="Raja's Activity Graph" width="100%" />
 </p>
 
 <p align="center">
