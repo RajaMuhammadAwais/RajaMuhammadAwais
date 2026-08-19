@@ -12,7 +12,7 @@
   </a>
 </p>
 
-### 🚀 Security Researcher | DevOps Engineer | AI Enthusiast
+### 🚀 Full Stack Developer | Security Researcher | DevOps Engineer | AI Enthusiast
 
 I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing in building resilient, AI-driven infrastructure and high-performance network intelligence systems. My work bridges the gap between deep packet inspection, real-time IoT monitoring, and automated security operations.
 
