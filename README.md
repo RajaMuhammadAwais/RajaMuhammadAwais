@@ -27,12 +27,12 @@ I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing
 ### 📊 GitHub Stats (Live)
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Raja's GitHub Stats" width="48%" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=RajaMuhammadAwais&layout=compact&theme=dark&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
+  <img src="./stats/github-stats.svg" alt="Raja's GitHub Stats" width="48%" />
+  <img src="./stats/top-langs.svg" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=dark&hide_border=true" alt="GitHub Streak" width="100%" />
+  <img src="./stats/streak-stats.svg" alt="GitHub Streak" width="100%" />
 </p>
 
 ---
@@ -76,7 +76,7 @@ A real-time patient monitoring system leveraging **Docker, Kubernetes, Kafka, an
 ### 📈 Activity & Reach
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=github-compact&hide_border=true" alt="Raja's Activity Graph" width="100%" />
+  <img src="./stats/activity-graph.svg" alt="Raja's Activity Graph" width="100%" />
 </p>
 
 <p align="center">

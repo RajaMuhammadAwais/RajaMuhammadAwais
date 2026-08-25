@@ -5,47 +5,65 @@ on:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
   workflow_dispatch:       # Allows manual trigger from Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   generate-stats:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
       - name: Create stats directory
         run: mkdir -p stats
 
       - name: Generate GitHub Stats Card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Self-hosted instance with PAT_1 configured server-side on Vercel
-          # → includes ALL private repos data
-          curl --fail -s \
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 60 \
             "https://github-readme-stats-five-dusky-24.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&include_all_commits=true" \
             -o stats/github-stats.svg
           echo "GitHub Stats Card generated: $(wc -c < stats/github-stats.svg) bytes"
 
       - name: Generate Top Languages Card
         run: |
-          curl --fail -s \
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 60 \
             "https://github-readme-stats-five-dusky-24.vercel.app/api/top-langs?username=RajaMuhammadAwais&layout=compact&theme=tokyonight&hide_border=true" \
             -o stats/top-langs.svg
           echo "Top Languages Card generated: $(wc -c < stats/top-langs.svg) bytes"
 
       - name: Generate Contribution Streak Card
         run: |
-          curl --fail -s "https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=tokyonight&hide_border=true" \
+          curl --fail --silent --show-error --location \
+            --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 60 \
+            "https://github-readme-streak-stats.herokuapp.com/?user=RajaMuhammadAwais&theme=tokyonight&hide_border=true" \
             -o stats/streak-stats.svg
           echo "Streak Card generated: $(wc -c < stats/streak-stats.svg) bytes"
 
       - name: Generate Contribution Activity Graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: RajaMuhammadAwais
+          OUTPUT_PATH: stats/activity-graph.svg
+        run: python scripts/generate-activity-graph.py
+
+      - name: Validate generated SVGs
         run: |
-          curl --fail -s \
-            "https://github-readme-activity-graph.vercel.app/graph?username=RajaMuhammadAwais&theme=tokyonight&hide_border=true&area=true" \
-            -o stats/activity-graph.svg
-          echo "Activity Graph generated: $(wc -c < stats/activity-graph.svg) bytes"
+          for svg in stats/*.svg; do
+            test -s "$svg"
+            grep -q '<svg' "$svg"
+            echo "Validated $svg ($(wc -c < "$svg") bytes)"
+          done
 
       - name: Auto-commit generated stats
         uses: stefanzweifel/git-auto-commit-action@v5
