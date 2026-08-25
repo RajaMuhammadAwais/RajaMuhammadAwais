@@ -24,23 +24,12 @@ jobs:
       - name: Create stats directory
         run: mkdir -p stats
 
-      - name: Generate GitHub Stats Card
+      - name: Generate GitHub Stats Cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          curl --fail --silent --show-error --location \
-            --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 60 \
-            "https://github-readme-stats-five-dusky-24.vercel.app/api?username=RajaMuhammadAwais&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&include_all_commits=true" \
-            -o stats/github-stats.svg
-          echo "GitHub Stats Card generated: $(wc -c < stats/github-stats.svg) bytes"
-
-      - name: Generate Top Languages Card
-        run: |
-          curl --fail --silent --show-error --location \
-            --retry 3 --retry-delay 2 --connect-timeout 15 --max-time 60 \
-            "https://github-readme-stats-five-dusky-24.vercel.app/api/top-langs?username=RajaMuhammadAwais&layout=compact&theme=tokyonight&hide_border=true" \
-            -o stats/top-langs.svg
-          echo "Top Languages Card generated: $(wc -c < stats/top-langs.svg) bytes"
+          GITHUB_USERNAME: RajaMuhammadAwais
+          OUTPUT_DIR: stats
+        run: python scripts/generate-profile-stats.py
 
       - name: Generate Contribution Streak Card
         run: |

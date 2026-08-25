@@ -1,239 +1,31 @@
-
-      <svg
-        width="300"
-        height="165"
-        viewBox="0 0 300 165"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        role="img"
-        aria-labelledby="descId"
-      >
-        <title id="titleId"></title>
-        <desc id="descId"></desc>
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #70a5fd;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          @supports(-moz-appearance: auto) {
-            /* Selector detects Firefox */
-            .header { font-size: 15.5px; }
-          }
-          
-    @keyframes slideInAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: calc(100%-100px);
-      }
-    }
-    @keyframes growWidthAnimation {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-    }
-    .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #38bdae;
-    }
-    @supports(-moz-appearance: auto) {
-      /* Selector detects Firefox */
-      .stat { font-size:12px; }
-    }
-    .bold { font-weight: 700 }
-    .lang-name {
-      font: 400 11px "Segoe UI", Ubuntu, Sans-Serif;
-      fill: #38bdae;
-    }
-    .stagger {
-      opacity: 0;
-      animation: fadeInAnimation 0.3s ease-in-out forwards;
-    }
-    #rect-mask rect{
-      animation: slideInAnimation 1s ease-in-out forwards;
-    }
-    .lang-progress{
-      animation: growWidthAnimation 0.6s ease-in-out forwards;
-    }
-    
-
-          
-      /* Animations */
-      @keyframes scaleInAnimation {
-        from {
-          transform: translate(-5px, 5px) scale(0);
-        }
-        to {
-          transform: translate(-5px, 5px) scale(1);
-        }
-      }
-      @keyframes fadeInAnimation {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-    
-          
-        </style>
-
-        
-
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#e4e2e2"
-          width="299"
-          fill="#1a1b27"
-          stroke-opacity="0"
-        />
-
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >Most Used Languages</text>
-    </g>
-      </g>
-    
-
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    <svg data-testid="lang-items" x="25">
-      
-  
-      <mask id="rect-mask">
-          <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
-        </mask>
-        
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="0"
-          y="0"
-          width="162.22"
-          height="8"
-          fill="#3178c6"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="162.22"
-          y="0"
-          width="42.97"
-          height="8"
-          fill="#3572A5"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="205.19"
-          y="0"
-          width="17.95"
-          height="8"
-          fill="#f1e05a"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="223.14"
-          y="0"
-          width="13.64"
-          height="8"
-          fill="#dea584"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="236.77999999999997"
-          y="0"
-          width="18.08"
-          height="8"
-          fill="#00ADD8"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="244.85999999999999"
-          y="0"
-          width="15.15"
-          height="8"
-          fill="#e34c26"
-        />
-      
-      
-    <g transform="translate(0, 25)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#3178c6" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 64.89%
-      </text>
-    </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 17.19%
-      </text>
-    </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 7.18%
-      </text>
-    </g>
-  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#dea584" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Rust 5.45%
-      </text>
-    </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#00ADD8" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Go 3.23%
-      </text>
-    </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#e34c26" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 2.06%
-      </text>
-    </g>
-  </g></g>
-    </g>
-  
-    </svg>
-  
-        </g>
-      </svg>
-    
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="190" viewBox="0 0 300 190" role="img" aria-labelledby="title description">
+<title id="title">Most used programming languages for RajaMuhammadAwais</title>
+<desc id="description">Python 52.0%, TypeScript 19.1%, Go 13.3%, C 6.2%, JavaScript 3.9%, CSS 1.8%</desc>
+<rect width="300" height="190" rx="8" fill="#1a1b27"/>
+<text x="20" y="32" fill="#70a5fd" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Most Used Languages</text>
+<text x="20" y="66" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">Python</text>
+<rect x="95" y="55" width="170" height="11" rx="5" fill="#30363d"/>
+<rect x="95" y="55" width="88" height="11" rx="5" fill="#58a6ff"/>
+<text x="275" y="65" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">52%</text>
+<text x="20" y="86" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">TypeScript</text>
+<rect x="95" y="75" width="170" height="11" rx="5" fill="#30363d"/>
+<rect x="95" y="75" width="32" height="11" rx="5" fill="#f1e05a"/>
+<text x="275" y="85" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">19%</text>
+<text x="20" y="106" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">Go</text>
+<rect x="95" y="95" width="170" height="11" rx="5" fill="#30363d"/>
+<rect x="95" y="95" width="23" height="11" rx="5" fill="#3572A5"/>
+<text x="275" y="105" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">13%</text>
+<text x="20" y="126" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">C</text>
+<rect x="95" y="115" width="170" height="11" rx="5" fill="#30363d"/>
+<rect x="95" y="115" width="11" height="11" rx="5" fill="#89e051"/>
+<text x="275" y="125" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">6%</text>
+<text x="20" y="146" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">JavaScript</text>
+<rect x="95" y="135" width="170" height="11" rx="5" fill="#30363d"/>
+<rect x="95" y="135" width="7" height="11" rx="5" fill="#dea584"/>
+<text x="275" y="145" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">4%</text>
+<text x="20" y="166" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">CSS</text>
+<rect x="95" y="155" width="170" height="11" rx="5" fill="#30363d"/>
+<rect x="95" y="155" width="4" height="11" rx="5" fill="#563d7c"/>
+<text x="275" y="165" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">2%</text>
+</svg>
