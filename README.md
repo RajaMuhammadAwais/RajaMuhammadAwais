@@ -46,6 +46,7 @@ I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing
 | **Security & Networking** | `nDPI`, `ntopng`, `OpenShift`, `SOC Automation`, `Risk Intelligence` |
 | **AI & Data** | `RAG Systems`, `Neural Networks`, `Kafka`, `MQTT`, `ELK Stack`, `Grafana` |
 | **Web Development** | `React`, `Node.js`, `Tailwind CSS`, `Fast API` |
+| **Citizen Science** | `Open Data`, `Reproducible Research`, `Scientific Computing`, `Data Visualization` |
 
 ---
 
