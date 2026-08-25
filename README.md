@@ -12,7 +12,7 @@
   </a>
 </p>
 
-### 🚀 GENAI/AI | Security Researcher | DevOps Engineer | Citizen scientist
+### 🚀 GENAI/LLM | Security Researcher | DevOps Engineer | Citizen scientist
 
 I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing in building resilient, AI-driven infrastructure and high-performance network intelligence systems. My work bridges the gap between deep packet inspection, real-time IoT monitoring, and automated security operations.
 
