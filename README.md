@@ -14,7 +14,7 @@
 
 ### 🚀 GENAI/LLM | Security Researcher | DevOps Engineer | Citizen scientist
 
-I am a **Security Research & DevOps Engineer** based in Abbottabad, specializing in building resilient, AI-driven infrastructure and high-performance network intelligence systems. My work bridges the gap between deep packet inspection, real-time IoT monitoring, and automated security operations.
+I am a **Security Researcher & DevOps Engineer** based in Abbottabad, specializing in building resilient, AI-driven infrastructure and high-performance network intelligence systems. My work bridges the gap between deep packet inspection, real-time IoT monitoring, and automated security operations.
 
 - 🔭 I’m currently working on **[RISKX](https://github.com/RajaMuhammadAwais/RISKX)**, a research-first enterprise cyber-risk CLI.
 - 🌱 I’m currently learning **Advanced Rust for Network Programming** and **LLM Observability**.
