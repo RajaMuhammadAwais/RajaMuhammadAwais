@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="190" viewBox="0 0 300 190" role="img" aria-labelledby="title description">
 <title id="title">Most used programming languages for RajaMuhammadAwais</title>
-<desc id="description">Python 52.0%, TypeScript 19.0%, Go 13.3%, C 6.2%, JavaScript 3.9%, CSS 1.8%</desc>
+<desc id="description">Python 52.4%, TypeScript 18.9%, Go 13.2%, C 6.2%, JavaScript 3.9%, CSS 1.8%</desc>
 <rect width="300" height="190" rx="8" fill="#1a1b27"/>
 <text x="20" y="32" fill="#70a5fd" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Most Used Languages</text>
 <text x="20" y="66" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">Python</text>
 <rect x="95" y="55" width="170" height="11" rx="5" fill="#30363d"/>
-<rect x="95" y="55" width="88" height="11" rx="5" fill="#58a6ff"/>
+<rect x="95" y="55" width="89" height="11" rx="5" fill="#58a6ff"/>
 <text x="275" y="65" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">52%</text>
 <text x="20" y="86" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">TypeScript</text>
 <rect x="95" y="75" width="170" height="11" rx="5" fill="#30363d"/>
@@ -14,11 +14,11 @@
 <text x="275" y="85" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">19%</text>
 <text x="20" y="106" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">Go</text>
 <rect x="95" y="95" width="170" height="11" rx="5" fill="#30363d"/>
-<rect x="95" y="95" width="23" height="11" rx="5" fill="#3572A5"/>
+<rect x="95" y="95" width="22" height="11" rx="5" fill="#3572A5"/>
 <text x="275" y="105" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">13%</text>
 <text x="20" y="126" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">C</text>
 <rect x="95" y="115" width="170" height="11" rx="5" fill="#30363d"/>
-<rect x="95" y="115" width="11" height="11" rx="5" fill="#89e051"/>
+<rect x="95" y="115" width="10" height="11" rx="5" fill="#89e051"/>
 <text x="275" y="125" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">6%</text>
 <text x="20" y="146" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">JavaScript</text>
 <rect x="95" y="135" width="170" height="11" rx="5" fill="#30363d"/>
