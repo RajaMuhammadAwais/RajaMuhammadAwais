@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="190" viewBox="0 0 300 190" role="img" aria-labelledby="title description">
 <title id="title">Most used programming languages for RajaMuhammadAwais</title>
-<desc id="description">Python 54.9%, TypeScript 17.9%, Go 12.5%, C 5.8%, JavaScript 3.7%, CSS 1.7%</desc>
+<desc id="description">Python 55.1%, TypeScript 17.8%, Go 12.4%, C 5.8%, JavaScript 3.6%, CSS 1.7%</desc>
 <rect width="300" height="190" rx="8" fill="#1a1b27"/>
 <text x="20" y="32" fill="#70a5fd" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Most Used Languages</text>
 <text x="20" y="66" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">Python</text>
 <rect x="95" y="55" width="170" height="11" rx="5" fill="#30363d"/>
-<rect x="95" y="55" width="93" height="11" rx="5" fill="#58a6ff"/>
+<rect x="95" y="55" width="94" height="11" rx="5" fill="#58a6ff"/>
 <text x="275" y="65" text-anchor="end" fill="#8b949e" font-family="Arial,Helvetica,sans-serif" font-size="10">55%</text>
 <text x="20" y="86" fill="#f0f6fc" font-family="Arial,Helvetica,sans-serif" font-size="11">TypeScript</text>
 <rect x="95" y="75" width="170" height="11" rx="5" fill="#30363d"/>
